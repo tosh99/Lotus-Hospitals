@@ -1,0 +1,46 @@
+@import "../../../../../styles";
+
+.app-top-footer {
+    display: none;
+}
+
+.app-bottom-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    min-height: $bottom-footer-height;
+    background: $LH-Peach;
+    color: white;
+    padding: 25px;
+
+    h4 {
+        display: none;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        img {
+            margin: 0 12.5px;
+            cursor: pointer;
+            transition: 0.4s;
+            width: 40px;
+        }
+
+        img:hover {
+            opacity: 0.6;
+            transition: 0.4s;
+        }
+    }
+
+    div {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+}

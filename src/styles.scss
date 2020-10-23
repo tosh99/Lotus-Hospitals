@@ -1,0 +1,34 @@
+@import "app/shared/stylesheets/fonts.scss";
+@import "app/shared/stylesheets/colors.scss";
+@import "app/shared/stylesheets/button.scss";
+@import "app/shared/stylesheets/input.scss";
+@import "app/shared/stylesheets/loader.scss";
+@import "app/shared/stylesheets/tabs.scss";
+
+//@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+//@import '../node_modules/@syncfusion/ej2-angular-calendars/styles/material.css';
+
+
+html, body, input, textarea, p, header, a {
+    margin: 0;
+    padding: 0;
+    font-family: $pri_font_family, $sec_font_family;
+}
+
+$top-header-height: 48px;
+$bottom-header-height: 80px;
+$top-footer-height: 351px;
+$bottom-footer-height: 129px;
+
+
+@font-face {
+    font-family: 'SharpGrotesk';
+    font-display: swap;
+    src: local('SharpGrotesk'), url(assets/fonts/SharpGroteskDBMedium20.ttf) format('truetype');
+}

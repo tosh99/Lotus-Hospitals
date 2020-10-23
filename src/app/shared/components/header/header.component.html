@@ -1,0 +1,51 @@
+<div class="app-top-header">
+    <header>Careers</header>
+    <header>Corporates</header>
+    <header>Education</header>
+</div>
+<div class="app-bottom-header">
+    <div class="abh-left">
+        <img src="assets/icons/logo/logo.svg">
+    </div>
+    <div class="abh-right">
+        <header>Services</header>
+        <header>Branches</header>
+        <header>Health Packages</header>
+        <header>Our Doctors</header>
+        <header>About</header>
+        <header>Blog</header>
+        <header>Contact</header>
+
+        <img src="assets/icons/homepage/menu.svg" (click)="toggleModal()">
+    </div>
+
+</div>
+
+
+<div class="menu" *ngIf="viewMenu">
+    <div class="closemenu">
+        <img alt="" src="assets/icons/homepage/closemenu.svg" (click)="toggleModal()">
+    </div>
+    <div class="column">
+        <h4>Services</h4>
+        <p class="captions">Paediatrics</p>
+        <p class="captions">Gynaecology</p>
+        <p class="captions">Fertility</p>
+        <p class="captions">Matertity</p>
+        <p class="captions">Neonatology</p>
+    </div>
+    <div class="column">
+        <h4>Links</h4>
+        <p class="captions">Our Packages</p>
+        <p class="captions">Blog</p>
+        <p class="captions">About</p>
+        <p class="captions">Doctors</p>
+    </div>
+    <div class="column">
+        <h4>Links</h4>
+        <p class="captions">Careers</p>
+        <p class="captions">Corporates</p>
+        <p class="captions">Education</p>
+    </div>
+
+</div>

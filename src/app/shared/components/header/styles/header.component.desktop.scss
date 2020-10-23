@@ -1,0 +1,62 @@
+@import "src/styles";
+
+.app-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: $top-header-height;
+    background: $Blue-W;
+    padding: 0 108px;
+    color: $LH-Blue;
+    font-weight: 500;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+
+    header {
+        margin-left: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    header:hover {
+        color: $LH-Black;
+        transition: 0.5s;
+    }
+}
+
+.app-bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: $bottom-header-height;
+    background: white;
+    padding: 0 108px;
+    color: $LH-Black;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+
+    .abh-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        header {
+            margin-left: 33px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        header:hover {
+            transition: 0.5s;
+            color: $LH-Blue;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+
+}

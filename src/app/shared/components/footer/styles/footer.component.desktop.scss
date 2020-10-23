@@ -1,0 +1,90 @@
+@import "../../../../../styles";
+
+.app-top-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: $top-footer-height;
+    background: $LH-Blue;
+    padding: 25px 108px;
+
+    .footer-main {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        .fm-left {
+            margin-right: 337px;
+            display: flex;
+        }
+
+        .fm-right {
+            display: flex;
+            align-items: flex-start;
+
+            .column {
+                display: flex;
+                flex-direction: column;
+                margin-right: 103px;
+
+                h4 {
+                    margin-top: 0;
+                    line-height: 1.5em;
+                    color: $LH-Peach;
+                }
+
+                p {
+                    color: white;
+                    line-height: 1.5em;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+    }
+
+    .footer-bottom {
+        width: 100%;
+        text-align: center;
+        color: $LightGray;
+        font-size: 0.8125em;
+    }
+}
+
+.app-bottom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: $bottom-footer-height;
+    background: $LH-Peach;
+    color: white;
+
+    h4 {
+        margin-right: 50px;
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        margin-right: 128px;
+
+
+        img {
+            margin-right: 13px;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        img:hover {
+            opacity: 0.6;
+            transition: 0.4s;
+        }
+    }
+
+    p {
+        width: 184px;
+        margin-right: 25px;
+    }
+}

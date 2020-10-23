@@ -1,0 +1,349 @@
+@import "src/styles";
+
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    background: $Blue-W;
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: calc(100vh - 48px - 80px);
+
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            color: $LH-Blue;
+            width: 200px;
+        }
+
+        p {
+            color: $LH-Black;
+            text-align: center;
+            width: 320px;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .awards-achievements {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $LH-Peach;
+        height: 144px;
+        color: white;
+
+        .aa-left, .aa-right, .aa-center {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 75%;
+
+            img {
+                width: 33%;
+            }
+        }
+
+        .aa-center, .aa-right {
+            display: none;
+        }
+
+    }
+
+    .health-first {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        padding: 25px;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0px;
+
+            img {
+                border-radius: 20px;
+                width: 80%;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    color: $LH-Black;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    line-height: 2.5em;
+                }
+
+                p {
+                    color: black;
+                    text-align: center;
+                }
+            }
+        }
+
+        .hf-1 {
+            margin-bottom: 25px;
+
+            img {
+                margin-right: 0;
+            }
+        }
+
+        .hf-2 {
+            flex-direction: column-reverse;
+            margin-bottom: 0;
+
+            img {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .consult-with-doctors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background: $Light-Peach;
+        padding: 0 25px;
+
+        h4 {
+            margin: 0;
+            color: $LH-Blue;
+            line-height: 1.75em;
+            margin-bottom: 20px;
+            width: 280px;
+            text-align: center;
+        }
+    }
+
+    .quality-care {
+        background: $LH-Peach;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        position: relative;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin: 60px 0;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+        }
+
+        .bg {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .quality-care-areas {
+            display: flex;
+            flex-direction: column;
+
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                text-align: center;
+
+                h4 {
+                    margin: 0;
+                }
+
+                p {
+                    display: none;
+                }
+
+                img {
+                    width: 75%;
+                    transition: 0.4s;
+                }
+
+                img:hover {
+                    width: 85%;
+                    transition: 0.4s;
+
+                }
+
+                .brick {
+                    margin-top: 20px;
+                    margin-bottom: 35px;
+                    width: calc(100% - 50px);
+                    display: flex;
+                    padding: 0 25px;
+
+                    img {
+                        width: 73px;
+                    }
+                }
+
+                .brick-mobile {
+                    display: flex;
+                }
+
+                .brick-desktop {
+                    display: none;
+                }
+
+
+            }
+
+            .paediatrics, .neonatology, .gynaecology {
+                .brick {
+                    justify-content: flex-end;
+                }
+            }
+
+            .fertility, .maternity {
+                .brick {
+                    justify-content: flex-start;
+                }
+            }
+
+        }
+    }
+
+    .hospitals-nearby {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin: 60px 0;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+            color: $LH-Blue;
+        }
+
+        .hospitals {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+
+            img {
+                margin-bottom: 25px;
+                width: 100%;
+            }
+        }
+    }
+
+    .more-about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            color: $LH-Blue;
+            margin: 60px 0;
+            text-align: center;
+            width: 100%;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+        }
+
+        .main-blog {
+            display: none;
+        }
+
+        .additional-blogs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .blog {
+                display: flex;
+                flex-direction: column;
+                padding: 0 25px;
+
+
+                .blog-img {
+                    height: 240px;
+                    background: $Light-Peach;
+                    border-radius: 16px;
+                    width: 100%;
+                    margin: 0 0.5%;
+                }
+
+                h4 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        position: relative;
+        padding: 60px 0;
+
+        h2 {
+            color: $LH-Blue;
+            text-align: center;
+            width: 100%;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+            margin-bottom: 25px;
+            margin-top: 0;
+        }
+
+        .back-icon, .forward-icon {
+            position: absolute;
+            top: 50%;
+        }
+
+        .back-icon {
+            left: 42px;
+            display: none;
+        }
+
+        .forward-icon {
+            right: 42px;
+            display: none;
+        }
+
+        .testimonial {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            color: $LH-Black;
+
+            p {
+                font-style: italic;
+                padding: 0 25px;
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+

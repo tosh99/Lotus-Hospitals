@@ -1,0 +1,344 @@
+@import "src/styles";
+
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    background: $Blue-W;
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: calc(100vh - 48px - 80px);
+
+        h1 {
+            margin-top: 100px;
+            color: $LH-Blue;
+            position: relative;
+            z-index: 1;
+        }
+
+        p {
+            color: $LH-Black;
+            width: 400px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .awards-achievements {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: $LH-Peach;
+        height: 144px;
+        color: white;
+        padding: 0 58px;
+
+        .aa-left, .aa-right, .aa-center {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 33%;
+        }
+
+        .aa-center {
+            width: 166px;
+            text-align: center;
+        }
+
+    }
+
+    .health-first {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        background: white;
+
+        section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 80px;
+
+            img {
+                border-radius: 20px;
+                height: 200px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                h2 {
+                    color: $LH-Black;
+                    margin-top: 0;
+                    line-height: 2.5em;
+                }
+
+                p {
+                    color: black;
+                }
+            }
+        }
+
+        .hf-1 {
+            img {
+                margin-right: 25px;
+            }
+        }
+
+        .hf-2 {
+            margin-bottom: 0;
+
+            img {
+                margin-left: 25px;
+            }
+        }
+    }
+
+    .consult-with-doctors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 128px;
+        background: $Light-Peach;
+
+        h4 {
+            margin-right: 70px;
+            color: $LH-Blue;
+        }
+    }
+
+    .quality-care {
+        background: $LH-Peach;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        position: relative;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin-top: 60px;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+        }
+
+        .bg {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .quality-care-areas {
+            display: flex;
+            padding: 0 25px;
+
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 20%;
+                text-align: center;
+                margin: 0 10px;
+
+                h4 {
+                    margin: 0;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+
+                img {
+                    width: 75%;
+                    transition: 0.4s;
+                }
+
+                img:hover {
+                    width: 85%;
+                    transition: 0.4s;
+
+                }
+
+                .brick {
+                    width: unset;
+                    margin-bottom: 100px;
+
+                    img {
+                        width: unset;
+                    }
+                }
+
+                .brick-mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospitals-nearby {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 138px;
+
+        h2 {
+            text-align: center;
+            width: 100%;
+            margin-top: 60px;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+            color: $LH-Blue;
+        }
+
+        .hospitals {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 90px;
+
+            img {
+                width: 18%;
+            }
+
+
+        }
+    }
+
+    .more-about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+
+        h2 {
+            color: $LH-Blue;
+            text-align: center;
+            width: 100%;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+        }
+
+        .main-blog {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 63px;
+
+            .blog-img {
+                width: 33%;
+                height: 338px;
+                background: $Light-Peach;
+                margin-right: 25px;
+                border-radius: 16px;
+            }
+
+            .blog-content {
+                width: 64%;
+
+                h3 {
+                    color: $LH-Black;
+                }
+
+                .events {
+                    display: flex;
+                    align-items: center;
+
+                    .event {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 25px;
+                        color: $DarkGray;
+                        margin-bottom: 10px;
+
+                        img {
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .additional-blogs {
+            align-items: center;
+            justify-content: space-between;
+            width: 1224px;
+            margin-bottom: 116px;
+            display: none;
+
+            .blog {
+                display: flex;
+                flex-direction: column;
+                width: 32%;
+
+
+                .blog-img {
+                    height: 240px;
+                    background: $Light-Peach;
+                    border-radius: 16px;
+                    width: 100%;
+                    margin: 0 0.5%;
+                }
+
+                h4 {
+                    width: 392px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        position: relative;
+        padding: 60px 0;
+
+        h2 {
+            color: $LH-Blue;
+            text-align: center;
+            width: 100%;
+            font-family: 'SharpGrotesk', sans-serif;
+            font-weight: 400;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .back-icon, .forward-icon {
+            position: absolute;
+            top: 50%;
+        }
+
+        .back-icon {
+            left: 42px;
+        }
+
+        .forward-icon {
+            right: 42px;
+        }
+
+        .testimonial {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            color: $LH-Black;
+
+            p {
+                font-style: italic;
+                max-width: 1016px;
+            }
+        }
+    }
+}

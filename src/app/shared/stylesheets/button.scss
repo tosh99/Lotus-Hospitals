@@ -1,0 +1,61 @@
+/* Buttons */
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 15px;
+    font-family: $pri_font_family, $sec_font_family;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    min-width: 128px;
+
+    border: none;
+    border-radius: 6px;
+
+    transition: .3s;
+    background-color: $LH-Blue;
+    cursor: pointer;
+
+    i {
+        margin: 0 5px;
+    }
+
+    span {
+        margin: 0 5px;
+    }
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+button:focus {
+    outline: none;
+}
+
+// Outlined
+button.outline {
+    background: white;
+    color: red;
+    border: 1px solid red;
+}
+
+button.nooutline {
+    background: white;
+    color: red;
+    border: none;
+}
+
+button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.snackbars .snack{
+    min-height: 28px;
+    border-radius: 5px;
+}
