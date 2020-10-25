@@ -159,16 +159,17 @@
                     margin-bottom: 20px;
                 }
 
-                img {
+
+                .mainimage {
                     width: 75%;
                     transition: 0.4s;
                 }
 
-                img:hover {
+                .mainimage:hover {
                     width: 85%;
                     transition: 0.4s;
-
                 }
+
 
                 .brick {
                     width: unset;
