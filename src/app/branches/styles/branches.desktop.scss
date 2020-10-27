@@ -1,0 +1,68 @@
+@import "src/styles";
+
+.branches {
+    display: flex;
+    flex-direction: column;
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - 48px - 80px);
+        background: $Light-Peach;
+
+        h1, p {
+            width: 495px;
+            padding-left: 108px;
+        }
+
+        h1 {
+            color: $LH-Blue;
+        }
+
+        p {
+            color: $LH-Black;
+        }
+    }
+
+    .branch-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 108px;
+        background: white;
+
+        .branch {
+            display: flex;
+            flex-direction: column;
+            margin: 0 10px;
+            width: 25%;
+
+            img {
+                width: 100%;
+            }
+
+            h3 {
+                color: $LH-Blue;
+            }
+
+            p {
+                color: $LH-Blue;
+            }
+        }
+    }
+
+
+    .consult-with-doctors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 128px;
+        background: $Light-Peach;
+
+        h4 {
+            margin-right: 70px;
+            color: $LH-Blue;
+        }
+    }
+}

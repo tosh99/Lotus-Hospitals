@@ -60,7 +60,7 @@
     .health-first {
         display: flex;
         flex-direction: column;
-        padding: 25px;
+        padding: 50px 50px;
         background: white;
 
         section {
@@ -119,7 +119,7 @@
 
     .quality-care {
         background: $LH-Peach;
-        min-height: 100vh;
+        min-height: 65vh;
         display: flex;
         flex-direction: column;
         color: white;
@@ -128,7 +128,8 @@
         h2 {
             text-align: center;
             width: 100%;
-            margin-top: 60px;
+            margin-top: 25px;
+            margin-bottom: 30px;
             font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
         }
@@ -191,12 +192,13 @@
         background: white;
         display: flex;
         flex-direction: column;
-        padding: 0 138px;
+        padding: 0 50px;
 
         h2 {
             text-align: center;
             width: 100%;
-            margin-top: 60px;
+            margin-top: 25px;
+            margin-bottom: 30px;
             font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
             color: $LH-Blue;
@@ -208,7 +210,7 @@
             margin-bottom: 90px;
 
             img {
-                width: 18%;
+                width: 24%;
             }
 
 
@@ -219,12 +221,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 50px;
 
         h2 {
             color: $LH-Blue;
             text-align: center;
             width: 100%;
+            margin-top: 25px;
             font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
         }

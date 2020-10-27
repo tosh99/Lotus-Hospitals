@@ -17,10 +17,25 @@
         margin-left: 30px;
         cursor: pointer;
         transition: 0.5s;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        border-bottom: 4px solid $Blue-W;
     }
 
     header:hover {
         color: $LH-Black;
+        transition: 0.5s;
+    }
+
+    .selected {
+        border-bottom: 4px solid $LH-Peach;
+        transition: 0.5s;
+        cursor: default;
+    }
+
+    .selected:hover {
+        color: $LH-Blue;
         transition: 0.5s;
     }
 }
@@ -46,11 +61,27 @@
             margin-left: 33px;
             cursor: pointer;
             transition: 0.5s;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid white;
         }
+
 
         header:hover {
             transition: 0.5s;
             color: $LH-Blue;
+        }
+
+        .selected {
+            border-bottom: 4px solid $LH-Peach;
+            transition: 0.5s;
+            cursor: default;
+        }
+
+        .selected:hover {
+            color: $LH-Blue;
+            transition: 0.5s;
         }
 
         img {

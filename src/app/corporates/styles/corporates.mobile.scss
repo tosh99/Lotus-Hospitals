@@ -1,0 +1,83 @@
+@import "src/styles";
+
+.corporates {
+    display: flex;
+    flex-direction: column;
+
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - 48px - 33px);
+        background: $LightGray;
+
+        h1, p {
+            padding: 0 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            color: $LH-Blue;
+            line-height: 2em;
+        }
+    }
+
+    .companies {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+
+        h4 {
+            line-height: 1.75em;
+        }
+
+        .title {
+            color: $LH-Blue;
+        }
+
+        .desc {
+            color: $Blue-P;
+            margin-top: 15px;
+        }
+
+        .quotes {
+            color: $LH-Blue;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .company-list {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            margin-top: 30px;
+
+            .company {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+
+    .consult-with-doctors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background: $Light-Peach;
+        padding: 0 25px;
+
+        h4 {
+            margin: 0;
+            color: $LH-Blue;
+            line-height: 1.75em;
+            margin-bottom: 20px;
+            width: 280px;
+            text-align: center;
+        }
+    }
+}

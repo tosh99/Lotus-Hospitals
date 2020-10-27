@@ -7,7 +7,7 @@
     justify-content: center;
     min-height: $top-footer-height;
     background: $LH-Blue;
-    padding: 25px;
+    padding: 25px 50px;
 
     .footer-main {
         display: flex;
@@ -16,7 +16,7 @@
 
         .fm-left {
             display: flex;
-            margin-right: 100px;
+            margin-right: 60px;
         }
 
         .fm-right {
@@ -26,7 +26,7 @@
             .column {
                 display: flex;
                 flex-direction: column;
-                margin-right: 35px;
+                margin-right: 25px;
 
                 h4 {
                     margin-top: 0;
@@ -39,6 +39,10 @@
                     line-height: 1.5em;
                     cursor: pointer;
                 }
+            }
+
+            .column:last-of-type {
+                margin-right: 0;
             }
 
 
@@ -55,29 +59,44 @@
 
 .app-bottom-footer {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     min-height: $bottom-footer-height;
     background: $LH-Peach;
     color: white;
+    padding: 25px 50px;
 
     h4 {
         margin-right: 25px;
+        display: none;
     }
 
     .social {
         display: flex;
         align-items: center;
+        margin-top: 25px;
 
         img {
             margin-right: 13px;
             cursor: pointer;
             transition: 0.4s;
+            width: 40px;
         }
 
         img:hover {
             opacity: 0.6;
             transition: 0.4s;
+        }
+    }
+
+    div {
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
         }
     }
 

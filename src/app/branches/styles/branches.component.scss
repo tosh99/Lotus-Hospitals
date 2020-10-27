@@ -1,13 +1,11 @@
 @media only screen and (min-width: 1280px) {
-    @import "footer.component.desktop";
+    @import "branches.desktop";
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
-    @import "footer.component.tablet";
+    @import "branches.tablet";
 }
 
 @media only screen and (max-width: 767px) {
-    @import "footer.component.mobile";
+    @import "branches.mobile";
 }
-
-

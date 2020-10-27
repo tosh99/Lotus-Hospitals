@@ -83,6 +83,15 @@
         }
     }
 
+    div {
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
     p {
         width: 184px;
         margin-right: 25px;
