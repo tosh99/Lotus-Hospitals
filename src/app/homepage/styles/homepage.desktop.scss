@@ -142,6 +142,7 @@
 
         .quality-care-areas {
             display: flex;
+            justify-content: space-between;
             padding: 0 80px;
 
             section {
@@ -186,6 +187,11 @@
                     display: none;
                 }
             }
+        }
+
+        .quality-care-areas:last-of-type{
+            justify-content: center;
+            margin-top: -370px;
         }
     }
 

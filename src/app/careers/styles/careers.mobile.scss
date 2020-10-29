@@ -1,6 +1,6 @@
 @import "src/styles";
 
-.branches {
+.careers {
     display: flex;
     flex-direction: column;
 
@@ -9,7 +9,7 @@
         flex-direction: column;
         justify-content: center;
         min-height: calc(100vh - 48px - 33px);
-        background: $Light-Peach;
+        background: $Blue-W;
 
         h1, p {
             padding: 0 25px;
@@ -28,36 +28,6 @@
         }
     }
 
-    .branch-list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 25px;
-        background: white;
-
-        .branch {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 1.5em;
-
-            img {
-                width: 100%;
-                margin-bottom: 1em;
-            }
-
-            h3 {
-                color: $LH-Blue;
-            }
-
-            h4 {
-                margin-bottom: 1em;
-            }
-
-            p {
-                color: $LH-Blue;
-            }
-        }
-    }
 
     .consult-with-doctors {
         display: flex;

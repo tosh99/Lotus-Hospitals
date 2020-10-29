@@ -1,5 +1,5 @@
 <div class="app-top-header">
-    <header>Careers</header>
+    <header (click)="navigateTo('careers')" [ngClass]="{'selected':router.url.includes('careers')}">Careers</header>
     <header (click)="navigateTo('corporates')" [ngClass]="{'selected':router.url.includes('corporates')}">Corporates</header>
     <header (click)="navigateTo('education')" [ngClass]="{'selected':router.url.includes('education')}">Education</header>
 </div>
@@ -43,7 +43,7 @@
     </div>
     <div class="column">
         <h4>Links</h4>
-        <p class="captions">Careers</p>
+        <p class="captions" (click)="navigateTo('careers')">Careers</p>
         <p class="captions" (click)="navigateTo('corporates')">Corporates</p>
         <p class="captions" (click)="navigateTo('education')">Education</p>
     </div>

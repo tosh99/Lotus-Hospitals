@@ -3,10 +3,9 @@ import {CommonModule} from '@angular/common';
 import {AppState} from './services/app-state';
 import {AppUtils} from './services/app-utils';
 import {HttpClientModule} from '@angular/common/http';
-import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-    declarations: [FooterComponent],
+    declarations: [],
     imports: [
         CommonModule,
         HttpClientModule

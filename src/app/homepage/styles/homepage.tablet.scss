@@ -41,7 +41,7 @@
         background: $LH-Peach;
         height: 144px;
         color: white;
-        padding: 0 58px;
+        padding: 0 50px;
 
         .aa-left, .aa-right, .aa-center {
             display: flex;
@@ -60,13 +60,13 @@
     .health-first {
         display: flex;
         flex-direction: column;
-        padding: 50px 50px;
+        padding: 50px;
         background: white;
 
         section {
             display: flex;
             justify-content: center;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
 
             img {
                 border-radius: 20px;
@@ -143,6 +143,7 @@
         .quality-care-areas {
             display: flex;
             padding: 0 25px;
+            padding-bottom: 25px;
 
             section {
                 display: flex;
@@ -174,7 +175,7 @@
 
                 .brick {
                     width: unset;
-                    margin-bottom: 100px;
+                    margin-bottom: 30px;
 
                     img {
                         width: unset;
@@ -185,6 +186,11 @@
                     display: none;
                 }
             }
+        }
+
+        .quality-care-areas:last-of-type {
+            justify-content: center;
+            margin-top: -200px;
         }
     }
 
@@ -272,11 +278,10 @@
         }
 
         .additional-blogs {
-            align-items: center;
             justify-content: space-between;
-            width: 1224px;
+            align-items: flex-start;
             margin-bottom: 116px;
-            display: none;
+            display: flex;
 
             .blog {
                 display: flex;
@@ -293,7 +298,6 @@
                 }
 
                 h4 {
-                    width: 392px;
                     text-align: center;
                 }
             }
@@ -341,7 +345,7 @@
 
             p {
                 font-style: italic;
-                max-width: 1016px;
+                max-width: 767px;
             }
         }
     }
