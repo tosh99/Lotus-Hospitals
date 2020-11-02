@@ -12,13 +12,12 @@
         background: $Blue-W;
 
         h1, p {
-            max-width: 525px;
+            max-width: 340px;
         }
 
         h1 {
             margin: 0;
             color: $LH-Blue;
-            white-space: nowrap;
             line-height: 1em;
             margin-bottom: 1em;
         }
@@ -28,13 +27,17 @@
         }
 
         .banner-left {
-            margin-right: 100px;
+            margin-right: 25px;
         }
 
         .banner-right {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+        }
+
+        .banner-mobile {
+            display: none;
         }
     }
 
@@ -44,10 +47,10 @@
         align-items: center;
         height: 240px;
         background: $LH-Blue;
+        padding: 0 50px;
 
         h4 {
-            width: 599px;
-            margin-right: 265px;
+            margin-right: 45px;
             font-weight: 400;
             color: white;
             line-height: 1.3em;
@@ -62,6 +65,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0 50px;
 
         h2 {
             color: $LH-Blue;
@@ -74,7 +78,7 @@
             align-items: flex-start;
 
             img {
-                margin-right: 110px;
+                margin-right: 50px;
                 height: 280px;
                 border-radius: 16px;
             }
@@ -84,8 +88,8 @@
                 align-items: flex-start;
 
                 .column {
-                    max-width: 350px;
-                    margin-right: 65px;
+                    max-width: 250px;
+                    margin-right: 25px;
                     color: $LH-Blue;
                 }
 
@@ -100,7 +104,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 131px;
+        padding: 0 50px;
+        padding-bottom: 120px;
 
         h2 {
             color: $LH-Blue;

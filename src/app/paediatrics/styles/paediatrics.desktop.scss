@@ -36,6 +36,10 @@
             flex-direction: column;
             justify-content: flex-start;
         }
+
+        .banner-mobile {
+            display: none;
+        }
     }
 
     .secondary-banner {
@@ -60,80 +64,95 @@
 
     .services {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
+        width: 1200px;
+        padding-top: 120px;
+        padding-bottom: 65px;
+        margin: auto;
 
-        h2 {
-            color: $LH-Blue;
-            margin-top: 0.7em;
-            margin-bottom: 0.7em;
+        img {
+            height: 280px;
+            border-radius: 16px;
         }
+
 
         .service-details {
             display: flex;
+            flex-direction: column;
             align-items: flex-start;
+            width: 600px;
 
-            img {
-                margin-right: 110px;
-                height: 280px;
-                border-radius: 16px;
+            h2 {
+                color: $LH-Blue;
+                margin-top: 0.7em;
+                margin-bottom: 0.7em;
+                line-height: 1.2em;
             }
 
-            .right {
-                display: flex;
-                align-items: flex-start;
 
-                .column {
-                    max-width: 350px;
-                    margin-right: 65px;
-                    color: $LH-Blue;
-                }
+        }
+    }
 
-                .column:last-of-type {
-                    margin-right: 0;
-                }
+    .service-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 1200px;
+        margin: auto;
+
+        .column {
+            max-width: 350px;
+            color: $LH-Blue;
+
+            h4 {
+                color: $LH-Black;
+                line-height: 1.4em;
+                margin-bottom: 1em;
             }
+        }
+
+        .column:last-of-type {
+            margin-right: 0;
         }
     }
 
     .packages {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 100px;
         padding-bottom: 131px;
+        width: 1200px;
+        margin: auto;
 
         h2 {
             color: $LH-Blue;
-            margin-top: 0.7em;
+            margin-top: -12px;
             margin-bottom: 1.3em;
+            line-height: 1.4em;
         }
 
-        .package-details {
+
+        div {
             display: flex;
-            align-items: flex-start;
+            flex-direction: column;
+            max-width: 520px;
+            margin-right: 120px;
 
-            div {
-                display: flex;
-                flex-direction: column;
-                max-width: 600px;
-                margin-right: 120px;
-
-                p {
-                    margin-bottom: 60px;
-                }
-
-                button {
-                    background: $Blue-B;
-                    max-width: 272px;
-                }
+            p {
+                margin-bottom: 60px;
             }
 
-            img {
-                border-radius: 16px;
+            button {
+                background: $Blue-B;
+                max-width: 272px;
             }
+        }
+
+        img {
+            border-radius: 16px;
         }
     }
-
 
     .consult-with-doctors {
         display: flex;
