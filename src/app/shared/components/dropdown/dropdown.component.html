@@ -1,0 +1,47 @@
+<div class="radius-dropdown">
+    <div class="dropdown-button" (click)="toggleDropdownOpenState()" [ngStyle]="dropdownConfig.getButtonStyle()">
+        <div class="content" [title]="getSelectedItem" [ngClass]="{'content-placeholder':isPlaceHolder}">{{getSelectedItem}}</div>
+        <div class="buttons">
+            <img src="assets/icons/common/caret-down.svg">
+        </div>
+    </div>
+
+
+    <div class="dropdown-content" *ngIf="isopen">
+
+        <!-- SEARCH-->
+        <div class="search" *ngIf="dropdownConfig.getSearchable()">
+            <div class="search-input">
+                <input placeholder="Search" [(ngModel)]="dropdownConfig.dropdown_searchtext" (ngModelChange)="onRealTimeSearch()" (change)="onSearch()">
+            </div>
+            <div class="buttons">
+<!--                <i class="fas fa-plus" *ngIf="dropdownConfig.getAddTag()" (click)="onAddTag()"></i>-->
+<!--                <i class="fas fa-search"></i>-->
+            </div>
+        </div>
+
+
+        <div class="loading" *ngIf="dropdownConfig.getLoading()">
+            Loading ...
+        </div>
+
+
+        <div class="message" *ngIf="message">
+            {{message}}
+        </div>
+
+        <!-- ITEMS-->
+        <div class="items" [ngClass]="{'items-loading':dropdownConfig.getLoading()}" snInfiniteScroll (scrollEnd)="onScroll()" [offset]="50" [disabled]="!dropdownConfig.getLazyLoad()">
+            <div class="item" (click)="onSelectAll()" *ngIf="dropdownConfig.getSelectAll() && dropdownConfig.getMultiSelect()">
+                <app-dp-checkbox class="cb" *ngIf="dropdownConfig.getMultiSelect()" [ischecked]="areAllSelected"></app-dp-checkbox>
+                <header class="item-text">Select All</header>
+            </div>
+            <ng-container *ngFor="let item of dropdownItems">
+                <div class="item" *ngIf="ifItemPresent(item)" (click)="onSelect(item)">
+                    <app-dp-checkbox class="cb" *ngIf="dropdownConfig.getMultiSelect()" [ischecked]="isItemPresentInSelection(item)"></app-dp-checkbox>
+                    <header class="item-text" [title]="resolveBindingLabels(item)">{{resolveBindingLabels(item)}}</header>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

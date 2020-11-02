@@ -1,0 +1,115 @@
+@import "src/styles";
+
+.doctors {
+    display: flex;
+    flex-direction: column;
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - 48px - 80px);
+        background: $Light-Peach;
+
+        h1, p {
+            width: 495px;
+            padding-left: 108px;
+        }
+
+        h1 {
+            color: $LH-Blue;
+            line-height: 1.35em;
+            margin-bottom: 1.1em;
+        }
+    }
+
+    .meet-our-team {
+        display: flex;
+        flex-direction: column;
+        padding: 120px 108px;
+        padding-top: 80px;
+
+        .meet-our-team-filters {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 90px;
+
+            h2 {
+                color: $LH-Peach;
+            }
+
+
+            .filters {
+                display: flex;
+
+                .input-group {
+                    display: flex;
+                    padding: 10px 20px;
+                    background: white;
+                    border-radius: 16px;
+                    border: 2px solid $Blue-P;
+                    margin-right: 12px;
+
+                    input {
+                        background: transparent;
+                        border: none;
+                        margin-left: 15px;
+                    }
+
+                    input:focus {
+                        border: none;
+                        outline: none;
+                    }
+
+                    input::placeholder {
+                        color: $Blue-B;
+                    }
+                }
+
+                .dropdown{
+                    margin-right: 12px;
+                }
+
+            }
+        }
+
+        .doctors-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .doctor {
+                display: flex;
+                flex-direction: column;
+                width: calc(25% - 25px);
+                margin-right: 25px;
+                margin-bottom: 65px;
+                text-align: center;
+
+                .quali {
+                    margin-top: 15px;
+                    color: $Blue-P;
+                }
+
+                .position {
+                    margin-top: 7px;
+                    color: $LH-Blue;
+                }
+            }
+        }
+    }
+
+    .consult-with-doctors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 128px;
+        background: $Light-Peach;
+
+        h4 {
+            margin-right: 70px;
+            color: $LH-Blue;
+        }
+    }
+
+}

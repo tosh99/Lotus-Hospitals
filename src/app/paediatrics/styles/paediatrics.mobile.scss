@@ -138,7 +138,7 @@
 
     .packages {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
         padding: 100px 25px;
 
@@ -167,6 +167,14 @@
         img {
             border-radius: 16px;
             width: 100%;
+        }
+
+        .package-desktop {
+            display: none;
+        }
+
+        .package-mobile{
+            margin-bottom: 25px;
         }
     }
 

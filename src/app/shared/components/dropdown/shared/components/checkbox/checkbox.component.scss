@@ -1,0 +1,23 @@
+$dropdown_border: 1px solid #CFDDE6;
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border: $dropdown_border;
+    cursor: pointer;
+
+    i {
+        color: #003366;
+        font-size: 10px;
+    }
+}
+
+.radio {
+    border-radius: 50%;
+
+}
+

@@ -9,10 +9,10 @@
         flex-direction: column;
         justify-content: center;
         min-height: calc(100vh - 48px - 33px);
-        background: $LightGray;
+        background: $Light-Peach;
 
         h1, p {
-            padding: 0 25px;
+            padding: 0 10px;
             text-align: center;
         }
 
@@ -23,6 +23,86 @@
             margin-bottom: 1.1em;
         }
     }
+
+    .meet-our-team {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px;
+
+        .meet-our-team-filters {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+
+            h2 {
+                color: $LH-Peach;
+                text-align: center;
+            }
+
+
+            .filters {
+                display: none;
+
+                .input-group {
+                    display: flex;
+                    padding: 10px 20px;
+                    background: white;
+                    border-radius: 16px;
+                    border: 2px solid $Blue-P;
+                    margin-right: 12px;
+
+                    input {
+                        background: transparent;
+                        border: none;
+                        margin-left: 15px;
+                    }
+
+                    input:focus {
+                        border: none;
+                        outline: none;
+                    }
+
+                    input::placeholder {
+                        color: $Blue-B;
+                    }
+                }
+
+                .dropdown {
+                    margin-right: 12px;
+                }
+
+            }
+        }
+
+        .doctors-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .doctor {
+                display: flex;
+                flex-direction: column;
+                width: calc(100%);
+                margin-bottom: 65px;
+                text-align: center;
+
+                .quali {
+                    margin-top: 15px;
+                    color: $Blue-P;
+                }
+
+                .position {
+                    margin-top: 7px;
+                    color: $LH-Blue;
+                }
+
+                img {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
 
     .consult-with-doctors {
         display: flex;

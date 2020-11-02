@@ -12,7 +12,7 @@
         <header (click)="navigateTo('branches')" [ngClass]="{'selected':router.url.includes('branches')}">Branches</header>
         <header>Health Packages</header>
         <header (click)="navigateTo('doctors')" [ngClass]="{'selected':router.url.includes('doctors')}">Our Doctors</header>
-        <header>About</header>
+        <header (click)="navigateTo('about')" [ngClass]="{'selected':router.url.includes('about')}">About</header>
         <header>Blog</header>
         <header>Contact</header>
 
@@ -38,7 +38,7 @@
         <h4>Links</h4>
         <p class="captions">Our Packages</p>
         <p class="captions">Blog</p>
-        <p class="captions">About</p>
+        <p class="captions" (click)="navigateTo('about')">About</p>
         <p class="captions" (click)="navigateTo('doctors')">Doctors</p>
     </div>
     <div class="column">

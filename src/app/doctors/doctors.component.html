@@ -6,9 +6,37 @@
         <h1>The Lotus team
             of Specialists</h1>
         <p>India’s Finest 250 bedded Women and Children’s Hospital requires the following personnel immediately:
-            We are recruiting Resident doctors who can join immediately. Qualification – MBBS, Experience – 0 to 5 Years,
-            Shift – Rotational Shift. Interested Candidates may email resumes to: hr@lotushospitals.in or contact between 9 am to 6 pm at 5th
+            We are recruiting Resident doctors who can join immediately. Qualification – MBBS, Experience – 0 to 5
+            Years,
+            Shift – Rotational Shift. Interested Candidates may email resumes to: hr@lotushospitals.in or contact
+            between 9 am to 6 pm at 5th
             Floor Administration.</p>
+    </div>
+
+
+    <div class="meet-our-team">
+        <div class="meet-our-team-filters">
+            <h2>Meet Our Team</h2>
+            <div class="filters">
+                <div class="input-group">
+                    <input placeholder="Search" [(ngModel)]="searchText" (ngModelChange)="search()">
+                    <img src="assets/icons/doctors/search.svg">
+                </div>
+                <app-dropdown class="dropdown" [dropdownItems]="locations" [dropdownConfig]="dpLocation"></app-dropdown>
+                <app-dropdown class="dropdown" [dropdownItems]="specialties" [dropdownConfig]="dpSpecialty"></app-dropdown>
+            </div>
+        </div>
+
+        <div class="doctors-list">
+            <ng-container *ngFor="let doctor of doctors">
+                <div class="doctor" *ngIf="doctor.isdisplayed">
+                    <img src="assets/icons/doctors/doctor.svg">
+                    <h4>{{doctor.doctor_name}}</h4>
+                    <p class="caption quali">{{doctor.qualifications}}</p>
+                    <p class="caption position">{{doctor.position}}</p>
+                </div>
+            </ng-container>
+        </div>
     </div>
 
 
