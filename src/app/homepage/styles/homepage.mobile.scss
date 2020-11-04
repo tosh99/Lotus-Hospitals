@@ -1,5 +1,58 @@
 @import "src/styles";
 
+@keyframes squeezeLeft {
+    0% {
+        transform: translateX(-40%);
+    }
+    100% {
+        transform: translateX(-16%);
+    }
+}
+
+@keyframes squeezeRight {
+    0% {
+        transform: translateX(40%);
+    }
+    100% {
+        transform: translateX(20%);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        left: 8%;
+    }
+    100% {
+        left: 18%;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        right: 8%;
+    }
+    100% {
+        right: 18%;
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        bottom: -5%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes slideInFromBottomLove {
+    0% {
+        bottom: 32%;
+    }
+    100% {
+        bottom: 38%;
+    }
+}
 
 .homepage {
     display: flex;
@@ -26,10 +79,76 @@
             width: 320px;
         }
 
-        img {
+
+        .banner-img {
             width: 100%;
+            bottom: 0;
+            position: absolute;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            z-index: 1;
+            height: 65vh;
+
+            img {
+                width: 110%;
+                bottom: 0;
+                position: absolute;
+            }
+        }
+
+        .banner-img-left {
+            justify-content: flex-start;
+
+            img {
+                animation: 1.4s ease-out 0s 1 squeezeLeft;
+                transform: translateX(-16%);
+
+            }
+        }
+
+        .banner-img-right {
+            justify-content: flex-end;
+
+            img {
+                animation: 1.4s ease-out 0s 1 squeezeRight;
+                transform: translateX(20%);
+
+            }
+        }
+
+        .fam-left {
+            position: absolute;
+            bottom: 5%;
+            left: 18%;
+            animation: 1.4s ease-out 0s 1 slideInFromLeft;
+            z-index: 2;
+            height: 100px;
+        }
+
+        .fam-right {
+            position: absolute;
+            bottom: 5%;
+            right: 18%;
+            animation: 1.4s ease-out 0s 1 slideInFromRight;
+            z-index: 2;
+            height: 100px;
+        }
+
+        .fam-top-sun {
             position: absolute;
             bottom: 0;
+            animation: 1.6s ease-out 0s 1 slideInFromBottom;
+            z-index: 0;
+            height: 185px;
+        }
+
+        .fam-top-love {
+            position: absolute;
+            bottom: 38%;
+            animation: 1.6s ease-out 0s 1 slideInFromBottomLove;
+            z-index: 3;
+            height: 32px;
         }
     }
 
