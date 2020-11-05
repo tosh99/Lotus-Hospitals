@@ -22,6 +22,19 @@
         }
     }
 
+    .established {
+        display: flex;
+        justify-content: center;
+        padding: 110px 0;
+
+        .left, .right {
+            width: 599px;
+        }
+
+        .left {
+            margin-right: 12px;
+        }
+    }
 
 
     .consult-with-doctors {
