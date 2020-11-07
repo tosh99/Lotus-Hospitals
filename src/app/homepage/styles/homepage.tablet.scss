@@ -56,25 +56,23 @@
 
 
 .homepage {
-    display: flex;
+
     flex-direction: column;
     background: $Blue-W;
 
     .banner {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         min-height: calc(100vh - 48px - 80px);
 
         h1 {
             margin-top: 100px;
-            color: $LH-Blue;
             position: relative;
             z-index: 1;
         }
 
         p {
-            color: $LH-Black;
             width: 400px;
             text-align: center;
             position: relative;
@@ -87,7 +85,7 @@
             bottom: 0;
             position: absolute;
             overflow-x: hidden;
-            display: flex;
+
             justify-content: center;
             z-index: 1;
             height: 65vh;
@@ -155,16 +153,14 @@
     }
 
     .awards-achievements {
-        display: flex;
+
         align-items: center;
         justify-content: space-between;
-        background: $LH-Peach;
         height: 144px;
-        color: white;
         padding: 0 50px;
 
         .aa-left, .aa-right, .aa-center {
-            display: flex;
+
             align-items: center;
             justify-content: space-around;
             width: 33%;
@@ -178,13 +174,13 @@
     }
 
     .health-first {
-        display: flex;
+
         flex-direction: column;
         padding: 50px;
         background: white;
 
         section {
-            display: flex;
+
             justify-content: center;
             margin-bottom: 50px;
 
@@ -194,17 +190,16 @@
             }
 
             div {
-                display: flex;
+
                 flex-direction: column;
 
                 h2 {
-                    color: $LH-Black;
                     margin-top: 0;
                     line-height: 2.5em;
                 }
 
                 p {
-                    color: black;
+
                 }
             }
         }
@@ -225,24 +220,20 @@
     }
 
     .consult-with-doctors {
-        display: flex;
+
         justify-content: center;
         align-items: center;
         height: 128px;
-        background: $Light-Peach;
 
         h4 {
             margin-right: 70px;
-            color: $LH-Blue;
         }
     }
 
     .quality-care {
-        background: $LH-Peach;
         min-height: 65vh;
-        display: flex;
+
         flex-direction: column;
-        color: white;
         position: relative;
 
         h2 {
@@ -261,12 +252,12 @@
         }
 
         .quality-care-areas {
-            display: flex;
+
             padding: 0 25px;
             padding-bottom: 25px;
 
             section {
-                display: flex;
+
                 flex-direction: column;
                 align-items: center;
                 width: 20%;
@@ -316,7 +307,7 @@
 
     .hospitals-nearby {
         background: white;
-        display: flex;
+
         flex-direction: column;
         padding: 0 50px;
 
@@ -325,13 +316,10 @@
             width: 100%;
             margin-top: 25px;
             margin-bottom: 30px;
-            font-family: 'SharpGrotesk', sans-serif;
-            font-weight: 400;
-            color: $LH-Blue;
         }
 
         .hospitals {
-            display: flex;
+
             justify-content: space-between;
             margin-bottom: 90px;
 
@@ -344,22 +332,19 @@
     }
 
     .more-about-us {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         padding: 0 50px;
 
         h2 {
-            color: $LH-Blue;
             text-align: center;
             width: 100%;
             margin-top: 25px;
-            font-family: 'SharpGrotesk', sans-serif;
-            font-weight: 400;
         }
 
         .main-blog {
-            display: flex;
+
             justify-content: space-between;
             margin-bottom: 63px;
 
@@ -375,18 +360,17 @@
                 width: 64%;
 
                 h3 {
-                    color: $LH-Black;
+
                 }
 
                 .events {
-                    display: flex;
+
                     align-items: center;
 
                     .event {
-                        display: flex;
+
                         align-items: center;
                         margin-right: 25px;
-                        color: $DarkGray;
                         margin-bottom: 10px;
 
                         img {
@@ -401,10 +385,10 @@
             justify-content: space-between;
             align-items: flex-start;
             margin-bottom: 116px;
-            display: flex;
+
 
             .blog {
-                display: flex;
+
                 flex-direction: column;
                 width: 32%;
 
@@ -425,7 +409,7 @@
     }
 
     .testimonials {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         background: white;
@@ -433,11 +417,8 @@
         padding: 60px 0;
 
         h2 {
-            color: $LH-Blue;
             text-align: center;
             width: 100%;
-            font-family: 'SharpGrotesk', sans-serif;
-            font-weight: 400;
             margin-bottom: 0;
             margin-top: 0;
         }
@@ -456,12 +437,11 @@
         }
 
         .testimonial {
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             width: 100%;
             text-align: center;
-            color: $LH-Black;
 
             p {
                 font-style: italic;

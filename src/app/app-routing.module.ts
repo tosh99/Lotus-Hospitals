@@ -31,9 +31,29 @@ const routes: Routes = [
         path: 'paediatrics',
         loadChildren: () => import('./paediatrics/paediatrics.module').then(m => m.PaediatricsModule)
     },
-      {
+    {
+        path: 'neonatology',
+        loadChildren: () => import('./neonatology/neonatology.module').then(m => m.NeonatologyModule)
+    },
+    {
+        path: 'maternity',
+        loadChildren: () => import('./maternity/maternity.module').then(m => m.MaternityModule)
+    },
+    {
+        path: 'fertility',
+        loadChildren: () => import('./fertility/fertility.module').then(m => m.FertilityModule)
+    },
+    {
         path: 'about',
         loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
+    },
+    {
+        path: 'packages',
+        loadChildren: () => import('./packages/packages.module').then(m => m.PackagesModule)
+    },
+    {
+        path: 'contactus',
+        loadChildren: () => import('./contact-us/contact-us.module').then(m => m.ContactUsModule)
     }
 ];
 

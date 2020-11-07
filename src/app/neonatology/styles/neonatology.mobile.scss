@@ -1,0 +1,200 @@
+@import "src/styles";
+
+.global-services {
+    display: flex;
+    flex-direction: column;
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 48px - 80px);
+        background: $Blue-W;
+        position: relative;
+
+        h1, p {
+            max-width: 525px;
+            text-align: center;
+            padding: 0 25px;
+        }
+
+        h1 {
+            margin: 0;
+            color: $LH-Blue;
+            line-height: 1em;
+            margin-bottom: 1em;
+        }
+
+        p {
+            margin-bottom: 90px;
+        }
+
+
+        .banner-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        img {
+            height: 100px;
+        }
+
+        .banner-desktop {
+            display: none;
+        }
+
+        .banner-mobile {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            position: absolute;
+            bottom: 0;
+
+            .child {
+                height: 136px;
+                margin-right: 50px;
+            }
+
+            .toys {
+                height: 100px;
+            }
+        }
+    }
+
+    .secondary-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 476px;
+        background: $LH-Blue;
+        padding: 0 25px;
+
+        h4 {
+            font-weight: 400;
+            color: white;
+            line-height: 1.3em;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        img {
+            height: 136px;
+        }
+    }
+
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 25px;
+
+        img {
+            border-radius: 16px;
+            width: 100%;
+        }
+
+
+        .service-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h2 {
+                color: $LH-Blue;
+                margin-top: 0.7em;
+                margin-bottom: 0.7em;
+                line-height: 1.2em;
+            }
+
+
+        }
+    }
+
+
+    .service-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 25px;
+
+        .column {
+            color: $LH-Blue;
+            margin-bottom: 25px;
+
+            h4 {
+                color: $LH-Black;
+                line-height: 1.4em;
+                margin-bottom: 1em;
+            }
+        }
+
+        .column:last-of-type {
+            margin-right: 0;
+        }
+    }
+
+    .packages {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 100px 25px;
+
+        h2 {
+            color: $LH-Blue;
+            margin-top: -12px;
+            margin-bottom: 1.3em;
+            line-height: 1.4em;
+        }
+
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                margin-bottom: 60px;
+            }
+
+            button {
+                background: $Blue-B;
+                max-width: 272px;
+            }
+        }
+
+        img {
+            border-radius: 16px;
+            width: 100%;
+        }
+
+        .package-desktop {
+            display: none;
+        }
+
+        .package-mobile{
+            margin-bottom: 25px;
+        }
+    }
+
+
+    .consult-with-doctors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background: $Light-Peach;
+        padding: 0 25px;
+
+        h4 {
+            margin: 0;
+            color: $LH-Blue;
+            line-height: 1.75em;
+            margin-bottom: 20px;
+            width: 280px;
+            text-align: center;
+        }
+    }
+}

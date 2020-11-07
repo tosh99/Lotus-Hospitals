@@ -1,78 +1,39 @@
 @import "src/styles";
 
-.corporates {
+.companies {
     display: flex;
     flex-direction: column;
+    padding: 80px 108px;
 
-    .banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: calc(100vh - 48px - 30px);
-        background: $Blue-W;
-
-        h1, p {
-            padding: 0 50px;
-            max-width: 768px;
-        }
-
-        h1 {
-            color: $LH-Blue;
-        }
-
-        p {
-            color: $LH-Black;
-        }
+    h4 {
+        line-height: 1.75em;
     }
 
-    .companies {
+    .title {
+        width: 100%;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+    .quotes {
+        font-weight: 300;
+        font-style: italic;
+        width: 100%;
+    }
+
+    .company-list {
         display: flex;
-        flex-direction: column;
-        padding: 80px 108px;
+        justify-content: space-between;
+        margin-bottom: 90px;
+        margin-top: 30px;
 
-        h4 {
-            line-height: 1.75em;
-        }
-
-        .title {
-            color: $LH-Blue;
-        }
-
-        .desc {
-            color: $Blue-P;
-        }
-
-        .quotes {
-            color: $LH-Blue;
-            font-weight: 300;
-            font-style: italic;
-        }
-
-        .company-list {
+        .company {
             display: flex;
-            justify-content: space-between;
-            margin-bottom: 90px;
-            margin-top: 30px;
-
-            .company {
-                display: flex;
-                flex-direction: column;
-                padding-right: 10px;
-            }
-        }
-    }
-
-
-    .consult-with-doctors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 128px;
-        background: $Light-Peach;
-
-        h4 {
-            margin-right: 70px;
-            color: $LH-Blue;
+            flex-direction: column;
+            padding-right: 10px;
         }
     }
 }
+

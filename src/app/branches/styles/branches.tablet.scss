@@ -1,73 +1,28 @@
-@import "src/styles";
-
-.branches {
+.branch-list {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: white;
+    flex-wrap: wrap;
 
-
-    //TODO: Alignment
-    .banner {
+    .branch {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        min-height: calc(100vh - 48px - 30px);
-        background: $Light-Peach;
+        margin: 15px 25px;
+        width: 40%;
 
-        h1, p {
-            padding: 0 50px;
-            max-width: 768px;
+        img {
+            width: 100%;
+            margin-bottom: 15px;
         }
 
-        h1 {
-            margin-bottom: 1em;
-            color: $LH-Blue;
+        h3 {
+
         }
 
         p {
-            color: $LH-Black;
-        }
-    }
 
-    .branch-list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 25px;
-        background: white;
-        flex-wrap: wrap;
-
-        .branch {
-            display: flex;
-            flex-direction: column;
-            margin: 15px 25px;
-            width: calc(40%);
-
-            img {
-                width: 100%;
-                margin-bottom: 15px;
-            }
-
-            h3 {
-                color: $LH-Blue;
-            }
-
-            p {
-                color: $LH-Blue;
-            }
-        }
-    }
-
-
-    .consult-with-doctors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 128px;
-        background: $Light-Peach;
-
-        h4 {
-            margin-right: 70px;
-            color: $LH-Blue;
         }
     }
 }

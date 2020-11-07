@@ -1,0 +1,12 @@
+@import "src/styles";
+
+.baby-packages {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+
+    section {
+        padding: 75px 0;
+    }
+}

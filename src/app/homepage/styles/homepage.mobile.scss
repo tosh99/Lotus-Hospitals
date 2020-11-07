@@ -55,12 +55,11 @@
 }
 
 .homepage {
-    display: flex;
+
     flex-direction: column;
-    background: $Blue-W;
 
     .banner {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         min-height: calc(100vh - 48px - 80px);
@@ -69,12 +68,10 @@
         h1 {
             text-align: center;
             margin-top: 100px;
-            color: $LH-Blue;
             width: 200px;
         }
 
         p {
-            color: $LH-Black;
             text-align: center;
             width: 320px;
         }
@@ -85,7 +82,7 @@
             bottom: 0;
             position: absolute;
             overflow-x: hidden;
-            display: flex;
+
             justify-content: center;
             z-index: 1;
             height: 65vh;
@@ -153,15 +150,13 @@
     }
 
     .awards-achievements {
-        display: flex;
+
         align-items: center;
         justify-content: center;
-        background: $LH-Peach;
         height: 144px;
-        color: white;
 
         .aa-left, .aa-right, .aa-center {
-            display: flex;
+
             align-items: center;
             justify-content: space-around;
             width: 75%;
@@ -178,13 +173,13 @@
     }
 
     .health-first {
-        display: flex;
+
         flex-direction: column;
         background: white;
         padding: 25px;
 
         section {
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             margin-bottom: 0px;
@@ -195,20 +190,18 @@
             }
 
             div {
-                display: flex;
+
                 flex-direction: column;
                 align-items: center;
                 margin-bottom: 25px;
 
                 h2 {
-                    color: $LH-Black;
                     margin-top: 0;
                     margin-bottom: 0;
                     line-height: 2.5em;
                 }
 
                 p {
-                    color: black;
                     text-align: center;
                 }
             }
@@ -233,17 +226,15 @@
     }
 
     .consult-with-doctors {
-        display: flex;
+
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 200px;
-        background: $Light-Peach;
         padding: 0 50px;
 
         h4 {
             margin: 0;
-            color: $LH-Blue;
             line-height: 1.75em;
             margin-bottom: 20px;
             width: 280px;
@@ -252,18 +243,15 @@
     }
 
     .quality-care {
-        background: $LH-Peach;
         min-height: 100vh;
-        display: flex;
+
         flex-direction: column;
-        color: white;
         position: relative;
 
         h2 {
             text-align: center;
             width: 100%;
             margin: 60px 0;
-            font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
         }
 
@@ -274,11 +262,11 @@
         }
 
         .quality-care-areas {
-            display: flex;
+
             flex-direction: column;
 
             section {
-                display: flex;
+
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
@@ -306,7 +294,7 @@
                     margin-top: 20px;
                     margin-bottom: 35px;
                     width: calc(100% - 50px);
-                    display: flex;
+
                     padding: 0 25px;
 
                     img {
@@ -315,7 +303,7 @@
                 }
 
                 .brick-mobile {
-                    display: flex;
+
                 }
 
                 .brick-desktop {
@@ -342,7 +330,7 @@
 
     .hospitals-nearby {
         background: white;
-        display: flex;
+
         flex-direction: column;
         padding: 0 25px;
 
@@ -350,13 +338,10 @@
             text-align: center;
             width: 100%;
             margin: 60px 0;
-            font-family: 'SharpGrotesk', sans-serif;
-            font-weight: 400;
-            color: $LH-Blue;
         }
 
         .hospitals {
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
@@ -370,17 +355,15 @@
     }
 
     .more-about-us {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         padding: 0 25px;
 
         h2 {
-            color: $LH-Blue;
             margin: 60px 0;
             text-align: center;
             width: 100%;
-            font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
         }
 
@@ -389,14 +372,14 @@
         }
 
         .additional-blogs {
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 100%;
 
             .blog {
-                display: flex;
+
                 flex-direction: column;
                 margin-bottom: 50px;
                 width: 100%;
@@ -420,7 +403,7 @@
     }
 
     .testimonials {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         background: white;
@@ -428,7 +411,6 @@
         padding: 60px 0;
 
         h2 {
-            color: $LH-Blue;
             text-align: center;
             width: 100%;
             font-family: 'SharpGrotesk', sans-serif;
@@ -450,12 +432,11 @@
         }
 
         .testimonial {
-            display: flex;
+
             flex-direction: column;
             align-items: center;
             width: 100%;
             text-align: center;
-            color: $LH-Black;
 
             p {
                 font-style: italic;
