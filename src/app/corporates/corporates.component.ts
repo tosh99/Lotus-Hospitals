@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-corporates',
-  templateUrl: './corporates.component.html',
-  styleUrls: ['./styles/corporates.component.scss']
+    selector: 'app-corporates',
+    templateUrl: './corporates.component.html',
+    styleUrls: ['./styles/corporates.component.scss']
 })
 export class CorporatesComponent implements OnInit {
 
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        window.scrollTo(0, 0);
+    }
 
 }

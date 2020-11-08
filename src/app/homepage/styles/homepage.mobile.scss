@@ -303,7 +303,7 @@
                 }
 
                 .brick-mobile {
-
+                    display: flex;
                 }
 
                 .brick-desktop {
@@ -325,6 +325,11 @@
                 }
             }
 
+        }
+
+        .quality-care-areas:last-of-type {
+            justify-content: center;
+            margin-top: unset;
         }
     }
 
@@ -395,8 +400,7 @@
                 }
 
                 h4 {
-                    text-align: center;
-                    font-weight: 500;
+                    width: 100%;
                 }
             }
         }

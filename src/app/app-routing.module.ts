@@ -44,6 +44,10 @@ const routes: Routes = [
         loadChildren: () => import('./fertility/fertility.module').then(m => m.FertilityModule)
     },
     {
+        path: 'gynaecology',
+        loadChildren: () => import('./gynaecology/gynaecology.module').then(m => m.GynaecologyModule)
+    },
+    {
         path: 'about',
         loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
     },

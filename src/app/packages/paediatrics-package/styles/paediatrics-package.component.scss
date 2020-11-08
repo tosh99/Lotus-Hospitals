@@ -2,21 +2,20 @@
 
 .baby-packages {
     display: flex;
-    padding: 0 108px;
+    padding: 60px 108px;
+    padding-bottom: 120px;
     background: white;
     border-bottom: 0.1px solid $Blue-W;
     position: relative;
 
     img {
-
+        margin-right: 60px;
     }
 
     section {
         display: flex;
         flex-direction: column;
         margin-right: 35px;
-        padding: 60px 108px;
-        padding-bottom: 120px;
 
         h3 {
             color: $LH-Blue;

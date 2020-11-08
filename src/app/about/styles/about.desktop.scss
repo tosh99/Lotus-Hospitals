@@ -1,0 +1,47 @@
+@import "src/styles";
+
+.established {
+    display: flex;
+    justify-content: center;
+    padding: 110px 0;
+
+    .left, .right {
+        width: 599px;
+    }
+
+    .left {
+        margin-right: 12px;
+    }
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    padding-top: 30px;
+    background: $Blue-W;
+    color: $LH-Blue;
+
+}
+
+.promise-of-care {
+    background: $LightGray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    padding-top: 30px;
+
+    h2 {
+        color: $LH-Blue;
+    }
+
+    p {
+        max-width: 700px;
+        text-align: center;
+        font-style: italic;
+    }
+}

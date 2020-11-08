@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-paediatrics-package',
-  templateUrl: './paediatrics-package.component.html',
-  styleUrls: ['./styles/paediatrics-package.component.scss']
+    selector: 'app-paediatrics-package',
+    templateUrl: './paediatrics-package.component.html',
+    styleUrls: ['./styles/paediatrics-package.component.scss']
 })
 export class PaediatricsPackageComponent implements OnInit {
 
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        window.scrollTo(0, 0);
+    }
 
 }

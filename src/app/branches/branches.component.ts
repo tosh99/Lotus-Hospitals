@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-branches',
-  templateUrl: './branches.component.html',
-  styleUrls: ['./styles/branches.component.scss']
+    selector: 'app-branches',
+    templateUrl: './branches.component.html',
+    styleUrls: ['./styles/branches.component.scss']
 })
 export class BranchesComponent implements OnInit {
 
-  constructor() { }
+    constructor() {
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        window.scrollTo(0, 0);
+    }
 
 }

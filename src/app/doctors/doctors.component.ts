@@ -51,6 +51,7 @@ export class DoctorsComponent implements OnInit {
     }
 
     ngOnInit(): void {
+        window.scrollTo(0, 0);
         this.dpLocation.dropdown_placeholder = 'Location';
         this.dpSpecialty.dropdown_placeholder = 'Specialty';
     }
