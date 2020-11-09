@@ -6,6 +6,7 @@ import { CareersComponent } from './careers.component';
 import {HeaderModule} from "../shared/components/header/header.module";
 import {FooterModule} from "../shared/components/footer/footer.module";
 import {DropdownModule} from "../shared/components/dropdown/dropdown.module";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {DropdownModule} from "../shared/components/dropdown/dropdown.module";
         CareersRoutingModule,
         HeaderModule,
         FooterModule,
-        DropdownModule
+        DropdownModule,
+        FormsModule
     ]
 })
 export class CareersModule { }

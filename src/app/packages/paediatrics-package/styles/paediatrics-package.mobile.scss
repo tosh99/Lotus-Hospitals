@@ -8,5 +8,40 @@
 
     section {
         padding: 75px 0;
+        padding-bottom: 0;
+
+        button {
+            position: relative;
+            margin-top: 20px;
+            bottom: unset;
+        }
+    }
+}
+
+
+.faqs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: $Blue-W;
+    padding: 25px;
+
+
+    h2 {
+        color: $LH-Blue;
+        margin-bottom: 15px;
+    }
+
+    .faq {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        width: 100%;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
     }
 }

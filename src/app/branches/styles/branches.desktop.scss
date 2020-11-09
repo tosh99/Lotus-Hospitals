@@ -1,0 +1,34 @@
+@import "src/styles";
+
+.branch-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 108px;
+    background: white;
+
+    .branch {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+        width: 25%;
+
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: $LH-Blue;
+        }
+
+        h4 {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: $LH-Blue;
+        }
+    }
+}

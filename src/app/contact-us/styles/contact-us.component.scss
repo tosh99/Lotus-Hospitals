@@ -33,11 +33,12 @@
             .location {
                 display: flex;
                 flex-direction: column;
-                margin-right: 35px;
+                margin-right: 75px;
 
                 h3 {
                     color: $LH-Blue;
                     font-weight: 400;
+                    margin-bottom: 7px;
                 }
 
                 h4 {
@@ -46,7 +47,10 @@
                 }
 
                 button {
-                    background: $Blue-P;
+                    max-width: 184px;
+                    background: $Blue-B;
+                    display: flex;
+                    justify-content: space-between;
                 }
             }
         }

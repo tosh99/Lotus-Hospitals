@@ -1,45 +1,4 @@
-@import "src/styles";
-
-.baby-packages {
-    display: flex;
-    padding: 60px 108px;
-    padding-bottom: 120px;
-    background: white;
-    border-bottom: 0.1px solid $Blue-W;
-    position: relative;
-
-    img {
-        margin-right: 60px;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        margin-right: 35px;
-
-        h3 {
-            color: $LH-Blue;
-            line-height: unset;
-            margin-bottom: 0.8em;
-        }
-
-        h4 {
-            color: $LH-Peach;
-        }
-
-    }
-
-    button {
-        position: absolute;
-        bottom: 30px;
-        background: $Blue-P;
-    }
-}
-
-
-@media only screen and (min-width: 1280px) {
-    @import "paediatrics-package.desktop";
-}
+@import "paediatrics-package.desktop";
 
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
     @import "paediatrics-package.tablet";

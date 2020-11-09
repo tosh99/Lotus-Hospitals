@@ -10,7 +10,7 @@
     </div>
 
     <div class="baby-packages">
-        <img src="assets/icons/packages/packages.svg">
+        <img src="assets/icons/packages/pd_packages_1.svg">
         <section>
             <h3>WELL BABY SCREENING (BASIC) </h3>
             <h4>Birth to 1 year of age</h4>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="baby-packages">
-        <img src="assets/icons/packages/packages.svg">
+        <img src="assets/icons/packages/pd_packages_2.svg">
         <section>
             <h3>WELL BABY SCREENING (BASIC) </h3>
             <h4>Birth to 1 year of age</h4>
@@ -68,7 +68,18 @@
     </div>
 
     <div class="faqs">
+        <h2>FAQs</h2>
 
+        <div class="faq" *ngFor="let faq of faqlist">
+            <div (click)="faq.isvisible = !faq.isvisible">
+                <h4>{{faq.title}}</h4>
+                <img src="assets/icons/packages/faq_caret_up.svg" *ngIf="faq.isvisible" >
+                <img src="assets/icons/packages/faq_caret_down.svg" *ngIf="!faq.isvisible">
+            </div>
+            <p *ngIf="faq.isvisible">
+                {{faq.content}}
+            </p>
+        </div>
     </div>
 
     <div class="consult-with-doctors">

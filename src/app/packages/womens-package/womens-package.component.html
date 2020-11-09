@@ -66,8 +66,20 @@
     </div>
 
     <div class="faqs">
+        <h2>FAQs</h2>
 
+        <div class="faq" *ngFor="let faq of faqlist">
+            <div (click)="faq.isvisible = !faq.isvisible">
+                <h4>{{faq.title}}</h4>
+                <img src="assets/icons/packages/faq_caret_up.svg" *ngIf="faq.isvisible">
+                <img src="assets/icons/packages/faq_caret_down.svg" *ngIf="!faq.isvisible">
+            </div>
+            <p *ngIf="faq.isvisible">
+                {{faq.content}}
+            </p>
+        </div>
     </div>
+
 
     <div class="consult-with-doctors">
         <h4>Consult with our doctors</h4>

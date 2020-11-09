@@ -12,7 +12,7 @@
             </div>
             <div class="input-group">
                 <img src="assets/icons/careers/email.svg">
-                <input placeholder="Email*">
+                <input type="email" placeholder="Email*">
             </div>
             <div class="input-group">
                 <img src="assets/icons/careers/phone.svg">
@@ -29,7 +29,7 @@
 
             <div class="applying-for">
                 <header>Applying for</header>
-                <app-dropdown class="dropdown" [dropdownItems]="[1,2,3,4,5]" [dropdownConfig]="dpLocation"></app-dropdown>
+                <app-dropdown class="dropdown" [dropdownItems]="locations" [dropdownConfig]="dpLocation"></app-dropdown>
             </div>
 
             <div class="applying-for">

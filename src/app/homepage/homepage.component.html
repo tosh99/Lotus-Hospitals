@@ -39,23 +39,18 @@
             <img src="assets/icons/homepage/health-first.png">
             <div>
                 <h2>Your Health First</h2>
-                <p>The legacy of Lotus Hospitals is that of Dr. VSV Prasad and one that precedes Lotus Hospitals itself.
-                    Having studied medicine and completed his residency in the US and UK in _____ , Dr. Prasad returned
-                    to India to set up a paediatric care hospital of global standards. Providing quality care is
-                    paramount to us.
-                    All our hospitals are equipped with state-of-the-art equipment and technology to ensure
-                    the best treatment for you and your little ones.
+                <p>The legacy of Lotus Hospitals is that of Dr. V.S.V. Prasad and one that precedes Lotus Hospitals itself. Having studied medicine and completed his residency in the US and UK, Dr. Prasad returned to
+                    India to set up a paediatric care hospital of global standards. Providing quality care is paramount to us and came to realisation with the establishment of Lotus Hospitals in 2006. All our hospitals
+                    are equipped with state-of-the-art equipment and technology to ensure world-class treatment for you and your little ones.
                 </p>
             </div>
         </section>
         <section class="hf-2">
             <div>
                 <h2>Your Family Doctor</h2>
-                <p>Empathy being at the core of our values, we have always promised uncompromising attention from our
-                    doctors.
-                    Offering a wholesome value system to help reinstate the trust in medical professionals and their
-                    Hippocratic oath.
-                    We are here to provide quality care for all seeking any kind of medical attention
+                <p>Empathy being at the core of our values, we have always promised uncompromising attention from our doctors. We offer a wholesome value system for the best in children’s and maternity care in Hyderabad
+                    and Visakhapatnam. We are here to provide quality care for all seeking any kind of medical attention concerning pediatrics, neonatology, gynecology, maternity and fertility. Your family planning
+                    counsellors and your family’s comprehensive care provider.
                 </p>
             </div>
             <img src="assets/icons/homepage/familydoctor.png">
@@ -73,11 +68,12 @@
             <section class="paediatrics">
                 <img class="mainimage" src="assets/icons/homepage/paediatrics.svg">
                 <h4>Paediatrics</h4>
-                <p class="caption">We are here for you at all hours. Your trusted healthcare partner. </p>
+                <p class="caption">Pioneers in intensive care for children</p>
                 <div class="brick">
                     <img src="assets/icons/homepage/brick.svg">
                 </div>
             </section>
+
             <section class="fertility">
 
             </section>
@@ -85,11 +81,12 @@
             <section class="neonatology">
                 <img class="mainimage" src="assets/icons/homepage/neonatology.svg">
                 <h4>Neonatology</h4>
-                <p class="caption">We are here for you at all hours. Your trusted healthcare partner. </p>
+                <p class="caption">Quick recovery & rehabilitation of your newborn</p>
                 <div class="brick">
                     <img src="assets/icons/homepage/brick.svg">
                 </div>
             </section>
+
             <section class="maternity">
 
             </section>
@@ -97,7 +94,7 @@
             <section class="gynaecology">
                 <img class="mainimage" src="assets/icons/homepage/gynaecology.svg">
                 <h4>Gynaecology</h4>
-                <p class="caption">We are here for you at all hours. Your trusted healthcare partner. </p>
+                <p class="caption">Life comes a full circle at Lotus Hospitals</p>
                 <div class="brick">
                     <img src="assets/icons/homepage/brick.svg">
                 </div>
@@ -114,7 +111,7 @@
                 <div class="brick brick-mobile">
                     <img src="assets/icons/homepage/brick.svg">
                 </div>
-                <p class="caption">We are here for you at all hours. Your trusted healthcare partner. </p>
+                <p class="caption">Baby steps towards having your baby</p>
             </section>
             <section class="neonatology">
 
@@ -127,7 +124,7 @@
                 <div class="brick brick-mobile">
                     <img src="assets/icons/homepage/brick.svg">
                 </div>
-                <p class="caption">We are here for you at all hours. Your trusted healthcare partner. </p>
+                <p class="caption">There are options for everyone</p>
             </section>
             <section class="gynaecology">
 
@@ -195,14 +192,44 @@
 
     <div class="testimonials">
         <h2>Testimonials</h2>
-        <img class="back-icon" src="assets/icons/homepage/back.svg">
-        <div class="testimonial">
-            <p class="quotes">Great experience from this hospital, very helpful pediatric doctors and staff. Their
-                patience and
-                dedication helped my son recover quickly without any complications.</p>
-            <h4>Rayees Ahmed</h4>
+        <img class="back-icon" src="assets/icons/homepage/back.svg" (click)="plusSlides(1)">
+        <img class="forward-icon" src="assets/icons/homepage/forward.svg" (click)="plusSlides(-1)">
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="testimonial">
+                    <p class="quotes">Great experience from this hospital, very helpful pediatric doctors and staff. Their
+                        patience and
+                        dedication helped my son recover quickly without any complications.</p>
+                    <h4>Rayees Ahmed</h4>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="testimonial">
+                    <p class="quotes">Great experience from this hospital, very helpful pediatric doctors and staff. Their
+                        patience and
+                        dedication helped my son recover quickly without any complications.</p>
+                    <h4>B Ahmed</h4>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="testimonial">
+                    <p class="quotes">Great experience from this hospital, very helpful pediatric doctors and staff. Their
+                        patience and
+                        dedication helped my son recover quickly without any complications.</p>
+                    <h4>Rayees A</h4>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <img class="forward-icon" src="assets/icons/homepage/forward.svg">
     </div>
 
 </div>

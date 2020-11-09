@@ -7,6 +7,7 @@ import {DropdownConfigModel} from "../shared/components/dropdown/shared/models/d
     styleUrls: ['./styles/careers.component.scss']
 })
 export class CareersComponent implements OnInit {
+    locations = ['Lakdikapul', 'Kukatpally', 'L B Nagar', 'Vishakapatnam'];
     dpLocation = new DropdownConfigModel();
 
     constructor() {

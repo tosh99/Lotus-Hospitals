@@ -6,11 +6,59 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['./styles/homepage.component.scss']
 })
 export class HomepageComponent implements OnInit {
+    slideIndex = 1;
+    stopAnimation = false;
+
     constructor() {
     }
 
     ngOnInit(): void {
         window.scrollTo(0, 0);
+        this.showSlides();
+    }
+
+    // Next/previous controls
+    plusSlides(n) {
+        this.slideIndex += n;
+        this.stopAnimation = true;
+        this.showSlides();
+    }
+
+    // Thumbnail image controls
+    // currentSlide(n) {
+    //     this.slideIndex = n;
+    //     this.stopAnimation = true;
+    //     this.showSlides(this.slideIndex = n);
+    // }
+
+
+    showSlides(): void {
+        let i;
+        const slides = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
+        console.log(slides);
+
+        if (!this.stopAnimation) {
+            this.slideIndex += 1;
+        }
+
+        if (this.slideIndex > slides.length || this.slideIndex === 0) {
+            this.slideIndex = 1;
+        }
+        console.log(this.slideIndex);
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[this.slideIndex - 1].style.display = "block";
+
+        if (!this.stopAnimation) {
+
+
+            setTimeout(() => {
+                this.showSlides();
+            }, 2000); // Change image every 2 seconds
+        }
+
     }
 
 }
