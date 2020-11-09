@@ -44,8 +44,9 @@ export class DoctorsComponent implements OnInit {
     dpLocation = new DropdownConfigModel();
     dpSpecialty = new DropdownConfigModel();
 
-    locations = [1, 2, 3, 43];
-    specialties = [];
+    locations = ['Lakdikapul', 'Kukatpally', 'L B Nagar', 'Vishakapatnam'];
+    specialties = ['Paediatrics', 'Gynaecology', 'Fertility', 'Maternity', 'Neonatology'];
+
 
     constructor() {
     }

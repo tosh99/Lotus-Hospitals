@@ -1,5 +1,14 @@
 @import "src/styles";
 
+.page {
+
+    .banner {
+        background: url("../../../assets/icons/about/bg_about.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .established {
     display: flex;
     justify-content: center;

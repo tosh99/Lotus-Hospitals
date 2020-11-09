@@ -10,26 +10,42 @@ $sec_font_family: serif;
     h2 {
         font-size: 2.5em;
         line-height: 3.5em;
+        font-family: "Work Sans", sans-serif;
     }
 
     h3 {
         font-size: 2em;
         line-height: 3em;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 500;
     }
 
     h4 {
-        font-size: 1.5em;
-        line-height: 2em;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 500;
     }
 
     p {
         font-size: 1em;
         line-height: 2em;
+        font-family: "Work Sans", sans-serif;
     }
 
     p.caption {
         font-size: 1em;
         line-height: 1.5em;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    header {
+        font-size: 1em;
+        line-height: 2em;
+    }
+
+    div {
+        font-family: "Work Sans", sans-serif;
     }
 }
 
@@ -43,29 +59,35 @@ $sec_font_family: serif;
     h2 {
         font-size: 2em;
         line-height: 3em;
+        font-family: "Work Sans", sans-serif;
     }
 
     h3 {
         font-size: 1.5em;
         line-height: 2em;
+        font-family: "Work Sans", sans-serif;
     }
 
     h4 {
         font-size: 1.2em;
         line-height: 1.5em;
         font-weight: 500;
+        font-family: "Work Sans", sans-serif;
     }
 
     p {
         font-size: 1em;
         line-height: 1.3em;
         font-weight: 400;
+        font-family: "Work Sans", sans-serif;
     }
 
     p.caption {
         font-size: 1em;
         line-height: 1.3em;
         font-weight: 400;
+        font-family: "Work Sans", sans-serif;
+
     }
 }
 
@@ -73,37 +95,43 @@ $sec_font_family: serif;
     h1 {
         font-size: 2.5em;
         line-height: 1em;
-        font-family: 'SharpGrotesk', "Work Sans", serif;
+        font-family: 'SharpGrotesk', "Work Sans", sans-serif;
     }
 
     h2 {
         font-size: 2em;
         line-height: 2em;
+        font-family: "Work Sans", sans-serif;
     }
 
     h3 {
         font-size: 1.75em;
         line-height: 2em;
+        font-family: "Work Sans", sans-serif;
     }
 
     h4 {
         font-size: 1.5em;
         line-height: 1.5em;
+        font-family: "Work Sans", sans-serif;
     }
 
     p {
         font-size: 1em;
         line-height: 1.75em;
+        font-family: "Work Sans", sans-serif;
     }
 
     p.caption {
         font-size: 1em;
         line-height: 1.5em;
+        font-family: "Work Sans", sans-serif;
     }
 
     p.quotes {
         font-size: 1.25em;
         line-height: 1.35em;
+        font-family: "Work Sans", sans-serif;
     }
 }
 

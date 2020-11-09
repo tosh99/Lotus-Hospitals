@@ -29,14 +29,17 @@
 
             <div class="applying-for">
                 <header>Applying for</header>
+                <app-dropdown class="dropdown" [dropdownItems]="[1,2,3,4,5]" [dropdownConfig]="dpLocation"></app-dropdown>
             </div>
 
             <div class="applying-for">
                 <header>Upload Resume</header>
+                <button>Upload</button>
             </div>
 
-
-            <button>Send</button>
+            <div class="button-container">
+                <button>Send</button>
+            </div>
 
         </div>
         <div class="banner-right">

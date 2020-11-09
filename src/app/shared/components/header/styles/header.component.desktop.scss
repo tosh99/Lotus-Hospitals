@@ -13,7 +13,7 @@
     position: relative;
     z-index: 1;
 
-    header {
+    p {
         margin-left: 30px;
         cursor: pointer;
         transition: 0.5s;
@@ -23,7 +23,7 @@
         border-bottom: 4px solid $Blue-W;
     }
 
-    header:hover {
+    p:hover {
         color: $LH-Black;
         transition: 0.5s;
     }
@@ -57,7 +57,7 @@
         align-items: center;
         justify-content: flex-end;
 
-        header {
+        p {
             margin-left: 33px;
             cursor: pointer;
             transition: 0.5s;
@@ -68,7 +68,7 @@
         }
 
 
-        header:hover {
+        p:hover {
             transition: 0.5s;
             color: $LH-Blue;
         }

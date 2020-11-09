@@ -1,24 +1,32 @@
 <div class="app-top-header">
-    <header (click)="navigateTo('careers')" [ngClass]="{'selected':router.url.includes('careers')}">Careers</header>
-    <header (click)="navigateTo('corporates')" [ngClass]="{'selected':router.url.includes('corporates')}">Corporates</header>
-    <header (click)="navigateTo('education')" [ngClass]="{'selected':router.url.includes('education')}">Education</header>
+    <p (click)="navigateTo('careers')" [ngClass]="{'selected':router.url.includes('careers')}">Careers</p>
+    <p (click)="navigateTo('corporates')" [ngClass]="{'selected':router.url.includes('corporates')}">Corporates</p>
+    <p (click)="navigateTo('education')" [ngClass]="{'selected':router.url.includes('education')}">Education</p>
 </div>
 <div class="app-bottom-header">
     <div class="abh-left">
         <img src="assets/icons/logo/logo.svg" (click)="navigateTo('')">
     </div>
     <div class="abh-right">
-        <header>Services</header>
-        <header (click)="navigateTo('branches')" [ngClass]="{'selected':router.url.includes('branches')}">Branches</header>
-        <header (click)="navigateTo('packages')" [ngClass]="{'selected':router.url.includes('packages')}">Health Packages</header>
-        <header (click)="navigateTo('doctors')" [ngClass]="{'selected':router.url.includes('doctors')}">Our Doctors</header>
-        <header (click)="navigateTo('about')" [ngClass]="{'selected':router.url.includes('about')}">About</header>
-        <header>Blog</header>
-        <header (click)="navigateTo('contactus')" [ngClass]="{'selected':router.url.includes('contactus')}">Contact</header>
+        <div class="dropdown">
+            <p>Services</p>
+            <div class="dropdown-content">
+                <header (click)="navigateTo('paediatrics')">Paediatrics</header>
+                <header (click)="navigateTo('gynaecology')">Gynaecology</header>
+                <header (click)="navigateTo('fertility')">Fertility</header>
+                <header (click)="navigateTo('maternity')">Maternity</header>
+                <header (click)="navigateTo('neonatology')">Neonatology</header>
+            </div>
+        </div>
+        <p (click)="navigateTo('branches')" [ngClass]="{'selected':router.url.includes('branches')}">Branches</p>
+        <p (click)="navigateTo('packages')" [ngClass]="{'selected':router.url.includes('packages')}">Health Packages</p>
+        <p (click)="navigateTo('doctors')" [ngClass]="{'selected':router.url.includes('doctors')}">Our Doctors</p>
+        <p (click)="navigateTo('about')" [ngClass]="{'selected':router.url.includes('about')}">About</p>
+        <!--        <p>Blog</p>-->
+        <p (click)="navigateTo('contactus')" [ngClass]="{'selected':router.url.includes('contactus')}">Contact</p>
 
         <img src="assets/icons/homepage/menu.svg" (click)="toggleModal()">
     </div>
-
 </div>
 
 
@@ -37,7 +45,7 @@
     <div class="column">
         <h4>Links</h4>
         <p class="captions" (click)="navigateTo('packages')">Our Packages</p>
-        <p class="captions">Blog</p>
+        <!--        <p class="captions">Blog</p>-->
         <p class="captions" (click)="navigateTo('about')">About</p>
         <p class="captions" (click)="navigateTo('doctors')">Doctors</p>
     </div>

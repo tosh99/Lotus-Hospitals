@@ -1,52 +1,25 @@
 @import "src/styles";
 
-.education {
+.page {
+
+    .banner {
+        background: url("../../../assets/icons/education/bg_education.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.for-doctors {
+    background: white;
+    padding: 80px 108px;
     display: flex;
     flex-direction: column;
 
-    .banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: calc(100vh - 48px - 80px);
-        background: $LightGray;
-
-        h1, p {
-            width: 495px;
-            padding-left: 108px;
-        }
-
-        h1 {
-            margin: 0;
-            color: $LH-Blue;
-        }
+    h2 {
+        color: $LH-Peach;
     }
 
-    .for-doctors {
-        background: white;
-        padding: 80px 108px;
-        display: flex;
-        flex-direction: column;
-
-        h2 {
-            color: $LH-Peach;
-        }
-
-        .p-section {
-            margin-top: 1.5em;
-        }
-    }
-
-    .consult-with-doctors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 128px;
-        background: $Light-Peach;
-
-        h4 {
-            margin-right: 70px;
-            color: $LH-Blue;
-        }
+    .p-section {
+        margin-top: 1.5em;
     }
 }

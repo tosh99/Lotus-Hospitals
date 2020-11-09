@@ -1,28 +1,5 @@
 @import "src/styles";
 
-.doctors {
-    display: flex;
-    flex-direction: column;
-
-    .banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: calc(100vh - 48px - 80px);
-        background: $Light-Peach;
-
-        h1, p {
-            width: 495px;
-            padding-left: 108px;
-        }
-
-        h1 {
-            color: $LH-Blue;
-            line-height: 1.35em;
-            margin-bottom: 1.1em;
-        }
-    }
-
     .meet-our-team {
         display: flex;
         flex-direction: column;
@@ -99,17 +76,3 @@
         }
     }
 
-    .consult-with-doctors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 128px;
-        background: $Light-Peach;
-
-        h4 {
-            margin-right: 70px;
-            color: $LH-Blue;
-        }
-    }
-
-}
