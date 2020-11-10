@@ -63,6 +63,8 @@
     .doctors-list {
         display: flex;
         flex-wrap: wrap;
+        max-height: calc(100vh - 230px);
+        overflow-y: auto;
 
         .doctor {
             display: flex;
@@ -71,6 +73,10 @@
             margin-right: 25px;
             margin-bottom: 65px;
             text-align: center;
+
+            img {
+                margin-bottom: 20px;
+            }
 
             .quali {
                 margin-top: 15px;

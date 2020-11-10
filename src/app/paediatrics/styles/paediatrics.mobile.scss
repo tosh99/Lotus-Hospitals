@@ -91,11 +91,19 @@
     .services {
         display: flex;
         flex-direction: column;
-        padding: 100px 25px;
+        padding: 35px 25px;
 
         img {
             border-radius: 16px;
             width: 100%;
+        }
+
+        .img-desktop {
+            display: none;
+        }
+
+        .img-mobile {
+            display: flex;
         }
 
 
@@ -107,8 +115,11 @@
             h2 {
                 color: $LH-Blue;
                 margin-top: 0.7em;
-                margin-bottom: 0.7em;
-                line-height: 1.2em;
+                margin-bottom: 1em;
+            }
+
+            img {
+                margin-bottom: 25px;
             }
 
 
@@ -131,6 +142,10 @@
                 line-height: 1.4em;
                 margin-bottom: 1em;
             }
+
+            .blank{
+                display: none;
+            }
         }
 
         .column:last-of-type {
@@ -142,7 +157,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        padding: 100px 25px;
+        padding: 35px 25px;
 
         h2 {
             color: $LH-Blue;

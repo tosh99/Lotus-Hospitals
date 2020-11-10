@@ -4,27 +4,27 @@
 
     <div class="banner">
         <h1>Pediatric Health Packages</h1>
-        <p>The legacy of Lotus Hospitals is that of Dr. V.S.V. Prasad and one that precedes Lotus Hospitals itself.
-            Having studied medicine and completed his residency in All India Institute of Medical Sciences (A.I.I.M.S) in 1991,
-            Dr. Prasad further specialised in the US and UK to acquire his Fellowship in Pediatric Critical Care & Neonatology.</p>
+        <p>We know that when it comes to the health of your child, there are no compromises. We are on the same page as you. At Lotus Hospitals we have designed complete health check-up packages that ensure early
+            detection, prevention and prompt treatment of your child. We recommend undergoing regular master check-ups once a year so that your child is healthy and happy.
+        </p>
     </div>
 
     <div class="baby-packages">
         <img src="assets/icons/packages/pd_packages_1.svg">
         <section>
-            <h3>WELL BABY SCREENING (BASIC) </h3>
+            <h3>Well Baby Screening (Basic)</h3>
             <h4>Birth to 1 year of age</h4>
             <p>This Package Includes: </p>
-            <p>• Growth & Developmental Assessment and Counselling by Consultant Pediatrician </p>
-            <p>• Nutritionist / Dietician Consultation </p>
-            <p>• Routine Blood tests (CBP, AST, ALT, Na/K/Ca/P/ALP, S.Creat, RBS) </p>
-            <p>• Routine Urine Analysis </p>
-            <p>• Routine Stool Analysis </p>
+            <p>• Growth & Developmental Assessment and Counselling </p>
+            <p>• Nutritionist / Dietician Consultation</p>
+            <p>• Routine Blood Tests (CBP, AST, ALT, Na/K/Ca/P/ALP, S.Creat & RBS)</p>
+            <p>• Routine Urine Analysis</p>
+            <p>• Routine Stool Analysis</p>
             <button>Book Now</button>
         </section>
 
         <section>
-            <h3>WELL BABY SCREENING (EXTENSIVE) </h3>
+            <h3> Well Baby Screening (Extensive)</h3>
             <h4>Birth to 1 year of age</h4>
             <p>This Package Includes: </p>
             <p>• Growth, Developmental Assessment and Counselling by Consultant Pediatrician </p>
@@ -41,20 +41,20 @@
     <div class="baby-packages">
         <img src="assets/icons/packages/pd_packages_2.svg">
         <section>
-            <h3>WELL BABY SCREENING (BASIC) </h3>
-            <h4>Birth to 1 year of age</h4>
+            <h3>Well Child Screening (Basic)</h3>
+            <h4>1 year to 16 years of age</h4>
             <p>This Package Includes: </p>
-            <p>• Growth & Developmental Assessment and Counselling by Consultant Pediatrician </p>
-            <p>• Nutritionist / Dietician Consultation </p>
-            <p>• Routine Blood tests (CBP, AST, ALT, Na/K/Ca/P/ALP, S.Creat, RBS) </p>
-            <p>• Routine Urine Analysis </p>
-            <p>• Routine Stool Analysis </p>
+            <p>• Growth & Developmental Assessment and Counselling </p>
+            <p>• Nutritionist / Dietician Consultation</p>
+            <p>• Routine Blood Tests (CBP, AST, ALT, Na/K/Ca/P/ALP, S.Creat & RBS)</p>
+            <p>• Routine Urine Analysis</p>
+            <p>• Routine Stool Analysis</p>
             <button>Book Now</button>
         </section>
 
         <section>
-            <h3>WELL BABY SCREENING (EXTENSIVE) </h3>
-            <h4>Birth to 1 year of age</h4>
+            <h3>Well Child Screening (Extensive)</h3>
+            <h4>1 year to 16 years of age</h4>
             <p>This Package Includes: </p>
             <p>• Growth, Developmental Assessment and Counselling by Consultant Pediatrician </p>
             <p>• Pediatric Surgeon Consultation </p>
@@ -73,7 +73,7 @@
         <div class="faq" *ngFor="let faq of faqlist">
             <div (click)="faq.isvisible = !faq.isvisible">
                 <h4>{{faq.title}}</h4>
-                <img src="assets/icons/packages/faq_caret_up.svg" *ngIf="faq.isvisible" >
+                <img src="assets/icons/packages/faq_caret_up.svg" *ngIf="faq.isvisible">
                 <img src="assets/icons/packages/faq_caret_down.svg" *ngIf="!faq.isvisible">
             </div>
             <p *ngIf="faq.isvisible">

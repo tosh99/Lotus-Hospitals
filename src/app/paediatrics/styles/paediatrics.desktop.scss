@@ -71,7 +71,16 @@
 
         img {
             height: 280px;
+            width: 496px;
             border-radius: 16px;
+        }
+
+        .img-desktop {
+            display: flex;
+        }
+
+        .img-mobile {
+            display: none;
         }
 
 
@@ -156,6 +165,8 @@
 
         img {
             border-radius: 16px;
+            height: 280px;
+            width: 496px;
         }
 
         .package-mobile {

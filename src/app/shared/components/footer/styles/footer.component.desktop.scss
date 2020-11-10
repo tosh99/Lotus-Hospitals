@@ -38,6 +38,12 @@
                     color: white;
                     line-height: 1.5em;
                     cursor: pointer;
+                    transition: 0.4s;
+                }
+
+                p:hover {
+                    color: $LH-Peach;
+                    transition: 0.4s;
                 }
             }
 

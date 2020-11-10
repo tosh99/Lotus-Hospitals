@@ -8,18 +8,33 @@ import {Component, OnInit} from '@angular/core';
 export class WomensPackageComponent implements OnInit {
     faqlist = [
         {
-            title: 'Early Detection of Anemia',
-            content: 'Anemia  is  very  common  in  growing  children  and  the  leading  cause  of  growth  failure  and  poor  intellectual  performance  in  school  going  children.',
+            title: 'Why do women need to get a master healthcare check-up done?\n',
+            content: 'A health check-up is an effective process that helps in identifying early signs of health issues and helps in maintaining a healthy life. A master health check-up is done to identify these issues, and advise diagnosis and cure at a very early stage. \n',
             isvisible: false
         },
         {
-            title: 'Early Detection of Anemia',
-            content: 'Anemia  is  very  common  in  growing  children  and  the  leading  cause  of  growth  failure  and  poor  intellectual  performance  in  school  going  children.',
+            title: 'What checkup is recommended based on age?',
+            content: 'A master health check-up is recommended between the ages of  25 - 35 years. Above 35 years an executive health check-up is recommended, twice a year.',
             isvisible: false
         },
         {
-            title: 'Early Detection of Anemia',
-            content: 'Anemia  is  very  common  in  growing  children  and  the  leading  cause  of  growth  failure  and  poor  intellectual  performance  in  school  going  children.',
+            title: 'How often should I get a health check-up done?',
+            content: 'Even if you feel fine, a master / executive health check-up is recommended once a year or as per your doctor’s advice. These health check-ups help you prevent future health problems.',
+            isvisible: false
+        },
+        {
+            title: 'What should an annual health check-up package for women include?',
+            content: 'A typical healthcare package for women would include Ultrasound, PaP Smear, Clinical Breast Examination and other routine blood investigations.\n Look at the Annual Health Check-up Package at Lotus Hospitals',
+            isvisible: false
+        },
+        {
+            title: 'What is the protocol after the test results are out?',
+            content: 'As soon as your results are ready, meet with your gynecologist and consult with them  or you can set up an appointment with one of our esteemed gynecologists at Lotus Hospitals through the website or call at the given branch number on the Contact page.',
+            isvisible: false
+        },
+        {
+            title: 'How do I get the healthcare check-up done?',
+            content: 'Please contact our call centre at 040 - 4040 4455',
             isvisible: false
         },
 

@@ -15,11 +15,15 @@
             margin-right: 128px;
             background: white;
             padding: 60px 80px;
-            padding-top: 20px;
             display: flex;
             flex-direction: column;
             border-radius: 20px;
             min-width: 332px;
+
+            h3 {
+                margin-bottom: 30px;
+            }
+
 
             .input-group {
                 display: flex;
@@ -74,7 +78,6 @@
         .banner-right {
             h1, p {
                 width: 495px;
-                padding-left: 108px;
             }
 
             h1 {
@@ -87,6 +90,14 @@
                 color: $LH-Black;
                 margin-bottom: 25px;
             }
+
+            h3 {
+                color: $LH-Blue;
+            }
+
+            .pos {
+                margin-bottom: 5px;
+            }
         }
 
 
@@ -98,10 +109,16 @@
         align-items: center;
         height: 128px;
         background: $Light-Peach;
+        padding: 50px 0;
 
-        h4 {
+        p {
             margin-right: 70px;
-            color: $LH-Blue;
+            max-width: 600px;
+            text-align: center;
+
+            span {
+                color: $LH-Blue;
+            }
         }
     }
 }

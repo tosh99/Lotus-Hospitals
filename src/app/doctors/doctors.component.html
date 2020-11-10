@@ -3,14 +3,10 @@
 <div class="page">
 
     <div class="banner">
-        <h1>The Lotus team
-            of Specialists</h1>
-        <p>India’s Finest 250 bedded Women and Children’s Hospital requires the following personnel immediately:
-            We are recruiting Resident doctors who can join immediately. Qualification – MBBS, Experience – 0 to 5
-            Years,
-            Shift – Rotational Shift. Interested Candidates may email resumes to: hr@lotushospitals.in or contact
-            between 9 am to 6 pm at 5th
-            Floor Administration.</p>
+        <h1>The Lotus team of Specialists</h1>
+        <p>Under the aegis of Dr. V.S.V. Prasad, Lotus Hospitals has garnered a lot of respect in the field of medicine and has a
+            team of experts and specialists that are some of the best in the field
+        </p>
     </div>
 
 
@@ -22,8 +18,8 @@
                     <input placeholder="Search" [(ngModel)]="searchText" (ngModelChange)="search()">
                     <img src="assets/icons/doctors/search.svg">
                 </div>
-                <app-dropdown class="dropdown" [dropdownItems]="locations" [dropdownConfig]="dpLocation"></app-dropdown>
-                <app-dropdown class="dropdown" [dropdownItems]="specialties" [dropdownConfig]="dpSpecialty"></app-dropdown>
+                <app-dropdown class="dropdown" [dropdownItems]="locations" [dropdownConfig]="dpLocation" [(dropdownSelectedItem)]="selectedLocation" (dropdownSelectedItemChange)="search()"></app-dropdown>
+                <app-dropdown class="dropdown" [dropdownItems]="specialties" [dropdownConfig]="dpSpecialty" [(dropdownSelectedItem)]="selectedSpecialty" (dropdownSelectedItemChange)="search()" ></app-dropdown>
             </div>
         </div>
 
@@ -33,7 +29,7 @@
                     <img src="assets/icons/doctors/doctor.svg">
                     <h4>{{doctor.doctor_name}}</h4>
                     <p class="caption quali">{{doctor.qualifications}}</p>
-                    <p class="caption position">{{doctor.position}}</p>
+                    <p class="caption position">{{doctor.specialty}}</p>
                 </div>
             </ng-container>
         </div>

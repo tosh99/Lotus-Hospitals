@@ -49,10 +49,12 @@
     align-items: center;
     flex-direction: column;
     background: $Blue-W;
+    padding-top: 60px;
     padding-bottom: 100px;
 
     h2 {
         color: $LH-Blue;
+        margin-bottom: 35px;
     }
 
     .faq {
@@ -60,10 +62,12 @@
         flex-direction: column;
         margin-bottom: 25px;
         width: 1020px;
+        cursor: pointer;
 
         div {
             display: flex;
             justify-content: space-between;
+
         }
 
     }

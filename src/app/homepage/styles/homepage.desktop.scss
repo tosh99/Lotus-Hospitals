@@ -72,8 +72,6 @@
             margin-top: 100px;
             margin-bottom: 60px;
             color: $LH-Blue;
-            position: relative;
-            z-index: 1;
         }
 
         p {
@@ -320,11 +318,13 @@
         display: flex;
         flex-direction: column;
         padding: 0 108px;
+        border-bottom: 1px solid #efefef;
 
         h2 {
             text-align: center;
             width: 100%;
             margin-top: 60px;
+            margin-bottom: 60px;
             font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
             color: $LH-Blue;
@@ -441,7 +441,7 @@
             width: 100%;
             font-family: 'SharpGrotesk', sans-serif;
             font-weight: 400;
-            margin-bottom: 0;
+            margin-bottom: 20px;
             margin-top: 0;
         }
 
@@ -469,6 +469,7 @@
             p {
                 font-style: italic;
                 max-width: 1016px;
+                margin-bottom: 20px;
             }
         }
     }

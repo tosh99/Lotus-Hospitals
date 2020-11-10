@@ -18,45 +18,36 @@ export class HomepageComponent implements OnInit {
     }
 
     // Next/previous controls
-    plusSlides(n) {
+    plusSlides(n): void {
         this.slideIndex += n;
         this.stopAnimation = true;
         this.showSlides();
     }
 
-    // Thumbnail image controls
-    // currentSlide(n) {
-    //     this.slideIndex = n;
-    //     this.stopAnimation = true;
-    //     this.showSlides(this.slideIndex = n);
-    // }
-
 
     showSlides(): void {
         let i;
-        const slides = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
-        console.log(slides);
+        const slides = document.getElementsByClassName('mySlides') as HTMLCollectionOf<HTMLElement>;
 
         if (!this.stopAnimation) {
             this.slideIndex += 1;
         }
 
-        if (this.slideIndex > slides.length || this.slideIndex === 0) {
+        if (this.slideIndex > slides.length) {
             this.slideIndex = 1;
+        } else if (this.slideIndex === 0) {
+            this.slideIndex = slides.length;
         }
-        console.log(this.slideIndex);
 
         for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
+            slides[i].style.display = 'none';
         }
-        slides[this.slideIndex - 1].style.display = "block";
+        slides[this.slideIndex - 1].style.display = 'block';
 
         if (!this.stopAnimation) {
-
-
             setTimeout(() => {
                 this.showSlides();
-            }, 2000); // Change image every 2 seconds
+            }, 6000); // Change image every 2 seconds
         }
 
     }

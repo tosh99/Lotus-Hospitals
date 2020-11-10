@@ -1,0 +1,301 @@
+{
+    "s": [
+        {
+            doctor_name: "Dr. B MURALI SANTHOSH",
+            qualifications: "MBBS, DNB (PED) , Fellowship in Neonatalogy",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. GANESH SANKU",
+            qualifications: "MBBS, MD (PED) Neonatal Perinatal medicine",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. B MURALI SANTHOSH",
+            qualifications: "MBBS, DNB (PED) , Fellowship in Neonatalogy",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. GANESH SANKU",
+            qualifications: "MBBS, MD (PED) Neonatal Perinatal medicine",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr.P. A.V. LAKSHMANA SAI",
+            qualifications: "MBBS, MD, FELLOW IN PED.EMERGENCY",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. SHRIKANTH. R",
+            qualifications: "MBBS, DNB (PED)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. VATSAVAI RAVI VARMA",
+            qualifications: "MBBS, DCH,",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. V. ANANTH",
+            qualifications: "MBBS, MD (PED) ,",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. PURNIMA KOLLI",
+            qualifications: "MBBS, DCH, DNB (PED)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. I. VANI",
+            qualifications: "MBBS, MD (OBG)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. RADHIKA TELUGU",
+            qualifications: "MBBS, DGO,",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. AVANTHI GUDIPUDI",
+            qualifications: "MBBS, DNB (OBG)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. SUGUNA DEEPTHI",
+            qualifications: "MBBS, DGO",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. N.V. VASUDHA",
+            qualifications: "MBBS, MD, DIP.IN RPM",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. SRUJAN YELLA",
+            qualifications: "MBBS, MS (OBG)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. K SUBBA RAJU",
+            qualifications: "MBBS, M.S (OBG)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. B SIRISHA RANI",
+            qualifications: "MBBS, DGO",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. K. SWAMY",
+            qualifications: "MBBS, MD (Radiology)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR RAGHU TEJA",
+            qualifications: "MBBS, MD (Radiology)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR S ARUNA",
+            qualifications: "MBBS, MD (Radiology)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "Dr. KARRI ARUNA",
+            qualifications: "MBBS, MD (Pathology)",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR SURYA NARAYANA",
+            qualifications: "MBBS, MD",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR.R TRIVENI REDDY",
+            qualifications: "MBBS, MD",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR S VIJAY GANESH",
+            qualifications: "MS,MCH,FMAS,FIAG",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR G RAJENDRA PRASAD",
+            qualifications: "MS,MCH",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR V UMA MAHESWARA RAO",
+            qualifications: "MBBS,MS",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        },
+        {
+            doctor_name: "DR P PAVAN KUMAR",
+            qualifications: "MPT",
+            isdisplayed: true,
+            location: [
+                "Vishakapatnam"
+            ],
+            specialty: [
+                "ABC"
+            ]
+        }
+    ]
+}

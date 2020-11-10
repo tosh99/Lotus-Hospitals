@@ -14,4 +14,8 @@ export class ContactUsComponent implements OnInit {
         window.scrollTo(0, 0);
     }
 
+    viewOnMap(url): void {
+        window.open(url);
+    }
+
 }

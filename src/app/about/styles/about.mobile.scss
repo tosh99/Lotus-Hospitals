@@ -2,19 +2,33 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 35px 20px;
+
+    h2 {
+        text-align: center;
+    }
 
     .left, .right {
         width: 100%;
 
         img {
             width: 100%;
-            margin: 20px 0;
         }
     }
 
     .left {
         margin-right: 12px;
+    }
+
+    .right {
+        .right-img {
+            margin: 0;
+
+            img {
+                width: 75%;
+                margin: 45px 0;
+            }
+        }
     }
 }
 
@@ -22,14 +36,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 35px 25px;
 
     h2 {
         text-align: center;
-        line-height: 1.4em;
+        margin-bottom: 30px;
     }
 
     img {
-        width: 90%;
+        width: 100%;
     }
 }
 

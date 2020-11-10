@@ -20,7 +20,7 @@
         </div>
         <p (click)="navigateTo('branches')" [ngClass]="{'selected':router.url.includes('branches')}">Branches</p>
         <div class="dropdown">
-            <p>Health Packages</p>
+            <p [ngClass]="{'selected':router.url.includes('packages')}">Health Packages</p>
             <div class="dropdown-content">
                 <header (click)="navigateTo('packages')">Pediatric Health Packages</header>
                 <header (click)="navigateTo('packages/women')">Women’s Health Packages</header>
