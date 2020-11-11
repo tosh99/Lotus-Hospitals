@@ -5,7 +5,7 @@
     flex-direction: column;
 
     .banner {
-
+        background: $Blue-W;
     }
 
     .secondary-banner {
@@ -29,7 +29,6 @@
             height: 136px;
         }
     }
-
 
     .services {
         display: flex;
@@ -59,6 +58,11 @@
                 color: $LH-Blue;
                 margin-top: 0.7em;
                 margin-bottom: 1em;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
             }
 
             img {
@@ -68,7 +72,6 @@
 
         }
     }
-
 
     .service-list {
         display: flex;
@@ -86,7 +89,7 @@
                 margin-bottom: 1em;
             }
 
-            .blank{
+            .blank {
                 display: none;
             }
         }
@@ -104,18 +107,18 @@
 
         h2 {
             color: $LH-Blue;
-            margin-top: -12px;
-            margin-bottom: 1.3em;
-            line-height: 1.4em;
+            margin-bottom: 35px;
+            text-align: center;
         }
-
 
         div {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
             p {
-                margin-bottom: 60px;
+                text-align: center;
+                margin-bottom: 35px;
             }
 
             button {
@@ -138,7 +141,6 @@
         }
     }
 
-
     .consult-with-doctors {
         display: flex;
         flex-direction: column;
@@ -155,6 +157,52 @@
             margin-bottom: 20px;
             width: 280px;
             text-align: center;
+        }
+    }
+
+    //Ped Specific
+    .ped-banner {
+        img {
+            position: relative;
+            animation: none;
+        }
+
+        .child {
+            display: none;
+        }
+
+        .table {
+            display: none;
+        }
+
+        .toy-1 {
+            display: none;
+
+        }
+
+        .toy-2 {
+            display: none;
+
+        }
+
+        .love {
+            display: none;
+
+        }
+
+        .letter-1 {
+            display: none;
+
+        }
+
+        .letter-2 {
+            display: none;
+
+        }
+
+        .set {
+            width: 60%;
+            display: flex;
         }
     }
 }

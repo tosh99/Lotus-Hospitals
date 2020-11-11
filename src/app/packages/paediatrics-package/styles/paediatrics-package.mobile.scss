@@ -5,10 +5,15 @@
     flex-direction: column;
     padding: 25px;
 
+    .img-container {
+    }
+
 
     section {
-        padding: 75px 0;
+        padding: 25px 0;
         padding-bottom: 0;
+        width: 100%;
+        margin-left: 0;
 
         button {
             position: relative;

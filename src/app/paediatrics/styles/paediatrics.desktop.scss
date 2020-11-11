@@ -198,6 +198,11 @@
             button {
                 background: $Blue-B;
                 max-width: 272px;
+                color: white;
+
+                img {
+                    max-width: 20px;
+                }
             }
         }
 
@@ -279,6 +284,10 @@
             bottom: 127px;
             right: 325px;
             animation: 2s ease-out 0s 1 letter-2;
+        }
+
+        .set {
+            display: none;
         }
     }
 }

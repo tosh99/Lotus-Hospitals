@@ -1,45 +1,17 @@
 @import "src/styles";
 
-.global-services {
+.page {
     display: flex;
     flex-direction: column;
 
     .banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: calc(100vh - 48px - 80px);
         background: $Blue-W;
 
-        h1, p {
-            max-width: 340px;
-        }
-
-        h1 {
-            margin: 0;
-            color: $LH-Blue;
-            line-height: 1em;
-            margin-bottom: 1em;
-        }
-
-        .banner-left, .banner-right {
-            height: 300px;
-        }
-
-        .banner-left {
-            margin-right: 25px;
-        }
-
-        .banner-right {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-        }
-
-        .banner-mobile {
+        img {
             display: none;
         }
     }
+
 
     .secondary-banner {
         display: flex;
@@ -63,86 +35,108 @@
 
     .services {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 50px;
+        justify-content: space-between;
+        padding: 50px;
 
-        h2 {
-            color: $LH-Blue;
-            margin-top: 0.7em;
-            margin-bottom: 0.7em;
+        img {
+            height: 200px;
+            width: 354.2px;
+            border-radius: 16px;
+            margin-right: 25px;
         }
+
+        .img-desktop {
+            display: flex;
+        }
+
+        .img-mobile {
+            display: none;
+        }
+
 
         .service-details {
             display: flex;
+            flex-direction: column;
             align-items: flex-start;
 
-            img {
-                margin-right: 50px;
-                height: 280px;
-                border-radius: 16px;
+            h2 {
+                color: $LH-Blue;
+                margin-bottom: 0.7em;
+                line-height: 1.2em;
             }
 
-            .right {
-                display: flex;
-                align-items: flex-start;
-
-                .column {
-                    max-width: 250px;
-                    margin-right: 25px;
-                    color: $LH-Blue;
-                }
-
-                .column:last-of-type {
-                    margin-right: 0;
+            p {
+                span {
+                    font-weight: bold;
                 }
             }
+
+
+        }
+    }
+
+    .service-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px;
+
+        .column {
+            max-width: 350px;
+            color: $LH-Blue;
+            margin-right: 25px;
+
+            h4 {
+                color: $LH-Black;
+                line-height: 1.4em;
+                margin-bottom: 1em;
+            }
+        }
+
+        .column:last-of-type {
+            margin-right: 0;
         }
     }
 
     .packages {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 50px;
-        padding-bottom: 120px;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px;
 
         h2 {
             color: $LH-Blue;
-            margin-top: 0.7em;
+            margin-top: -12px;
             margin-bottom: 1.3em;
         }
 
-        .package-details {
+
+        div {
             display: flex;
-            align-items: flex-start;
+            flex-direction: column;
+            max-width: 520px;
+            margin-right: 25px;
 
-            div {
-                display: flex;
-                flex-direction: column;
-                max-width: 600px;
-                margin-right: 120px;
-
-                p {
-                    margin-bottom: 60px;
-                }
-
-                button {
-                    background: $Blue-B;
-                    max-width: 272px;
-                }
+            p {
+                margin-bottom: 60px;
             }
 
-            img {
-                border-radius: 16px;
-            }
-
-            .package-mobile {
-                display: none;
+            button {
+                background: $Blue-B;
+                max-width: 272px;
             }
         }
-    }
 
+        img {
+            border-radius: 16px;
+            height: 280px;
+            width: 496px;
+        }
+
+        .package-mobile {
+            display: none;
+        }
+    }
 
     .consult-with-doctors {
         display: flex;
@@ -156,4 +150,5 @@
             color: $LH-Blue;
         }
     }
+
 }

@@ -7,7 +7,6 @@
     min-height: $top-header-height;
     background: $Blue-W;
     padding: 0 108px;
-    color: $LH-Blue;
     font-weight: 500;
     transition: 0.5s;
     position: relative;
@@ -21,6 +20,7 @@
         display: flex;
         align-items: center;
         border-bottom: 4px solid $Blue-W;
+        color: $LH-Blue;
     }
 
     p:hover {
@@ -52,6 +52,12 @@
     position: relative;
     z-index: 1;
 
+    .abh-left {
+        img {
+            cursor: pointer;
+        }
+    }
+
     .abh-right {
         display: flex;
         align-items: center;
@@ -65,12 +71,14 @@
             display: flex;
             align-items: center;
             border-bottom: 4px solid white;
+            color: $LH-Black;
         }
 
 
         p:hover {
             transition: 0.5s;
             color: $LH-Blue;
+            border-bottom: 4px solid $LH-Peach;
         }
 
         .selected {

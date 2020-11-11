@@ -4,36 +4,109 @@
     display: flex;
     flex-direction: column;
 
-
-    //TODO: Alignment
     .banner {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        min-height: calc(100vh - 48px - 30px);
+        min-height: calc(100vh - 48px - 80px - 128px - 128px);
         background: $Blue-W;
-        padding: 0 108px;
+        padding: 50px;
 
-        h1, p {
-            padding: 0 50px;
-            max-width: 768px;
+        .banner-left {
+            background: white;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+            min-width: 332px;
+            margin-right: 35px;
+
+            h3 {
+                margin-bottom: 30px;
+            }
+
+
+            .input-group {
+                display: flex;
+                padding: 15px 20px;
+                background: $Blue-W;
+                border-radius: 16px;
+                margin-bottom: 15px;
+
+                input {
+                    background: transparent;
+                    border: none;
+                    margin-left: 15px;
+                }
+
+                input:focus {
+                    border: none;
+                    outline: none;
+                }
+
+                input::placeholder {
+                    color: $Blue-B;
+                }
+            }
+
+            .applying-for {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+
+                button {
+                    border-radius: 16px;
+                    background: $Light-Peach;
+                    color: $LH-Blue;
+                }
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 39px;
+
+                button {
+                    color: $Blue-W;
+                    width: 184px;
+                }
+            }
+
+
         }
 
-        h1 {
-            margin-bottom: 1em;
-            color: $LH-Blue;
+        .banner-right {
+            h1, p {
+            }
+
+            h1 {
+                margin: 0;
+                margin-bottom: 35px;
+                color: $LH-Blue;
+            }
+
+            p {
+                color: $LH-Black;
+                margin-bottom: 25px;
+            }
+
+            h3 {
+                color: $LH-Blue;
+            }
+
+            .pos {
+                margin-bottom: 5px;
+            }
         }
 
-        p {
-            color: $LH-Black;
-        }
+
     }
 
     .consult-with-doctors {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 128px;
+        padding: 50px;
         background: $Light-Peach;
 
         h4 {

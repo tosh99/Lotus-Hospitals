@@ -8,24 +8,23 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-left: 33px;
 
     header {
         padding: 15px 20px;
-        border-bottom: 1px solid #efefef;
         transition: 0.4s;
         cursor: pointer;
         white-space: nowrap;
+        color: $LH-Black;
     }
 
     header:hover {
         background: $LH-Blue;
         color: white;
         transition: 0.4s;
-        border-bottom: 1px solid $LH-Blue;
     }
 
     header:last-of-type {
