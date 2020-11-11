@@ -10,7 +10,9 @@
     </div>
 
     <div class="baby-packages">
-        <img src="assets/icons/packages/pd_packages_1.svg">
+        <div class="img-container">
+            <img src="assets/icons/packages/pd_packages_1.svg">
+        </div>
         <section>
             <h3>Well Baby Screening (Basic)</h3>
             <h4>Birth to 1 year of age</h4>
@@ -39,7 +41,9 @@
     </div>
 
     <div class="baby-packages">
-        <img src="assets/icons/packages/pd_packages_2.svg">
+        <div class="img-container">
+            <img src="assets/icons/packages/pd_packages_2.svg">
+        </div>
         <section>
             <h3>Well Child Screening (Basic)</h3>
             <h4>1 year to 16 years of age</h4>
@@ -76,9 +80,9 @@
                 <img src="assets/icons/packages/faq_caret_up.svg" *ngIf="faq.isvisible">
                 <img src="assets/icons/packages/faq_caret_down.svg" *ngIf="!faq.isvisible">
             </div>
-            <p *ngIf="faq.isvisible">
-                {{faq.content}}
-            </p>
+            <div class="faq-content" *ngIf="faq.isvisible">
+                <p *ngFor="let content of faq.content; let index = index" [ngClass]="{'odd':index%2 === 0 && faq.content.length > 1}"> {{content}}</p>
+            </div>
         </div>
     </div>
 

@@ -10,20 +10,27 @@
 
 .baby-packages {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     padding: 60px 108px;
-    padding-bottom: 120px;
     background: white;
     border-bottom: 0.1px solid $Blue-W;
     position: relative;
 
-    img {
-        margin-right: 60px;
+    .img-container {
+        width: 360px;
+
+        img {
+            max-width: 100%;
+        }
     }
 
     section {
         display: flex;
         flex-direction: column;
-        margin-right: 35px;
+        padding-bottom: 45px;
+        margin-left: 45px;
+        width: 33%;
 
         h3 {
             color: $LH-Blue;
@@ -67,7 +74,18 @@
         div {
             display: flex;
             justify-content: space-between;
+        }
 
+        .faq-content {
+            flex-direction: column;
+
+            .odd {
+                font-weight: bold;
+            }
+        }
+
+        p {
+            margin-top: 15px;
         }
 
     }

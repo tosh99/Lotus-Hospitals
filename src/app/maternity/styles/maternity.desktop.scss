@@ -1,0 +1,80 @@
+@import "src/styles";
+
+@keyframes mother {
+    0% {
+        left: 108px;
+    }
+    100% {
+        left: 122px;
+    }
+}
+
+@keyframes vase {
+    0% {
+        left: 138px;
+    }
+    100% {
+        left: 184px;
+    }
+}
+
+@keyframes horse {
+    0% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes gift {
+    0% {
+        right: 153px;
+    }
+    100% {
+        right: 174px;
+    }
+}
+
+.page {
+    .banner {
+        background: $Blue-W;
+
+        img {
+            position: absolute;
+        }
+
+        .mother {
+            width: 416px;
+            bottom: 39px;
+            left: 122px;
+            animation: 2s ease-out 0s 1 mother;
+        }
+
+        .vase {
+            width: 138px;
+            bottom: 39px;
+            left: 184px;
+            animation: 2s ease-out 0s 1 vase;
+        }
+
+        .horse {
+            width: 183px;
+            bottom: 39px;
+            right: 258px;
+            transform: rotate(10deg);
+            animation: 2s ease-out 0s 1 horse;
+        }
+
+        .gift {
+            width: 67px;
+            bottom: 39px;
+            right: 174px;
+            animation: 2s ease-out 0s 1 gift;
+        }
+
+
+    }
+
+}
+

@@ -16,6 +16,12 @@
     position: relative;
     z-index: 1;
 
+    .abh-left {
+        img {
+            height: 28px;
+        }
+    }
+
     .abh-right {
         p {
             display: none;

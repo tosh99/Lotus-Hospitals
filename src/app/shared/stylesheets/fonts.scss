@@ -10,7 +10,7 @@ $sec_font_family: serif;
     h2 {
         font-size: 2.5em;
         line-height: 60px;
-        font-family: "Work Sans", sans-serif;
+        font-family: 'SharpGrotesk', "Work Sans", sans-serif;
     }
 
     h3 {
@@ -59,7 +59,7 @@ $sec_font_family: serif;
     h2 {
         font-size: 2em;
         line-height: 3em;
-        font-family: "Work Sans", sans-serif;
+        font-family: 'SharpGrotesk', "Work Sans", sans-serif;
     }
 
     h3 {
@@ -95,14 +95,15 @@ $sec_font_family: serif;
 @media only screen and (max-width: 767px) {
     h1 {
         font-size: 2.5em;
-        line-height: 1em;
+        line-height: 48px;
         font-family: 'SharpGrotesk', "Work Sans", sans-serif;
     }
 
     h2 {
         font-size: 32px;
-        line-height: 50px;
-        font-family: "Work Sans", sans-serif;
+        line-height: 48px;
+        font-family: 'SharpGrotesk', "Work Sans", sans-serif;
+        font-weight: 500;
     }
 
     h3 {

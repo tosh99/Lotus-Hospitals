@@ -14,4 +14,8 @@ export class BranchesComponent implements OnInit {
         window.scrollTo(0, 0);
     }
 
+    viewOnMap(url): void {
+        window.open(url);
+    }
+
 }

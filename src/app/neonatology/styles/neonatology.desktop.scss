@@ -1,0 +1,150 @@
+@import "src/styles";
+
+@keyframes father {
+    0% {
+        left: 194px;
+    }
+    100% {
+        left: 217px;
+    }
+}
+
+@keyframes babyhand {
+    0% {
+        left: 264px;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 284px;
+        transform: rotate(-12deg);
+    }
+}
+
+@keyframes bird-1 {
+    0% {
+        left: 113px;
+    }
+    100% {
+        left: 161px;
+    }
+}
+
+@keyframes tables-n {
+    0% {
+        left: 100px;
+    }
+    100% {
+        left: 144px;
+    }
+}
+
+@keyframes bird-2 {
+    0% {
+        right: 415px;
+    }
+    100% {
+        right: 557px;
+    }
+}
+
+@keyframes bird-3 {
+    0% {
+        right: 335px;
+    }
+    100% {
+        right: 424px;
+    }
+}
+
+@keyframes floor {
+    0% {
+        right: 253px;
+    }
+    100% {
+        right: 278px;
+    }
+}
+
+@keyframes clouds {
+    0% {
+        right: 128px;
+    }
+    100% {
+        right: 165px;
+    }
+}
+
+
+.page {
+    .banner {
+        background: $Blue-W;
+
+        img {
+            position: absolute;
+        }
+
+        .father {
+            width: 266px;
+            bottom: 39px;
+            left: 217px;
+            animation: 2s ease-out 0s 1 father;
+        }
+
+        .babyhand {
+            width: 79px;
+            bottom: 244px;
+            left: 284px;
+            transform: rotate(-12deg);
+            animation: 2s ease-out 0s 1 babyhand;
+        }
+
+        .bird-1 {
+            width: 55px;
+            bottom: 195px;
+            left: 161px;
+            animation: 2s ease-out 0s 1 bird-1;
+        }
+
+        .table {
+            width: 340px;
+            bottom: 39px;
+            left: 144px;
+            animation: 2s ease-out 0s 1 tables-n;
+        }
+
+        .bird-2 {
+            width: 63px;
+            bottom: 39px;
+            right: 557px;
+            animation: 2s ease-out 0s 1 bird-2;
+        }
+
+        .bird-3 {
+            width: 99px;
+            bottom: 39px;
+            right: 424px;
+            animation: 2s ease-out 0s 1 bird-3;
+        }
+
+        .floor {
+            width: 434px;
+            bottom: 39px;
+            right: 278px;
+            animation: 2s ease-out 0s 1 floor;
+        }
+
+        .clouds {
+            width: 167px;
+            bottom: 39px;
+            right: 165px;
+            animation: 2s ease-out 0s 1 clouds;
+        }
+
+        .set {
+            display: none;
+        }
+
+    }
+
+}
+

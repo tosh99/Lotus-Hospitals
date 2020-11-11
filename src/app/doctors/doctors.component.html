@@ -24,7 +24,7 @@
         </div>
 
         <div class="doctors-list">
-            <ng-container *ngFor="let doctor of doctors">
+            <ng-container *ngFor="let doctor of doctors.slice(0, endslice)">
                 <div class="doctor" *ngIf="doctor.isdisplayed">
                     <img src="assets/icons/doctors/doctor.svg">
                     <h4>{{doctor.doctor_name}}</h4>

@@ -5,9 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: $top-footer-height;
     background: $LH-Blue;
-    padding: 25px 108px;
+    padding: 80px 108px;
+    padding-bottom: 30px;
 
     .footer-main {
         display: flex;

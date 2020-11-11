@@ -1654,6 +1654,8 @@ export class DoctorsComponent implements OnInit {
     selectedSpecialty;
     selectedLocation;
 
+    endslice = 16;
+
     constructor() {
     }
 

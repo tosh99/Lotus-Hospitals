@@ -83,8 +83,9 @@ $dropdown_item_hover_text_color: #53565A;
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        border-radius: 16px;
-        border: 1px solid $Light-Peach;
+        //border-bottom-right-radius: 16px;
+        //border-bottom-left-radius: 16px;
+        //border: 1px solid $Light-Peach;
 
         .search {
             display: flex;

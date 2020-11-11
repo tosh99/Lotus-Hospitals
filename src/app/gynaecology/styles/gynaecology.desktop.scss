@@ -1,0 +1,191 @@
+@import "src/styles";
+
+@keyframes mother {
+    0% {
+        left: 109px;
+        width: 285px;
+    }
+    100% {
+        left: 123px;
+        width: 279px;
+    }
+}
+
+@keyframes windows {
+    0% {
+        left: 103px;
+    }
+    100% {
+        left: 123px;
+    }
+}
+
+@keyframes vase-1-g {
+    0% {
+        left: 200px;
+    }
+    100% {
+        left: 223px;
+    }
+}
+
+@keyframes flower-1 {
+    0% {
+        left: 222px;
+        transform: scaleY(1);
+    }
+    100% {
+        left: 246px;
+        transform: scaleY(1.1);
+    }
+}
+
+@keyframes vase-2-g {
+    0% {
+        left: 350px;
+    }
+    100% {
+        left: 367px;
+    }
+}
+
+@keyframes flower-2 {
+    0% {
+        left: 373px;
+        transform: scaleY(1);
+    }
+    100% {
+        left: 390px;
+        transform: scaleY(1.1);
+    }
+}
+
+@keyframes vase-3 {
+    0% {
+        right: 340px;
+    }
+    100% {
+        right: 370px;
+    }
+}
+
+@keyframes flower-3 {
+    0% {
+        right: 340px;
+        transform: scale(1);
+    }
+    100% {
+        right: 370px;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes vase-4 {
+    0% {
+        right: 224px;
+    }
+    100% {
+        right: 236px;
+    }
+}
+
+@keyframes flower-4 {
+    0% {
+        right: 214px;
+        transform: scale(1);
+    }
+    100% {
+        right: 212px;
+        transform: scale(1.1);
+    }
+}
+
+.page {
+    .banner {
+        background: $Blue-W;
+
+        img {
+            position: absolute;
+        }
+
+        .mother {
+            width: 279px;
+            bottom: 244px;
+            left: 123px;
+            animation: 2s ease-out 0s 1 mother;
+        }
+
+        .windows {
+            width: 359px;
+            bottom: 60px;
+            left: 123px;
+            animation: 2s ease-out 0s 1 windows;
+        }
+
+        .vase-1 {
+            width: 111px;
+            bottom: 84px;
+            left: 223px;
+            animation: 2s ease-out 0s 1 vase-1-g;
+        }
+
+        .flower-1 {
+            width: 63px;
+            bottom: 118px;
+            left: 246px;
+            transform: scaleY(1.1);
+            animation: 2s ease-out 0s 1 flower-1;
+        }
+
+        .vase-2 {
+            width: 111px;
+            bottom: 220px;
+            left: 367px;
+            animation: 2s ease-out 0s 1 vase-2-g;
+        }
+
+        .flower-2 {
+            width: 63px;
+            bottom: 254px;
+            left: 390px;
+            transform: scaleY(1.1);
+            animation: 2s ease-out 0s 1 flower-2;
+        }
+
+        .vase-3 {
+            width: 75px;
+            bottom: 60px;
+            right: 370px;
+            animation: 2s ease-out 0s 1 vase-3;
+            z-index: 1;
+        }
+
+        .flower-3 {
+            width: 75px;
+            bottom: 92px;
+            right: 370px;
+            transform: scale(1.1);
+            animation: 2s ease-out 0s 1 flower-3;
+        }
+
+        .vase-4 {
+            width: 111px;
+            bottom: 60px;
+            right: 236px;
+            animation: 2s ease-out 0s 1 vase-4;
+            z-index: 1;
+        }
+
+        .flower-4 {
+            width: 138px;
+            bottom: 109px;
+            right: 212px;
+            transform: scale(1.1);
+            animation: 2s ease-out 0s 1 flower-4;
+        }
+
+
+    }
+
+}
+

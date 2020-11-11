@@ -27,6 +27,7 @@
 
         .locations {
             display: flex;
+            padding: 0 108px;
 
             .location {
                 display: flex;
@@ -51,6 +52,10 @@
                     display: flex;
                     justify-content: space-between;
                 }
+            }
+
+            .location:last-of-type {
+                margin-right: 0;
             }
         }
     }
