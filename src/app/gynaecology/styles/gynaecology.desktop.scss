@@ -72,11 +72,11 @@
 @keyframes flower-3 {
     0% {
         right: 340px;
-        transform: scale(1);
+        bottom: 85px;
     }
     100% {
         right: 370px;
-        transform: scale(1.1);
+        bottom: 92px;
     }
 }
 
@@ -91,11 +91,13 @@
 
 @keyframes flower-4 {
     0% {
-        right: 214px;
-        transform: scale(1);
+        right: 200px;
+        bottom: 100px;
+        transform: scale(0.8);
     }
     100% {
         right: 212px;
+        bottom: 109px;
         transform: scale(1.1);
     }
 }

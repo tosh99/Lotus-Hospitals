@@ -72,10 +72,13 @@
         background: $Blue-W;
         justify-content: flex-start !important;
         align-items: center;
-        padding-top: 16vh;
 
         h1, p {
             margin-left: 200px !important;
+        }
+
+        h1 {
+            padding-top: 16vh;
         }
     }
 
@@ -180,8 +183,7 @@
         h2 {
             color: $LH-Blue;
             margin-top: -12px;
-            margin-bottom: 1.3em;
-            line-height: 1.4em;
+            margin-bottom: 30px;
         }
 
 
@@ -192,7 +194,7 @@
             margin-right: 120px;
 
             p {
-                margin-bottom: 60px;
+                margin-bottom: 35px;
             }
 
             button {

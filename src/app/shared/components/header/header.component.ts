@@ -34,10 +34,10 @@ export class HeaderComponent implements OnInit {
         }
     }
 
-    navigateTo(link): void {
+    navigateTo(): void {
         if (this.viewMenu === true) {
             this.toggleModal(false);
         }
-        this.router.navigateByUrl(link);
+        // this.router.navigateByUrl(link);
     }
 }

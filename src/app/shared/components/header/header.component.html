@@ -1,17 +1,19 @@
 <div class="app-top-header">
     <a href="#/careers">
-        <p [ngClass]="{'selected':router.url.includes('careers')}">Careers</p>
+        <p (click)="navigateTo()" [ngClass]="{'selected':router.url.includes('careers')}">Careers</p>
     </a>
     <a href="#/corporates">
-        <p [ngClass]="{'selected':router.url.includes('corporates')}">Corporates</p>
+        <p (click)="navigateTo()" [ngClass]="{'selected':router.url.includes('corporates')}">Corporates</p>
     </a>
     <a href="#/education">
-        <p [ngClass]="{'selected':router.url.includes('education')}">Education</p>
+        <p (click)="navigateTo()" [ngClass]="{'selected':router.url.includes('education')}">Education</p>
     </a>
 </div>
 <div class="app-bottom-header">
     <div class="abh-left">
-        <img src="assets/icons/logo/logo.svg" (click)="navigateTo('')">
+        <a href="#/">
+            <img src="assets/icons/logo/logo.svg">
+        </a>
     </div>
     <div class="abh-right">
         <div class="dropdown">
@@ -70,46 +72,46 @@
     <div class="column">
         <h4>Services</h4>
         <a href="#/paediatrics">
-            <p class="captions">Paediatrics</p>
+            <p (click)="navigateTo()" class="captions">Paediatrics</p>
         </a>
         <a href="#/gynaecology">
-            <p class="captions">Gynaecology</p>
+            <p (click)="navigateTo()" class="captions">Gynaecology</p>
         </a>
         <a href="#/fertility">
-            <p class="captions">Fertility</p>
+            <p (click)="navigateTo()" class="captions">Fertility</p>
         </a>
         <a href="#/maternity">
-            <p class="captions">Maternity</p>
+            <p (click)="navigateTo()" class="captions">Maternity</p>
         </a>
         <a href="#/neonatology">
-            <p class="captions">Neonatology</p>
+            <p (click)="navigateTo()" class="captions">Neonatology</p>
         </a>
     </div>
     <div class="column">
         <h4>Links</h4>
         <a href="#/packages">
-            <p class="captions">Child Packages</p>
+            <p (click)="navigateTo()" class="captions">Child Packages</p>
         </a>
         <a href="#/packages/women">
-            <p class="captions">Mother Packages</p>
+            <p (click)="navigateTo()" class="captions">Mother Packages</p>
         </a>
         <a href="#/about">
-            <p class="captions">About</p>
+            <p (click)="navigateTo()" class="captions">About</p>
         </a>
         <a href="#/doctors">
-            <p class="captions">Doctors</p>
+            <p (click)="navigateTo()" class="captions">Doctors</p>
         </a>
     </div>
     <div class="column">
         <h4>Links</h4>
         <a href="#/careers">
-            <p class="captions">Careers</p>
+            <p (click)="navigateTo()" class="captions">Careers</p>
         </a>
         <a href="#/corporates">
-            <p class="captions">Corporates</p>
+            <p (click)="navigateTo()" class="captions">Corporates</p>
         </a>
         <a href="#/education">
-            <p class="captions">Education</p>
+            <p (click)="navigateTo()" class="captions">Education</p>
         </a>
     </div>
 
