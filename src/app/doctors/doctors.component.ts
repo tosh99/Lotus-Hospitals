@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {DropdownConfigModel} from '../shared/components/dropdown/shared/models/dropdown.model';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-doctors',
@@ -1656,7 +1657,12 @@ export class DoctorsComponent implements OnInit {
 
     endslice = 16;
 
-    constructor() {
+    constructor(private title: Title, private meta: Meta) {
+        this.title.setTitle('Lotus Hospitals houses the best doctors in Hyderabad & Vizag');
+        this.meta.updateTag({
+            name: 'description', content: 'Led by the expert pediatrician and founder of Lotus Hospitals, ' +
+                'Dr. V.S.V. Prasad, our team of doctors and specialists are some of the best in the field.'
+        });
     }
 
     ngOnInit(): void {

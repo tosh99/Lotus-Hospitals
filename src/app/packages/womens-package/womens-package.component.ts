@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-womens-package',
@@ -40,7 +41,12 @@ export class WomensPackageComponent implements OnInit {
 
     ];
 
-    constructor() {
+    constructor(private title: Title, private meta: Meta) {
+        this.title.setTitle('Women’s healthcare packages at Lotus Hospitals');
+        this.meta.updateTag({
+            name: 'description', content: 'Get your master health check-up for an early detection and treatment at Lotus Hospitals.' +
+                ' Visit your nearest branch now to consult with the best gynecologists.'
+        });
     }
 
     ngOnInit(): void {

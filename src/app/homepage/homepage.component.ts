@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-homepage',
@@ -9,7 +10,9 @@ export class HomepageComponent implements OnInit {
     slideIndex = 1;
     stopAnimation = false;
 
-    constructor() {
+    constructor(private title: Title, private meta: Meta) {
+        this.title.setTitle('Quality Healthcare at Lotus Hospitals, Hyderabad & Vizag');
+        this.meta.updateTag({name: 'description', content: 'We are central to your family\'s comprehensive care. Find Lotus Hospitals near you - Lakdi ka Pul, Kukatpally, LB Nagar & Visakhapatnam.'});
     }
 
     ngOnInit(): void {

@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-paediatrics-package',
@@ -37,7 +38,12 @@ export class PaediatricsPackageComponent implements OnInit {
 
     ];
 
-    constructor() {
+    constructor(private title: Title, private meta: Meta) {
+        this.title.setTitle('Children’s healthcare packages at Lotus Hospitals');
+        this.meta.updateTag({
+            name: 'description', content: 'Get your child’s master health check-up for an early detection and treatment at the ' +
+                'best pediatric hospital. Visit your nearest branch now.'
+        });
     }
 
     ngOnInit(): void {

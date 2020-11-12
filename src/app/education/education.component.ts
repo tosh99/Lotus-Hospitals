@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-education',
@@ -7,7 +8,12 @@ import {Component, OnInit} from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-    constructor() {
+    constructor(private title: Title, private meta: Meta) {
+        this.title.setTitle('Nationally Recognised Training Programmes');
+        this.meta.updateTag({
+            name: 'description', content: 'Lotus Hospitals’ Training Programme is affiliated with the National Board of Examination.' +
+                ' Learn from some of the best healthcare providers. '
+        });
     }
 
     ngOnInit(): void {
@@ -15,6 +21,6 @@ export class EducationComponent implements OnInit {
     }
 
     scroll(el: HTMLElement): void {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.scrollIntoView({behavior: 'smooth', block: 'center'});
     }
 }
