@@ -1,80 +1,101 @@
 @import "src/styles";
 
-    .meet-our-team {
+.page {
+    .banner {
+        background: url("../../../assets/icons/doctors/bg_doctors_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.meet-our-team {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+
+    .meet-our-team-filters {
         display: flex;
-        flex-direction: column;
-        padding: 25px 25px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+        margin-top: 0;
 
-        .meet-our-team-filters {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 25px;
-
-            h2 {
-                color: $LH-Peach;
-                text-align: center;
-            }
-
-
-            .filters {
-                display: none;
-
-                .input-group {
-                    display: flex;
-                    padding: 10px 20px;
-                    background: white;
-                    border-radius: 16px;
-                    border: 2px solid $Blue-P;
-                    margin-right: 12px;
-
-                    input {
-                        background: transparent;
-                        border: none;
-                        margin-left: 15px;
-                    }
-
-                    input:focus {
-                        border: none;
-                        outline: none;
-                    }
-
-                    input::placeholder {
-                        color: $Blue-B;
-                    }
-                }
-
-                .dropdown {
-                    margin-right: 12px;
-                }
-
-            }
+        h2 {
+            color: $LH-Peach;
+            text-align: center;
         }
 
-        .doctors-list {
-            display: flex;
-            flex-wrap: wrap;
 
-            .doctor {
+        .filters {
+            display: none;
+
+            .input-group {
                 display: flex;
-                flex-direction: column;
-                width: calc(100%);
-                margin-bottom: 65px;
-                text-align: center;
+                padding: 10px 20px;
+                background: white;
+                border-radius: 16px;
+                border: 2px solid $Blue-P;
+                margin-right: 12px;
 
-                .quali {
-                    margin-top: 15px;
-                    color: $Blue-P;
+                input {
+                    background: transparent;
+                    border: none;
+                    margin-left: 15px;
                 }
 
-                .position {
-                    margin-top: 7px;
-                    color: $LH-Blue;
+                input:focus {
+                    border: none;
+                    outline: none;
                 }
 
-                img {
-                    margin-bottom: 15px;
+                input::placeholder {
+                    color: $Blue-B;
                 }
+            }
+
+            .dropdown {
+                margin-right: 12px;
+            }
+
+        }
+    }
+
+    .doctors-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        .doctor {
+            display: flex;
+            flex-direction: column;
+            width: calc(100%);
+            margin-bottom: 45px;
+            margin-right: 0;
+            text-align: center;
+
+            .quali {
+                margin-top: 15px;
+                color: $Blue-P;
+            }
+
+            .position {
+                margin-top: 7px;
+                color: $LH-Blue;
+            }
+
+            img {
+                margin-bottom: 15px;
             }
         }
     }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+
+        button {
+            background: $LH-Peach;
+            color: white;
+        }
+    }
+}

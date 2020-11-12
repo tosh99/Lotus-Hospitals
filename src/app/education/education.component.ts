@@ -14,4 +14,7 @@ export class EducationComponent implements OnInit {
         window.scrollTo(0, 0);
     }
 
+    scroll(el: HTMLElement): void {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
 }

@@ -7,11 +7,14 @@
         <p>Lotus Hospitals has a nationally recognised Newborn & Intensive Care Programme that is carefully curated by Dr. V.S.V. Prasad, one of the most-sought after pediatricians in South India. For over a decade (10
             years), we have also been conducting a 3 Year Programme in Pediatrics Training – Affiliated with the National Board of Examination which is known to produce some of the best pediatricians in the country.
         </p>
+
+        <p class="links" (click)="scroll(doctors)">Doctors</p>
+        <p class="links" (click)="scroll(nurses)">Nurses</p>
     </div>
 
 
     <div class="for-doctors">
-        <h2>For Aspiring Doctors</h2>
+        <h2 #doctors>For Aspiring Doctors</h2>
 
         <h3>Pediatric Critical Care / Pediatric Intensive Care</h3>
         <p>Lotus Hospitals is accredited by the <span>I.A.P Intensive Care Chapter</span> (Indian Academy of Pediatrics – Intensive Care Chapter & College of Pediatric Critical Care) for training pediatricians aspiring to become
@@ -69,7 +72,7 @@
         </p>
 
 
-        <h2>For Aspiring Nurses</h2>
+        <h2 #nurses>For Aspiring Nurses</h2>
         <p>Lotus Hospitals offers a thorough and structured training programme for nurses wishing to pursue a career or fulfil
             requirements for nursing training in Pediatrics and Neonatology.
         </p>

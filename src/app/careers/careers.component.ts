@@ -7,7 +7,7 @@ import {DropdownConfigModel} from "../shared/components/dropdown/shared/models/d
     styleUrls: ['./styles/careers.component.scss']
 })
 export class CareersComponent implements OnInit {
-    locations = ['Lakdikapul', 'Kukatpally', 'L B Nagar', 'Vishakapatnam'];
+    locations = ['Doctor', 'Nurse'];
     dpLocation = new DropdownConfigModel();
 
     constructor() {
@@ -15,7 +15,7 @@ export class CareersComponent implements OnInit {
 
     ngOnInit(): void {
         window.scrollTo(0, 0);
-        this.dpLocation.dropdown_placeholder = 'Location';
+        this.dpLocation.dropdown_placeholder = 'Position';
 
         const temp_style = {
             'background-color': '#E8E7F4'

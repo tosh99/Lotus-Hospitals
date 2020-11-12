@@ -1,3 +1,11 @@
+.img-desktop {
+    display: none !important;
+}
+
+.img-mobile {
+    display: flex !important;
+}
+
 .established {
     display: flex;
     justify-content: center;
@@ -20,14 +28,13 @@
         margin-right: 12px;
     }
 
-    .right {
-        .right-img {
-            margin: 0;
+    .right-img {
+        margin: 0;
 
-            img {
-                width: 75%;
-                margin: 45px 0;
-            }
+        img {
+            width: 75%;
+            margin: 45px 0;
+            margin-top: 0;
         }
     }
 }
@@ -43,6 +50,14 @@
         margin-bottom: 30px;
     }
 
+    .timeline-desktop{
+        display: none;
+    }
+
+    .timeline-mobile{
+        display: flex;
+    }
+
     img {
         width: 100%;
     }
@@ -52,7 +67,8 @@
     padding: 30px;
 
     h2 {
-        color: $LH-Blue;
+        color: white;
+        margin: 25px 0;
     }
 
     p {

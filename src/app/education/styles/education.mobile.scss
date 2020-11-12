@@ -1,26 +1,40 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../assets/icons/education/bg_education.png");
+        background-size: cover;
+        background-repeat: no-repeat;
 
-    .for-doctors {
-        background: white;
-        padding: 25px 25px;
-        display: flex;
-        flex-direction: column;
-
-        h2 {
-            color: $LH-Peach;
-            text-align: center;
-        }
-
-        h3 {
-            line-height: 1.5em;
-        }
-
-        p {
-            margin-bottom: 25px;
-        }
-
-        .p-section {
-            margin-top: 1.5em;
+        .links {
+            color: $LH-Blue;
+            text-decoration: underline;
+            font-size: 24px;
+            line-height: 48px;
         }
     }
+}
+
+.for-doctors {
+    background: white;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        color: $LH-Peach;
+        text-align: center;
+    }
+
+    h3 {
+        line-height: 1.5em;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+
+    .p-section {
+        margin-top: 1.5em;
+    }
+}

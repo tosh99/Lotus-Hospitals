@@ -1,7 +1,6 @@
 @import "src/styles";
 
 .page {
-
     .banner {
         background: url("../../../assets/icons/doctors/bg_doctors.png");
         background-size: cover;
@@ -87,6 +86,10 @@
                 color: $LH-Blue;
             }
         }
+    }
+
+    .button-container {
+        display: none;
     }
 }
 

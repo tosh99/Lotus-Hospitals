@@ -1,5 +1,12 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../../assets/icons/packages/bg_womens_health_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 
 .baby-packages {
     display: flex;

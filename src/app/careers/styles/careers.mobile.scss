@@ -42,26 +42,58 @@
                 }
             }
 
-            button {
-                width: 184px;
+            .applying-for {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+                width: 100%;
+
+                button {
+                    border-radius: 16px;
+                    background: $Light-Peach;
+                    color: $LH-Blue;
+                    font-size: 16px;
+                }
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 39px;
+
+                button {
+                    color: $Blue-W;
+                    width: 184px;
+                }
             }
         }
 
         .banner-right {
             padding: 25px;
 
-            h1, p {
+            h1, p, h3 {
+                text-align: center;
+            }
 
-
+            h3 {
+                line-height: 32px;
+                margin-bottom: 24px;
             }
 
             h1 {
                 color: $LH-Blue;
+                margin-bottom: 1em;
+                margin-top: 20px;
             }
 
             p {
                 color: $LH-Black;
                 margin-bottom: 25px;
+            }
+
+            .pos {
+                margin-bottom: 5px;
             }
         }
 
@@ -70,19 +102,13 @@
 
     .consult-with-doctors {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 200px;
         background: $Light-Peach;
         padding: 0 25px;
 
-        h4 {
-            margin: 0;
-            color: $LH-Blue;
-            line-height: 1.75em;
-            margin-bottom: 20px;
-            width: 280px;
+        p {
             text-align: center;
         }
     }

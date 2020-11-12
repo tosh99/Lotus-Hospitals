@@ -1691,4 +1691,8 @@ export class DoctorsComponent implements OnInit {
         }
     }
 
+    viewMore(): void {
+        this.endslice = this.endslice + 16;
+    }
+
 }
