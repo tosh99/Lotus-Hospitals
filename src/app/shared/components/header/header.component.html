@@ -12,7 +12,7 @@
 <div class="app-bottom-header">
     <div class="abh-left">
         <a href="/">
-            <img src="assets/icons/logo/logo.svg">
+            <img alt="Lotus Hospitals" src="assets/icons/logo/logo.svg">
         </a>
     </div>
     <div class="abh-right">
@@ -60,14 +60,14 @@
             <p [ngClass]="{'selected':router.url.includes('contactus')}">Contact</p>
         </a>
 
-        <img src="assets/icons/homepage/menu.svg" (click)="toggleModal()">
+        <img alt="Lotus Hospitals Menu" src="assets/icons/homepage/menu.svg" (click)="toggleModal()">
     </div>
 </div>
 
 
 <div class="menu" *ngIf="viewMenu">
     <div class="closemenu">
-        <img alt="" src="assets/icons/homepage/closemenu.svg" (click)="toggleModal()">
+        <img alt="Close" src="assets/icons/homepage/closemenu.svg" (click)="toggleModal()">
     </div>
     <div class="column">
         <h4>Services</h4>
