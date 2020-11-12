@@ -7,11 +7,7 @@
         }
 
         .mother {
-            width: 60%;
-            animation: none;
-            position: relative;
-            left: unset;
-            bottom: unset;
+            display: none;
         }
 
         .vase {
@@ -25,6 +21,11 @@
 
         .gift {
             display: none;
+        }
+
+        .set {
+            display: flex;
+            width: 60%;
         }
 
 

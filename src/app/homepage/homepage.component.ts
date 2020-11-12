@@ -9,6 +9,7 @@ import {Meta, Title} from '@angular/platform-browser';
 export class HomepageComponent implements OnInit {
     slideIndex = 1;
     stopAnimation = false;
+    isLeftAwardsDisplayed = true;
 
     constructor(private title: Title, private meta: Meta) {
         this.title.setTitle('Quality Healthcare at Lotus Hospitals, Hyderabad & Vizag');
@@ -18,6 +19,15 @@ export class HomepageComponent implements OnInit {
     ngOnInit(): void {
         window.scrollTo(0, 0);
         this.showSlides();
+        this.showAwards();
+    }
+
+    showAwards(): void {
+        this.isLeftAwardsDisplayed = !this.isLeftAwardsDisplayed;
+
+        setTimeout(() => {
+            this.showAwards();
+        }, 2500);
     }
 
     // Next/previous controls

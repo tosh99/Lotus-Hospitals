@@ -1,0 +1,48 @@
+@import "src/styles";
+
+.page {
+    .banner {
+        background: url("../../../assets/icons/corporates/bg_corporates.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 108px;
+
+    h4 {
+        width: 685px;
+        line-height: 1.75em;
+    }
+
+    .title {
+        color: $LH-Blue;
+    }
+
+    .desc {
+        color: $Blue-P;
+    }
+
+    .quotes {
+        color: $LH-Blue;
+        font-weight: 300;
+        font-style: italic;
+        width: 925px;
+        margin-bottom: 100px;
+    }
+
+    .company-list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+        .company {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

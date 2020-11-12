@@ -1,41 +1,46 @@
 @import "src/styles";
 
 .page {
+    .banner {
+        background: url("../../../assets/icons/corporates/bg_corporates_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+}
+
+.companies {
     display: flex;
     flex-direction: column;
+    padding: 25px;
 
-    .companies {
+    h4 {
+        line-height: 1.75em;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .desc {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .quotes {
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .company-list {
         display: flex;
         flex-direction: column;
-        padding: 25px;
+        margin-bottom: 20px;
+        margin-top: 30px;
 
-        h4 {
-            line-height: 1.75em;
-        }
-
-        .title {
-            width: 100%;
-        }
-
-        .desc {
-            margin-top: 15px;
-            width: 100%;
-        }
-
-        .quotes {font-weight: 300;
-            width: 100%;
-        }
-
-        .company-list {
+        .company {
             display: flex;
             flex-direction: column;
-            margin-bottom: 20px;
-            margin-top: 30px;
-
-            .company {
-                display: flex;
-                flex-direction: column;
-            }
         }
     }
 }
