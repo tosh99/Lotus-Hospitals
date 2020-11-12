@@ -1,11 +1,23 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        //background: url("../../../../assets/icons/packages/bg_paediatric_mobile.png") !important;
+        //background-size: cover;
+        //background-repeat: no-repeat;
+        //padding: 0;
+    }
+}
+
+
 .baby-packages {
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 50px 25px;
 
     .img-container {
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -15,6 +27,14 @@
         width: 100%;
         margin-left: 0;
 
+        h3, h4 {
+            text-align: center;
+        }
+
+        h4 {
+            margin-bottom: 15px;
+        }
+
         button {
             position: relative;
             margin-top: 20px;
@@ -22,7 +42,6 @@
         }
     }
 }
-
 
 .faqs {
     display: flex;

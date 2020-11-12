@@ -1,7 +1,4 @@
-
-
 @import "womens-package.desktop";
-
 
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
     @import "womens-package.tablet";
@@ -9,4 +6,12 @@
 
 @media only screen and (max-width: 767px) {
     @import "womens-package.mobile";
+}
+
+.page {
+    .banner {
+        //background: url("../../../../assets/icons/packages/bg_womens_health.png") !important;
+        //background-size: cover;
+        //background-repeat: no-repeat;
+    }
 }
