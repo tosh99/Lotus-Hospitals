@@ -7,11 +7,7 @@
         }
 
         .couple {
-            width: 80%;
-            animation: none;
-            position: relative;
-            left: unset;
-            bottom: unset;
+            display: none;
         }
 
         .vase-base {
@@ -38,6 +34,10 @@
             display: none;
         }
 
+        .set {
+            display: flex;
+            width: 60%;
+        }
 
     }
 
