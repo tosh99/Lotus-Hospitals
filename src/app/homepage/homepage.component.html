@@ -23,7 +23,7 @@
     </div>
 
     <div class="awards-achievements">
-        <div class="aa-left" *ngIf="isLeftAwardsDisplayed">
+        <div class="aa-left" *ngIf="isLeftAwardsDisplayed || isDesktop">
             <img src="assets/icons/homepage/LHLaurels-01.png">
             <img src="assets/icons/homepage/LHLaurels-02.png">
             <img src="assets/icons/homepage/LHLaurels-03.png">
@@ -31,7 +31,7 @@
         <div class="aa-center">
             <h4>Awards & Achievements</h4>
         </div>
-        <div class="aa-right" *ngIf="!isLeftAwardsDisplayed">
+        <div class="aa-right" *ngIf="!isLeftAwardsDisplayed || isDesktop">
             <img src="assets/icons/homepage/LHLaurels-04.png">
             <img src="assets/icons/homepage/LHLaurels-05.png">
             <img src="assets/icons/homepage/LHLaurels-06.png">
