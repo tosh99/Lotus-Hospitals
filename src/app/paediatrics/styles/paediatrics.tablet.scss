@@ -6,6 +6,8 @@
 
     .banner {
         background: $Blue-W;
+        min-height: 650px;
+        position: relative;
 
         img {
             display: none;
@@ -129,8 +131,7 @@
 
         img {
             border-radius: 16px;
-            height: 280px;
-            width: 496px;
+            width: 355px;
         }
 
         .package-mobile {
