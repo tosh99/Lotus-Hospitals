@@ -272,13 +272,8 @@
                 .mainimage {
                     width: 75%;
                     transition: 0.4s;
+                    cursor: pointer;
                 }
-
-                .mainimage:hover {
-                    width: 85%;
-                    transition: 0.4s;
-                }
-
 
                 .brick {
                     width: unset;

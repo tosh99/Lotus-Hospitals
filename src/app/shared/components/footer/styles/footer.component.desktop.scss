@@ -28,6 +28,10 @@
                 flex-direction: column;
                 margin-right: 103px;
 
+                h4, p {
+                    white-space: nowrap;
+                }
+
                 h4 {
                     margin-top: 0;
                     line-height: 1.5em;

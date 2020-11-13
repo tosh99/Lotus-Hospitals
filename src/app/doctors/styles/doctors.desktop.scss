@@ -89,7 +89,14 @@
     }
 
     .button-container {
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+
+        button {
+            background: $LH-Peach;
+            color: white;
+        }
     }
 }
 

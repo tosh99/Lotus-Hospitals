@@ -1342,7 +1342,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DNB (PED) , Fellowship in Neonatalogy',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'NEONATOLOGY',
@@ -1354,7 +1354,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (PED) Neonatal Perinatal medicine',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'NEONATOLOGY',
@@ -1366,7 +1366,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD, FELLOW IN PED.EMERGENCY',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PEDIATRICS '
@@ -1377,7 +1377,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DNB (PED)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PEDIATRICS '
@@ -1388,7 +1388,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DCH,',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PEDIATRICS '
@@ -1399,7 +1399,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (PED) ,',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PEDIATRICS '
@@ -1410,7 +1410,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DCH, DNB (PED)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PEDIATRICS '
@@ -1421,7 +1421,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (OBG)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1432,7 +1432,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DGO,',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1443,7 +1443,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DNB (OBG)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1454,7 +1454,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DGO',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1465,7 +1465,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD, DIP.IN RPM',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1476,7 +1476,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MS (OBG)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1487,7 +1487,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, M.S (OBG)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1498,7 +1498,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, DGO',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF OBSTETRICS & GYNECOLOGY'
@@ -1509,7 +1509,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (Radiology)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF RADIOLOGY & IMAGING SCIENCES'
@@ -1520,7 +1520,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (Radiology)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF RADIOLOGY & IMAGING SCIENCES'
@@ -1531,7 +1531,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (Radiology)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'DEPT. OF RADIOLOGY & IMAGING SCIENCES'
@@ -1542,7 +1542,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD (Pathology)',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PATHOLOGY'
@@ -1553,7 +1553,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'ANESTHESIA'
@@ -1564,7 +1564,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS, MD',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'GENERAL PHYSICIAN'
@@ -1575,7 +1575,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MS,MCH,FMAS,FIAG',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PAEDIATRIC SURGEON'
@@ -1586,7 +1586,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MS,MCH',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PAEDIATRIC SURGEON'
@@ -1597,7 +1597,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MBBS,MS',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'OPHTHALMOLOGIST'
@@ -1608,7 +1608,7 @@ export class DoctorsComponent implements OnInit {
             qualifications: 'MPT',
             isdisplayed: true,
             location: [
-                'Vishakapatnam'
+                'Visakhapatnam'
             ],
             specialty: [
                 'PHYSIOTHERAPY'
@@ -1620,7 +1620,7 @@ export class DoctorsComponent implements OnInit {
     dpLocation = new DropdownConfigModel();
     dpSpecialty = new DropdownConfigModel();
 
-    locations = ['Lakadikapul', 'Kukatpally', 'L B Nagar', 'Vishakapatnam'];
+    locations = ['Lakadikapul', 'Kukatpally', 'L B Nagar', 'Visakhapatnam'];
     specialties = [
         'NEONATOLOGY (NICU)',
         'PEDIATRICS',
