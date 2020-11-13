@@ -32,7 +32,7 @@ export class PaediatricsPackageComponent implements OnInit {
                 'Abnormal functioning of the liver affects digestive and other systemic function in a child’s body.',
                 'Early detection of heart, nervous system and other ailments',
                 'Our pediatricians can examine and detect early heart, brain (nervous  system) and other organ system disease and counsel regarding appropriate evaluation and treatment.',
-                'Proper Nutritional Guidance & Counselling',
+                'Proper nutritional guidance & counselling',
                 'Children have different rates of growth during infancy and childhood. Diet and nutrition play a vital role in their overall health and the development of a strong immune system.']
         },
 

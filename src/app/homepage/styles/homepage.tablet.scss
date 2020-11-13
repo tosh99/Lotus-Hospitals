@@ -56,7 +56,6 @@
 
 
 .homepage {
-
     flex-direction: column;
     background: $Blue-W;
 
@@ -73,6 +72,7 @@
         p {
             width: 400px;
             text-align: center;
+            font-size: 20px;
         }
 
         .banner-img {

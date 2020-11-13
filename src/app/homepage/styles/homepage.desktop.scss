@@ -47,10 +47,10 @@
 
 @keyframes slideInFromBottomLove {
     0% {
-        bottom: 25%;
+        bottom: 35%;
     }
     100% {
-        bottom: 36%;
+        bottom: 42%;
     }
 }
 
@@ -80,6 +80,7 @@
             color: $LH-Black;
             width: 400px;
             text-align: center;
+            font-size: 20px;
         }
 
 
@@ -144,7 +145,7 @@
 
         .fam-top-love {
             position: absolute;
-            bottom: 36%;
+            bottom: 42%;
             animation: 2s ease-out 0s 1 slideInFromBottomLove;
             z-index: 3;
         }

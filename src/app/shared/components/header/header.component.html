@@ -20,19 +20,19 @@
             <p>Services</p>
             <div class="dropdown-content">
                 <a href="#/paediatrics">
-                    <header>Paediatrics</header>
+                    <header>Pediatrics</header>
+                </a>
+                <a href="#/neonatology">
+                    <header>Neonatology</header>
                 </a>
                 <a href="#/gynaecology">
-                    <header>Gynaecology</header>
-                </a>
-                <a href="#/fertility">
-                    <header>Fertility</header>
+                    <header>Gynecology</header>
                 </a>
                 <a href="#/maternity">
                     <header>Maternity</header>
                 </a>
-                <a href="#/neonatology">
-                    <header>Neonatology</header>
+                <a href="#/fertility">
+                    <header>Fertility</header>
                 </a>
             </div>
         </div>
@@ -40,13 +40,13 @@
             <p [ngClass]="{'selected':router.url.includes('branches')}">Branches</p>
         </a>
         <div class="dropdown">
-            <p [ngClass]="{'selected':router.url.includes('packages')}">Health Packages</p>
+            <p [ngClass]="{'selected':router.url.includes('packages')}">Healthcare Packages</p>
             <div class="dropdown-content">
                 <a href="#/packages">
-                    <header>Pediatric Health Packages</header>
+                    <header>Pediatric Healthcare Packages</header>
                 </a>
                 <a href="#/packages/women">
-                    <header>Women's Health Packages</header>
+                    <header>Women's Healthcare Packages</header>
                 </a>
             </div>
         </div>
@@ -72,10 +72,10 @@
     <div class="column">
         <h4>Services</h4>
         <a href="#/paediatrics">
-            <p (click)="navigateTo()" class="captions">Paediatrics</p>
+            <p (click)="navigateTo()" class="captions">Pediatrics</p>
         </a>
         <a href="#/gynaecology">
-            <p (click)="navigateTo()" class="captions">Gynaecology</p>
+            <p (click)="navigateTo()" class="captions">Gynecology</p>
         </a>
         <a href="#/fertility">
             <p (click)="navigateTo()" class="captions">Fertility</p>
