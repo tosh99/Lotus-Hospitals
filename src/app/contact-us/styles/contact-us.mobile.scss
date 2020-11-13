@@ -27,6 +27,7 @@
         .locations {
             display: flex;
             flex-direction: column;
+            padding: 0;
 
             .location {
                 display: flex;
@@ -44,6 +45,7 @@
                 h4 {
                     font-weight: 500;
                     margin-bottom: 20px;
+                    text-align: center;
                 }
 
                 button {
