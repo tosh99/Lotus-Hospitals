@@ -1,6 +1,6 @@
 @import "src/styles";
 
-@keyframes mother {
+@keyframes mother-mater {
     0% {
         left: 108px;
     }
@@ -48,7 +48,7 @@
             width: 416px;
             bottom: 39px;
             left: 122px;
-            animation: 2s ease-out 0s 1 mother;
+            animation: 2s ease-out 0s 1 mother-mater;
         }
 
         .vase {
