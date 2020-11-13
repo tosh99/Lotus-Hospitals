@@ -23,7 +23,7 @@
         left: 8%;
     }
     100% {
-        left: 18%;
+        left: 13%;
     }
 }
 
@@ -32,7 +32,7 @@
         right: 8%;
     }
     100% {
-        right: 18%;
+        right: 15%;
     }
 }
 
@@ -53,7 +53,6 @@
         bottom: 40%;
     }
 }
-
 
 @keyframes fades {
     from {
@@ -128,16 +127,16 @@
         .fam-left {
             position: absolute;
             bottom: 5%;
-            left: 18%;
+            left: 13%;
             animation: 1.4s ease-out 0s 1 slideInFromLeft;
             z-index: 2;
-            height: 100px;
+            height: 150px;
         }
 
         .fam-right {
             position: absolute;
             bottom: 5%;
-            right: 18%;
+            right: 15%;
             animation: 1.4s ease-out 0s 1 slideInFromRight;
             z-index: 2;
             height: 100px;
@@ -148,7 +147,7 @@
             bottom: 0;
             animation: 1.6s ease-out 0s 1 slideInFromBottom;
             z-index: 0;
-            height: 200px;
+            height: 240px;
         }
 
         .fam-top-love {
@@ -342,9 +341,16 @@
 
     .hospitals-nearby {
         background: white;
-
         flex-direction: column;
         padding: 0 25px;
+
+        a {
+            margin-bottom: 45px;
+
+            h3 {
+                margin-top: 0;
+            }
+        }
 
         h2 {
             text-align: center;
@@ -353,14 +359,12 @@
         }
 
         .hospitals {
-
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
 
             img {
-                margin-bottom: 25px;
                 width: 100%;
             }
         }
