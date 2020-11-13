@@ -9,10 +9,10 @@
 }
 
 
-
 .baby-packages {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 50px 25px;
 
     .img-container {
@@ -39,6 +39,11 @@
             position: relative;
             margin-top: 20px;
             bottom: unset;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
         }
     }
 }

@@ -13,9 +13,10 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 80px;
+        width: 1200px;
 
         .fm-left {
-            margin-right: 337px;
+            margin-right: 128px;
             display: flex;
         }
 
@@ -49,6 +50,10 @@
                     color: $LH-Peach;
                     transition: 0.4s;
                 }
+            }
+
+            .column:last-of-type {
+                margin-right: 0;
             }
 
 

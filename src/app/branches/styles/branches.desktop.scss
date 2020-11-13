@@ -1,5 +1,14 @@
 @import "src/styles";
 
+
+.page {
+    .banner {
+        background: url("../../../assets/icons/branches/bg_branches.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .branch-list {
     display: flex;
     justify-content: center;

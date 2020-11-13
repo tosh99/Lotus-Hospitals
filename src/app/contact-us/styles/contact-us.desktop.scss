@@ -18,10 +18,12 @@
         .emer {
             color: $LH-Peach;
             margin-bottom: 50px;
+            display: flex;
 
             span {
                 color: black;
                 font-weight: 400;
+                margin-left: 15px;
             }
         }
 
