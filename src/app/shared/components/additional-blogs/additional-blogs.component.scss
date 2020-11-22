@@ -1,0 +1,116 @@
+@import "src/styles";
+
+.additional-blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    position: relative;
+    padding: 60px 0;
+    min-height: 196px;
+
+    .back-icon, .forward-icon {
+        position: absolute;
+        top: 38%;
+        cursor: pointer;
+    }
+
+    .back-icon {
+        left: 108px;
+    }
+
+    .forward-icon {
+        right: 108px;
+    }
+
+    .blog-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .blog {
+            display: flex;
+            flex-direction: column;
+            max-width: 430px;
+            margin-right: 25px;
+            cursor: pointer;
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            .dates {
+                display: flex;
+                align-items: center;
+                color: $Blue-P;
+                margin-bottom: 15px;
+                padding: 0 10px;
+
+                .date {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 25px;
+
+                    img {
+                        margin-right: 8px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            h4 {
+                color: $LH-Black;
+                padding: 0 10px;
+            }
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+    .additional-blogs {
+        padding: 50px;
+
+        .blog-list {
+            display: flex;
+            flex-direction: column;
+
+            .blog {
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .additional-blogs {
+        padding: 25px;
+
+        .back-icon, .forward-icon {
+            display: none;
+        }
+
+        .blog-list {
+            display: flex;
+            flex-direction: column;
+
+            .blog {
+                margin: 0;
+                margin-bottom: 45px;
+
+                .dates {
+                    .date {
+                        margin-right: 10px;
+                    }
+                }
+
+                .defaultblogimg {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

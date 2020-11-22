@@ -1,5 +1,13 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../../assets/icons/packages/bg_womens_health.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .baby-packages {
     padding: 50px;
 

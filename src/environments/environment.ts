@@ -5,7 +5,8 @@ export const environment = {
     production: false,
     serverurl: '',
     apilist: {
-
+        blogs: 'blogs.json',
+        doctors: 'doctors.json'
     }
 };
 

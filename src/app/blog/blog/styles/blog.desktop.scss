@@ -1,0 +1,131 @@
+@import "src/styles";
+
+.page {
+    .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: $Blue-P !important;
+
+        img {
+            width: 496px;
+        }
+
+        h2, p {
+            width: 600px;
+            padding-left: 108px;
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 35px;
+        }
+
+        p {
+            color: white;
+        }
+
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        padding: 120px 108px 60px 108px;
+        background: white;
+
+        .blog-title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 90px;
+
+            h2 {
+                color: $LH-Peach;
+            }
+        }
+
+        .blog-list {
+            display: flex;
+            flex-wrap: wrap;
+
+            .blog {
+                display: flex;
+                flex-direction: column;
+                width: calc(25% - 25px);
+                margin-right: 25px;
+                margin-bottom: 65px;
+                cursor: pointer;
+
+                .defaultblogimg {
+                    width: 100%;
+                }
+
+                img {
+                    margin-bottom: 20px;
+                }
+
+                .dates {
+                    display: flex;
+                    align-items: center;
+                    color: $Blue-P;
+                    margin-bottom: 15px;
+                    padding: 0 10px;
+
+                    .date {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 25px;
+
+                        img {
+                            margin-right: 8px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                h4 {
+                    color: $LH-Black;
+                    padding: 0 10px;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+    .page {
+        .banner {
+            display: flex;
+            flex-direction: row !important;
+
+            img {
+                width: 396px;
+            }
+
+            h2, p {
+                width: 400px;
+                padding-left: 56px !important;
+            }
+        }
+
+        .blogs {
+            padding: 50px;
+
+            .blog-list {
+                .blog {
+                    width: calc(50% - 25px);
+
+                    .defaultblogimg {
+                        width: 100%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+

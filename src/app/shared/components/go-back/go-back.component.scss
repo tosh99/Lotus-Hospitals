@@ -1,0 +1,25 @@
+@import "src/styles";
+
+.go-back {
+    display: flex;
+    padding: 50px 108px;
+    color: $LH-Blue;
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+    .go-back {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .go-back {
+        padding: 0 25px;
+        padding-top: 10px;
+    }
+}

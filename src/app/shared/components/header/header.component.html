@@ -56,6 +56,9 @@
         <a href="/about">
             <p [ngClass]="{'selected':router.url.includes('about')}">About</p>
         </a>
+        <a href="/blog">
+            <p [ngClass]="{'selected':router.url.includes('blog')}">Blog</p>
+        </a>
         <a href="/contactus">
             <p [ngClass]="{'selected':router.url.includes('contactus')}">Contact</p>
         </a>
@@ -113,7 +116,7 @@
         <a href="/education">
             <p (click)="navigateTo()" class="captions">Education</p>
         </a>
-         <a href="/contactus">
+        <a href="/contactus">
             <p (click)="navigateTo()" class="captions">Contact Us</p>
         </a>
     </div>

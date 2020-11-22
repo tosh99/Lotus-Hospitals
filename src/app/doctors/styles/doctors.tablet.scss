@@ -1,5 +1,13 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../assets/icons/doctors/bg_doctors.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .meet-our-team {
     display: flex;
     flex-direction: column;

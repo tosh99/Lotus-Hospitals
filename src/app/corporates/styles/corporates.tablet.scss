@@ -1,5 +1,13 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../assets/icons/corporates/bg_corporates.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .companies {
     display: flex;
     flex-direction: column;

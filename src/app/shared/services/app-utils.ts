@@ -33,16 +33,9 @@ export class AppUtils {
     }
 
     public parseEnv(urlkey, method = 'GET', payload = {}): Observable<any> {
-        if (environment.serverurl === 'assets/json') {
-            method = 'GET';
-        }
+        const url = 'assets/jsons/' + environment.apilist[urlkey];
 
-        let urlheader = 'http://';
-        if (environment.production) {
-            urlheader = 'https://';
-        }
 
-        const url = urlheader + environment.apilist[urlkey].api_id + environment.serverurl + environment.apilist[urlkey].trigger;
         if (method === 'GET') {
             return this.getRequest(url);
         } else if (method === 'POST') {

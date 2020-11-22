@@ -1,0 +1,59 @@
+<app-header></app-header>
+
+<div class="page">
+    <div class="banner">
+        <div class="banner-left">
+            <img src="assets/icons/blogs/blog-first/blog-first.png">
+        </div>
+        <div class="banner-right">
+            <h2>Everything you should know about Nipah Virus</h2>
+            <p>Lotus Hospitals has a nationally recognised Newborn & Intensive Care Programme that is carefully curated by Dr. V.S.V. Prasad, one of the most-sought after pediatricians in South India. For over a decade
+                (10
+                years), we have also been conducting a 3 Year Programme in Pediatrics Training – Affiliated with the National Board of Examination which is known to produce some of the best pediatricians in the country.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="blogs">
+        <div class="blog-title">
+            <h2>Read our Blog</h2>
+            <app-dropdown class="dropdown" [dropdownItems]="blogtypes" [dropdownConfig]="dpConfig" [(dropdownSelectedItem)]="selectedBlogType" (dropdownSelectedItemChange)="search()" ></app-dropdown>
+        </div>
+
+
+        <div class="blog-list">
+            <ng-container *ngFor="let blog of blogs">
+                <div class="blog" *ngIf="blog.isdisplayed">
+                    <a [href]="blog.blogLink">
+                        <img [src]="blog.blogImg" *ngIf="blog.blogImg">
+                        <img class="defaultblogimg" src="assets/icons/blogs/blog/defaultblogimg.svg" *ngIf="!blog.blogImg">
+                        <div class="dates">
+                            <div class="date">
+                                <img src="assets/icons/blogs/blog/calendar.svg">
+                                <p>{{blog.blogDate}}</p>
+                            </div>
+                            <div class="date">
+                                <img src="assets/icons/blogs/blog/folder.svg">
+                                <p>{{blog.blogType}}</p>
+                            </div>
+                        </div>
+                        <h4>{{blog.blogTitle}}</h4>
+                    </a>
+                </div>
+            </ng-container>
+        </div>
+
+    </div>
+
+
+    <div class="consult-with-doctors">
+        <h4>Consult with our doctors</h4>
+        <a href="/contactus">
+            <button>Book Now</button>
+        </a>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

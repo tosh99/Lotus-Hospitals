@@ -1,5 +1,13 @@
 @import "src/styles";
 
+.page {
+    .banner {
+        background: url("../../../assets/icons/education/bg_education.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .for-doctors {
     background: white;
     padding: 80px 108px;

@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { DoctorsRoutingModule } from './doctors-routing.module';
 import { DoctorsComponent } from './doctors.component';
-import {FooterModule} from "../shared/components/footer/footer.module";
-import {HeaderModule} from "../shared/components/header/header.module";
-import {FormsModule} from "@angular/forms";
-import {DropdownModule} from "../shared/components/dropdown/dropdown.module";
+import {FooterModule} from '../shared/components/footer/footer.module';
+import {HeaderModule} from '../shared/components/header/header.module';
+import {FormsModule} from '@angular/forms';
+import {DropdownModule} from '../shared/components/dropdown/dropdown.module';
+import {SharedServicesModule} from '../shared/shared-services.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {DropdownModule} from "../shared/components/dropdown/dropdown.module";
         FooterModule,
         HeaderModule,
         FormsModule,
-        DropdownModule
+        DropdownModule,
+        SharedServicesModule
     ]
 })
 export class DoctorsModule { }

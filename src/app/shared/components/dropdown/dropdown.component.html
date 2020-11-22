@@ -26,9 +26,9 @@
         </div>
 
 
-        <div class="message" *ngIf="message">
-            {{message}}
-        </div>
+<!--        <div class="message" *ngIf="message">-->
+<!--            {{message}}-->
+<!--        </div>-->
 
         <!-- ITEMS-->
         <div class="items" [ngClass]="{'items-loading':dropdownConfig.getLoading()}" snInfiniteScroll (scrollEnd)="onScroll()" [offset]="50" [disabled]="!dropdownConfig.getLazyLoad()">
