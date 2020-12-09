@@ -1,0 +1,60 @@
+{
+    "blogs": [
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "A",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "B",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "C",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "D",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "E",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News",
+            "blogImg": "",
+            "blogTitle": "F",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        },
+        {
+            "blogDate": "25 July 2020",
+            "blogType": "News and Events",
+            "blogImg": "",
+            "blogTitle": "G",
+            "blogLink": "/blog/blog-first",
+            "isdisplayed": true
+        }
+    ]
+}
