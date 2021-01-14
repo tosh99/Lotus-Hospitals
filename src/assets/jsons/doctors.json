@@ -1,1608 +1,2453 @@
 {
     "doctors": [
         {
-            "doctor_name": "Dr. V.S.V. PRASAD",
-            "qualifications": "MBBS, MD Pediatrics (A.I.I.M.S.). F.R.C.P.C.H (UK), Fellow in Pediatrics, Crit.Care & Neonatology (UK & USA)",
+            "doctor_name": "Dr. V.S.V. Prasad",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD Pediatrics (A.I.I.M.S.). F.R.C.P.C.H (UK)"
+                ]
+            ],
             "specialty": [
-                "NEONATOLOGY (NICU)",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul", "Kukatpally"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr VSV Prasad.JPG"
         },
         {
-            "doctor_name": "Dr. ANNAPURNA TADAVARTHY",
-            "qualifications": "MBBS, DCH (UK), MRCPCH (UK)",
+            "doctor_name": "Dr. T. Annapoorna ",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH (UK)",
+                    " MRCPCH (UK)"
+                ]
+            ],
             "specialty": [
-                "NEONATOLOGY (NICU)",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Annapurna.JPG"
         },
         {
-            "doctor_name": "Dr. R SRIDIVYA",
-            "qualifications": "MBBS, DNB (PED)",
+            "doctor_name": "Dr. Sri Divya .R",
+            "qualifications": [
+                [
+                    "MBBS",
+                    "  DNB  (Ped)"
+                ]
+            ],
             "specialty": [
-                "NEONATOLOGY (NICU)",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sridivya.JPG"
         },
         {
-            "doctor_name": "Dr. SAMRIDHI GOYAL",
-            "qualifications": "MD Peds, ISPN Fellowship.Ped.Nephro",
+            "doctor_name": "Dr. Ganesh Naik .V",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " MD (PED)",
+                    " IDPCCM(PICU)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEPHROLOGY"
+                "PEDIATRIC INTENSIVE CARE "
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ganesh Naik V.jpg"
         },
         {
-            "doctor_name": "Dr. VAMSIDHAR KEDAR",
-            "qualifications": "MBBS, DCH , DAA (CMC, VELLORE)",
+            "doctor_name": "Dr. Alok S. Patil",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (PED)",
+                    "  IDPCCM (PICU)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC ALLERGY & ASTHMA"
+                "PEDIATRIC INTENSIVE CARE "
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Alok.JPG"
         },
         {
-            "doctor_name": "Dr. RAMESH SRINIVASAN",
-            "qualifications": "MBBS. MD (PGI), MRCP (UK), FRCPCH (UK), CCT",
+            "doctor_name": "Dr. Nadeem Aslam",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Ped)",
+                    " (Fellow in PICU)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC GASTROENTEROLOGY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Nadeem Aslam.jpg"
         },
         {
-            "doctor_name": "Dr. S.V.S.S. PRASAD",
-            "qualifications": "MBBS, MD (PED), PGI, DM (MEDICAL ONCOLOGY)",
+            "doctor_name": "Dr. Chetan .M. Nimbalkar ",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    "(DNB Ped)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC HEMATOLOGY & ONCOLOGY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Chetan M Nimbalkar .jpg"
         },
         {
-            "doctor_name": "Dr. K. SAMBA SIVAIAH",
-            "qualifications": "MBBS, MD, DM (MEDICAL ONCOLOGY)",
+            "doctor_name": "Dr. K. Rama Krishna Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    "(DNB Ped)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC HEMATOLOGY & ONCOLOGY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr K Rama Krishna Reddy.jpg"
         },
         {
-            "doctor_name": "Dr. MRUDULA KARNATI",
-            "qualifications": "MBBS, MD, DNB (Neuro)",
+            "doctor_name": "Dr. Himavarshini",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " (DNB Ped)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEUROLOGY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Himavarshini.jpg"
         },
         {
-            "doctor_name": "Dr. ANJAN PYAL",
-            "qualifications": "MBBS, MD. DM (Neuro)",
+            "doctor_name": "Dr. M.A. Srikavya",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " (DNB Ped)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEUROLOGY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr MA Srikavya.jpg"
         },
         {
-            "doctor_name": "Dr. CHANDRA SEKHAR",
-            "qualifications": "MBBS, MS, MCH (Neuro)",
+            "doctor_name": "Dr. Sana Sabir Fakih",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " (DNB Ped)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEURO SURGERY"
+                "PEDIATRICS & NEONATOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sana Sabir Fakih.jpg"
         },
         {
-            "doctor_name": "Dr. A.LAXMAN RAO",
-            "qualifications": "MBBS, MS, MCH (Neuro)",
+            "doctor_name": "Dr. A. Sujatha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD",
+                    " DGO"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEURO SURGERY"
+                "OBSTETRICS & GYNECOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sujatha.jpg"
         },
         {
-            "doctor_name": "Dr. ANJANI KUMAR",
-            "qualifications": "B.Sc, BPT (PHYSIO)",
+            "doctor_name": "Dr. Afshaan Shaik",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEURO REHABILITATION AND PHYSIOTHERAPY"
+                "OBSTETRICS & GYNECOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Afshaan.JPG"
         },
         {
-            "doctor_name": "Dr. SUDEEP KUMAR",
-            "qualifications": "BPT (Physio)",
+            "doctor_name": "Dr. B.R. Nirmala",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO",
+                    " (DNB) "
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC NEURO REHABILITATION AND PHYSIOTHERAPY"
+                "FERTILITY (IVF)"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr B R Nirmala.JPG"
         },
         {
-            "doctor_name": "MS. SANDHYA & Mr. ARJUN",
-            "qualifications": "DIPLOMA IN EEG",
+            "doctor_name": "Dr. Arshia Mehnaaz Younus Khan",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (UCN)"
+                ]
+            ],
             "specialty": [
-                "DEPT. OF EEG & NEURO ANCILLARY"
+                "OBSTETRICS & GYNECOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Arshia Mehnaaz Younus Khan.jpg"
         },
         {
-            "doctor_name": "Dr. ASNA ANJUM",
-            "qualifications": "MBBS, MD (DERMATOLOGY)",
+            "doctor_name": "Dr. Mehnaz Parveen MD",
+            "qualifications": [
+                [
+                    "MBBS"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC DERMATOLOGY"
+                "OBSTETRICS & GYNECOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mehnaz Parveen MD.jpg"
         },
         {
-            "doctor_name": "Dr. AMARNATH KULKARNI",
-            "qualifications": "MBBS, DCH (OSM), DNB (PED) , FELLOWSHIP IN PEDIATRICS & ADOLESCENT ENDOCRINOLOGY (RGUHS)",
+            "doctor_name": "Dr. Amarnath Kulkarni",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (PED)",
+                    "Fellowship In  Adolescent Endocrinology"
+                ]
+            ],
             "specialty": [
                 "PEDIATRIC ENDOCRINOLOGY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Amarnath Kulkarni.jpg"
         },
         {
-            "doctor_name": "Dr. MANDAVA RAMYA CHOWDARY",
-            "qualifications": "BDS, MDS (Ped Prevenntive dentistry)",
+            "doctor_name": "Dr. S. Rama Swamy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " M.S ",
+                    " M.Ch (Pediatric Surg-AIIMS",
+                    " N.Delhi)"
+                ]
+            ],
             "specialty": [
-                "PEDIATRIC DENTISTRY"
+                "PEDIATRIC UROLOGY/SURGERY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr S Rama Swamy.jpg"
         },
         {
-            "doctor_name": "Dr. A. RADHA RAMA DEVI",
-            "qualifications": "MBBS, MD (PEDIATRICS)",
-            "specialty": [
-                "GENETIC AND METABOLOSIM"
+            "doctor_name": "Dr. M. Yoga Nagendhar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " M.S. M.Ch (Ped. Surg)"
+                ]
             ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. RAMA SWAMY",
-            "qualifications": "MBBS, M.S , M.Ch (Pediatric Surg-AIIMS, N.Delhi)",
             "specialty": [
                 "PEDIATRIC SURGERY"
             ],
             "location": [
-                "Lakadikapul"
+                "Lakdikapul"
             ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. YOGA NAGENDRA",
-            "qualifications": "MBBS, M.S. M.Ch (Ped. Surg)",
-            "specialty": [
-                "PEDIATRIC SURGERY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. M. SHIVA RAM .",
-            "qualifications": "MBBS, MS, M.Ch (Plastic & Cosmetic surgery)",
-            "specialty": [
-                "PEDIATRIC PLASTIC & COSMETIC SURGERY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. P. NALINI KANTH",
-            "qualifications": "MBBS, DLO (ENT)",
-            "specialty": [
-                "PEDIATRIC ENT SURGERY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. KIRAN S. PARYANI",
-            "qualifications": "MBBS, MS (ENT)",
-            "specialty": [
-                "PEDIATRIC ENT SURGERY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. MURALIDHAR",
-            "qualifications": "MBBS, DNB, FRCS",
-            "specialty": [
-                "PEDIATRIC OPTHALMOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. P. SAI KIRANMAYEE",
-            "qualifications": "MBBS, MS (Opthal)",
-            "specialty": [
-                "PEDIATRIC OPTHALMOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. MOHD. ASIF HANEEF",
-            "qualifications": "MBBS, M. S (Ortho)",
-            "specialty": [
-                "PEDIATRIC ORTHOPEDICS"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. VENKAT REDDY",
-            "qualifications": "MBBS, MD (Pulmo)",
-            "specialty": [
-                "DEPT. OF PULMONOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. RAFI",
-            "qualifications": "MBBS, MD (Pulm)",
-            "specialty": [
-                "DEPT. OF PULMONOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. SUDHEEP VARMA",
-            "qualifications": "MBBS, MD, DM (Card)",
-            "specialty": [
-                "PEDIATRIC CARDIOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. ASIF",
-            "qualifications": "MBBS, MD, DM (Card)",
-            "specialty": [
-                "PEDIATRIC CARDIOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. M.S.R.C. MURTHY",
-            "qualifications": "MBBS, MD (ANESTHESIA)",
-            "specialty": [
-                "DEPT. OF ANESTHESIA & CRITICAL CARE"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. MALLIKARJUN",
-            "qualifications": "MBBS, MD (ANESTHESIA)",
-            "specialty": [
-                "DEPT. OF ANESTHESIA & CRITICAL CARE"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. CHAITANYA",
-            "qualifications": "MBBS, MD (ANESTHESIA)",
-            "specialty": [
-                "DEPT. OF ANESTHESIA & CRITICAL CARE"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. SUJATHA AUDIMULAPU",
-            "qualifications": "MBBS, MD, DGO",
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. ARSHIA MEHNAZ",
-            "qualifications": "MBBS, DGO (Russia)",
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. K. UMA",
-            "qualifications": "MBBS, DGO",
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. VEENA MANNE",
-            "qualifications": "MBBS, DNB (OBG)",
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. VINODA VUNNAM",
-            "qualifications": "Diploma in Lactation.",
-            "specialty": [
-                "DEPT. OF LACTATION & DUALA SERVICES"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. SWETHA JAHNAVI",
-            "qualifications": "MBBS, DGO, FELLOWSHIP (Lap.Surg)",
-            "specialty": [
-                "GYNEC LAPAROSCOPIC SURGERY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. B.R. NIRMALA",
-            "qualifications": "MBBS, DGO, DNB , FELLOWSHIP IN FERTILITY",
-            "specialty": [
-                "DEPT. OF FERTILITY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. RAGINI GOUD",
-            "qualifications": "MBBS, DGO, FELLOW IN REPRODUCTIVE MEDICINE",
-            "specialty": [
-                "DEPT. OF FERTILITY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. TAHER ALI",
-            "qualifications": "MBBS, DNB (Gen.Med)",
-            "specialty": [
-                "DEPT. OF DIABETOLOGY & INT. MEDICINE"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "MS. AFIA HUSSAIN",
-            "qualifications": "M.Sc, (Nutrition)",
-            "specialty": [
-                "DEPT. OF DIETICS & NUTRITION"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. V HEMA MALINI PRASAD",
-            "qualifications": "MBBS, DNB (Radiology)",
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. RAJINI",
-            "qualifications": "MBBS, DMRD (Rad)",
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. IRSHAD AHMED",
-            "qualifications": "MBBS, MD (Patho)",
-            "specialty": [
-                "PATHOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. JOHA FATIMA",
-            "qualifications": "MBBS, MD, (Patho)",
-            "specialty": [
-                "PATHOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. ARCY BILLORIA",
-            "qualifications": "MBBS, MD (Micro)",
-            "specialty": [
-                "MICROBIOLOGY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. ARUNA KUMARI",
-            "qualifications": "MBBS, MD (Biochemistry)",
-            "specialty": [
-                "BIOCHEMISTRY"
-            ],
-            "location": [
-                "Lakadikapul"
-            ],
-            "isdisplayed": true
-        },
-        {
-            "doctor_name": "Dr. VAMSIDHAR KEDAR",
-            "qualifications": "MBBS, DCH,( DNB ), FELLOW IN PED.INTENSIVE CARE, DIP. IN ALLERGY & ASTHMA (cmc,Vellore)",
             "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
+            "imglink": "assets/doctorphotos/Dr M Yoga Nagendhar.jpg"
         },
         {
-            "doctor_name": "Dr. KAMALAKAR RAO NAMBURI",
-            "qualifications": "MBBS, MD (PED) , IAP FELLOWSHIP IN NEONATOLOGY",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
+            "doctor_name": "Dr. M. Ramya Chowdary",
+            "qualifications": [
+                [
+                    "BDS",
+                    " MDS (Ped Dentistry)"
+                ]
             ],
             "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. YARRAGUDI VASUDEVA REDDY",
-            "qualifications": "MBBS, MD, DNB (Ped)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
+                "PEDIATRIC DENTISTRY "
             ],
-            "specialty": [
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. VENNAPUSA MALLIKARJUNA REDDY",
-            "qualifications": "MBBS, DCH, DNB (Ped)",
-            "isdisplayed": true,
             "location": [
-                "Kukatpally"
+                "Lakdikapul"
             ],
-            "specialty": [
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Ramya Chowdary.jpg"
         },
         {
-            "doctor_name": "Dr. SRIKANTH DAPPURI",
-            "qualifications": "MBBS, DCH, DNB",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. YOGA NAGENDAR",
-            "qualifications": "MBBS, DNB (Ped), M.Ch ( Ped.surg)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRIC SURGERY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. V. NARASIMHA RAO",
-            "qualifications": "MBBS, MS, M.Ch (NIMS)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
+            "doctor_name": "Dr. M. Shiva Ram",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " M.Ch  (Plastic & Cosmetic Surgery)"
+                ]
             ],
             "specialty": [
                 "PLASTIC SURGERY & COSMETOLOGY"
-            ]
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Shiva Ram.jpg"
         },
         {
-            "doctor_name": "Dr. MRUDULA KARNATI",
-            "qualifications": "MBBS, MD, DNB (Neuro)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
+            "doctor_name": "Dr. K. Mrudhula",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD",
+                    " DNB (Neurology)"
+                ],
+                [
+                    "MBBS",
+                    " MD",
+                    " DNB(Neuro)"
+                ],
+                [
+                    "MBBS",
+                    " MD",
+                    " DNB(Neuro)"
+                ]
             ],
             "specialty": [
+                "DEPT. OF NEUROLOGY",
+                "DEPT. OF NEUROLOGY",
                 "DEPT. OF NEUROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. PRASHANTH UTAGE",
-            "qualifications": "MBBS, DCH, DNB (Neuro)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
             ],
-            "specialty": [
-                "DEPT. OF NEUROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. ANJANI KUMAR",
-            "qualifications": "B.Sc, BPT (PHYSIO)",
-            "isdisplayed": true,
             "location": [
-                "Kukatpally"
+                "Lakdikapul",
+                "Kukatpally",
+                "LB Nagar"
             ],
-            "specialty": [
-                "DEPT. OF PHYSIO & REHABILITATION"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr K Mrudhula.jpg"
         },
         {
-            "doctor_name": "Dr. SUDEEP KUMAR",
-            "qualifications": "BPT (Physio)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF PHYSIO & REHABILITATION"
-            ]
-        },
-        {
-            "doctor_name": "Dr. MANDAVA RAMYA CHOWDARY",
-            "qualifications": "BDS, MDS (PREVENTIVE PEDO DENTISTRY)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRIC DENTISTRY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. ASHWIN KUMAR PAL",
-            "qualifications": "BDS, MDS (Ped Prevenntive dentistry)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRIC DENTISTRY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SAMRIDHI GOYAL",
-            "qualifications": "MBBS, MD, DNB (Ped.Neph)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRIC NEPHROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. NAGESWAR REDDY",
-            "qualifications": "MBBS, MD (Nephro)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PEDIATRIC NEPHROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SUDEEP KUMAR",
-            "qualifications": "MBBS, MD, DM (Card)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF  PED. CARDIOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. PRASHANTH PATIL",
-            "qualifications": "MBBS, MD (Card)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF  PED. CARDIOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. NAGARAJU",
-            "qualifications": "MBBS, MD (DERMA)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF DERMATOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. S. KIRAN",
-            "qualifications": "MBBS, MD (DERMA)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF DERMATOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. KISHORE KUMAR",
-            "qualifications": "MBBS .DLO, FAGE",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
+            "doctor_name": "Dr. P. Nalini Kanth",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DLO (ENT)"
+                ]
             ],
             "specialty": [
                 "DEPT. OF ENT SURGERY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. MADAN MOHAN",
-            "qualifications": "MBBS, MS (Ortho), M.Ch (Ortho)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
             ],
-            "specialty": [
-                "DEPT. OF ORTHOPEDICS "
-            ]
-        },
-        {
-            "doctor_name": "Dr. SUSHMA TATIPALLY",
-            "qualifications": "MBBS, MS (Opthal)",
-            "isdisplayed": true,
             "location": [
-                "Kukatpally"
+                "Lakdikapul"
             ],
-            "specialty": [
-                "DEPT. OF OPTHALMOLOGY"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr P Nalini Kanth.jpg"
         },
         {
-            "doctor_name": "Dr. AMARNATH KULKARNI",
-            "qualifications": "MBBS, DCH, DNB (PED),FELLOWSHIP IN ADOLESCENT ENDOCRINOLOGY",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF PEDIATRIC ENDOCRINOLOGY "
-            ]
-        },
-        {
-            "doctor_name": "MR. JAGADISH",
-            "qualifications": "DIPLOMA IN EEG & NEURO ANCILLARY",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT OF EEG & NEURO ANCILLARY"
-            ]
-        },
-        {
-            "doctor_name": "MR. AJAY",
-            "qualifications": "DIPLOMA IN BERA /EAR THERAPY",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT OF EEG & NEURO ANCILLARY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SUMANA.T",
-            "qualifications": "MBBS, DA, DGO, DIP.IN LAP. SURG(GERMANY)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. PAVITRA REDDY",
-            "qualifications": "MBBS, MS (OBG),",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. MRIDULA KARRI",
-            "qualifications": "MBBS, M.S (OBG), Dip. In LAP.SURG",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. VINODA VUNNAM",
-            "qualifications": "DIPLOMA IN LACTATION & DUALA SERVICES",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF LACTATION & DUALA SERVICES"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SWETHA JAHNAVI",
-            "qualifications": "MBBS, DGO, FELLOWSHIP (Lap.Surg)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "GYNEC LAPAROSCOPIC SURGERY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. B.R. NIRMALA",
-            "qualifications": "MBBS, DGO, DNB , FELLOWSHIP IN FERTILITY",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF FERTILITY SERVICES "
-            ]
-        },
-        {
-            "doctor_name": "Dr. RAGINI GOUD",
-            "qualifications": "MBBS, DGO, FELLOW IN REPRODUCTIVE MEDICINE",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF FERTILITY SERVICES "
-            ]
-        },
-        {
-            "doctor_name": "Dr. TAHER ALI",
-            "qualifications": "MBBS, DNB (Gen. Med)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF DIABETOLOGY & INT. MEDICINE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SIREESHA",
-            "qualifications": "MBBS, MD (Gen.Med), Dip. In Diabetology",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF DIABETOLOGY & INT. MEDICINE"
-            ]
-        },
-        {
-            "doctor_name": "MS. AFIA HUSSAIN",
-            "qualifications": "M.Sc (Nutrition)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF  DIETITICS & NUTRITION"
-            ]
-        },
-        {
-            "doctor_name": "Ms. SHAILU",
-            "qualifications": "M.S.c (Nutrition)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF  DIETITICS & NUTRITION"
-            ]
-        },
-        {
-            "doctor_name": "Dr. HEMA MALINI PRASAD",
-            "qualifications": "MBBS, DNB (Radiology)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SANTHOSH KONDAPALLI",
-            "qualifications": "MBBS, DNB (RADIOLOGY)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SWETA PRIYANKA",
-            "qualifications": "MBBS, DNB (Radiology)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
-        },
-        {
-            "doctor_name": "Dr. RAJESH KHANNA",
-            "qualifications": "MBBS. MD (ANES)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF ANAESTHESIA & CRITIAL CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. VINOD KUMAR",
-            "qualifications": "MBBS. MD (ANES)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF ANAESTHESIA & CRITIAL CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. DAMODAR",
-            "qualifications": "MBBS, MD (ANAES)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "DEPT. OF ANAESTHESIA & CRITIAL CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. IRSHAD AHMED",
-            "qualifications": "MBBS, MD (Patho)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "PATHOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. ARCY BILLORIA",
-            "qualifications": "MBBS, MD (MICRO)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "MICROBIOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. ARUNA KUMARI",
-            "qualifications": "MBBS, MD (Biochemistry)",
-            "isdisplayed": true,
-            "location": [
-                "Kukatpally"
-            ],
-            "specialty": [
-                "BIOCHEMISTRY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. MOKA SUDHA",
-            "qualifications": "MBBS,MRCPCH (UK),DCH (UK)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. Y PALLAVI",
-            "qualifications": "MBBS,DCH,DNB",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr.TANDAVA PRASAD",
-            "qualifications": "MBBS,MD (PEDIATRICS)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "PEDIATRICS",
-                "PEDIATRICS INTENSIVE CARE"
-            ]
-        },
-        {
-            "doctor_name": "Dr. MRUDULA KARNATI",
-            "qualifications": "MBBS, MD , DNB (Neuro)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "PEDIATRIC NEUROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "MS. SANDHYA & Mr. ARJUN",
-            "qualifications": "DIPLOMA IN EEG",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF EEG & NEURO ANCILLARY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. ANJANI KUMAR",
-            "qualifications": "B.Sc, BPT (PHYSIO)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PHYSIOTHERAPY & REHABILITATION"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SUDEEP KUMAR",
-            "qualifications": "BPT (Physio)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PHYSIOTHERAPY & REHABILITATION"
-            ]
-        },
-        {
-            "doctor_name": "Dr. AMARNATH KULKARNI",
-            "qualifications": "MBBS, DCH, DNB (PED),FELLOWSHIP IN ADOLESCENT ENDOCRINOLOGY",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PEDIATRIC ENDOCRINOLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SAMRIDHI GOYAL",
-            "qualifications": "MBBS, MD, DNB (PED. NEPH)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PEDIATRIC NEPHROLOGY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. YOGA NAGENDRA",
-            "qualifications": "MBBS, M.S, M.Ch (Ped. Surg)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PEDIATRIC SURGERY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. RAJESH",
-            "qualifications": "MBBBS, MS, M.Ch (Ped. Surg)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
-            ],
-            "specialty": [
-                "DEPT. OF PEDIATRIC SURGERY"
-            ]
-        },
-        {
-            "doctor_name": "Dr. SAI KRISHNA REDDY",
-            "qualifications": "MBBS, M.S . (ENT)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Kiran .S. Paryani",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (ENT)"
+                ]
             ],
             "specialty": [
                 "DEPT. OF ENT SURGERY"
-            ]
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Kiran S Paryani.jpg"
         },
         {
-            "doctor_name": "Dr. HARIN REDDY MANDADI",
-            "qualifications": "MBBS, MD (DERMA), DRL",
-            "isdisplayed": true,
+            "doctor_name": "Dr. O. Muralidhar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB",
+                    " FRCS"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF OPHTHALMOLOGY"
+            ],
             "location": [
-                "L B Nagar"
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr O Muralidhar.jpg"
+        },
+        {
+            "doctor_name": "Dr. P. Sai Kiranmayee",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (Ophthal)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF OPHTHALMOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr P Sai Kiranmayee.jpg"
+        },
+        {
+            "doctor_name": "Dr. Sudeep Verma",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD",
+                    " DM (Card)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF CARDIOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sudeep Verma.jpg"
+        },
+        {
+            "doctor_name": "Dr. Mohd. Asif Haneef",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS  (Ortho)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF   ORTHOPEDICS"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mohd Asif Haneef.jpg"
+        },
+        {
+            "doctor_name": "Dr. Ramesh Srinivasan",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (PGI)",
+                    "MRCP(UK)",
+                    "FRCPCH (UK)",
+                    "CCT"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PED. GASTROENTEROLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ramesh Srinivasan.jpg"
+        },
+        {
+            "doctor_name": "Dr. Samridhi Goyal",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB ",
+                    " Fellowship In (Ped.Nephrology)"
+                ],
+                [
+                    "MBBS",
+                    " DNB ",
+                    " Fellowship In (Ped.Nephro)"
+                ],
+                [
+                    "MBBS",
+                    " DNB ",
+                    " Fellowship In (Ped.Nephro)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PED. NEPHROLOGY",
+                "DEPT. OF NEPHROLOGY",
+                "DEPT. OF NEPHROLOGY"
+            ],
+            "location": [
+                "Lakdikapul",
+                "Kukatpally",
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Samridhi Goyal.jpg"
+        },
+        {
+            "doctor_name": "Dr. S.V.S.S. Prasad",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (PED)",
+                    " PGI",
+                    " DM (Med.Onco)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PEDIATRIC  ONCOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr SVSS Prasad.jpg"
+        },
+        {
+            "doctor_name": "Dr. Venkat Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Pulm)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PULMONOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Venkat Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Rafi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Pulm)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PULMONOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Rafi.jpg"
+        },
+        {
+            "doctor_name": "Dr. Asna Anjum",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Derm)"
+                ]
             ],
             "specialty": [
                 "DEPT. OF DERMATOLOGY"
-            ]
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Asna Anjum.jpg"
         },
         {
-            "doctor_name": "Dr. PENDYAL SUNITHA",
-            "qualifications": "MBBS, DGO, DNB",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Arcy Billoria",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Micro)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNAECOLOGY"
-            ]
+                "DEPT. OF MICROBIOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Arcy Billoria.jpg"
         },
         {
-            "doctor_name": "Dr. SUSHMITHA",
-            "qualifications": "MBBS, DGO, DNB , Fellowship in Fertility",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Irshad Ahmed",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Path)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNAECOLOGY  "
-            ]
+                "DEPT. OF PATHOLOGY"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Irshad Ahmed.jpg"
         },
         {
-            "doctor_name": "Dr. VINODA VUNNAM",
-            "qualifications": "DIPLOMA IN LACTATION & DUALA SERVICES",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. A. Radha Rama Devi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Ped)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF LACTATION & DUALA SERVICES"
-            ]
+                "DEPT. OF GENETICS &METABOLISM"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr A Radha Rama Devi.jpg"
         },
         {
-            "doctor_name": "DR. TAHER ALI",
-            "qualifications": "MBBS, DNB (GEN. MEDICINE)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. M.S.R.C. Murthy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Anesth)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF DIABETOLOGY & INT. MEDICINE"
-            ]
+                "DEPT. OF ANESTHESIA"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr MSRC Murthy.jpg"
         },
         {
-            "doctor_name": "MS. AFIA HUSSAIN",
-            "qualifications": "M.Sc, (Nutrition)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Mallikarjun ",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Anesth)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF DIETITICS & NUTRITION"
-            ]
+                "DEPT. OF ANESTHESIA"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mallikarjuna Reddy.JPG"
         },
         {
-            "doctor_name": "DR. HEMA MALINI PRASAD",
-            "qualifications": "MBBS, DNB (RAD)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Ms. Afia Hussain",
+            "qualifications": [
+                [
+                    "M.Sc (Nutrition)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SERVICES"
-            ]
+                "DEPT. OF DIETETICS & NUTRITION"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Ms Afia Hussain.jpg"
         },
         {
-            "doctor_name": "Dr. SWETHA",
-            "qualifications": "MBBS, DMRD (RADIOLOGY)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Anjani Kumar",
+            "qualifications": [
+                [
+                    "B.Sc",
+                    " BPT (Physio)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SERVICES"
-            ]
+                "DEPT. OF PHYSIOTHERAPY &"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Anjani Kumar.jpg"
         },
         {
-            "doctor_name": "Dr. SRIDHAR",
-            "qualifications": "MBBS, D.A (Osm)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Mrs. Sandhya & Mr. Arjun ",
+            "qualifications": [
+                [
+                    "Dip in EEG"
+                ]
             ],
             "specialty": [
-                "DEPT. OF ANAESTHESIA"
-            ]
+                "DEPT. OF EEG & NEURO DIAGNOSTICS"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Mrs Sandhya & Mr Arjun .jpg"
         },
         {
-            "doctor_name": "DR. IRSHAD AHMED",
-            "qualifications": "MBBS, MD (Patho)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Swetha Jahnavi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO",
+                    "  Fellowship (Lap.Surg)"
+                ]
             ],
             "specialty": [
-                "PATHOLOGY"
-            ]
+                "GYNEC LAPAROSCOPIC SURGEON"
+            ],
+            "location": [
+                "Lakdikapul"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Swetha Jahnavi.jpg"
         },
         {
-            "doctor_name": "Dr. ARCY BILLORIA",
-            "qualifications": "MBBS, MD (MICRO)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Vamsidhar Kedar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    "( DNB )",
+                    " Dip. in Allergy & Asthma(CMC",
+                    "Vellore)"
+                ]
             ],
             "specialty": [
-                "MICROBIOLOGY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Vamshidhar.JPG"
         },
         {
-            "doctor_name": "Dr. ARUNA KUMARI",
-            "qualifications": "MBBS, MD (Biochemistry)",
-            "isdisplayed": true,
-            "location": [
-                "L B Nagar"
+            "doctor_name": "Dr. Kamalakar Rao Numburi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (PED) ",
+                    " IAP "
+                ]
             ],
             "specialty": [
-                "BIOCHEMISTRY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Kamalakar.JPG"
         },
         {
-            "doctor_name": "Dr. B MURALI SANTHOSH",
-            "qualifications": "MBBS, DNB (PED) , Fellowship in Neonatalogy",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Y. Vasudeva Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
             "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Y Vasudeva Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Mallikarjun Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mallikarjun Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Srikanth Dappuri",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Srikanth.jpg"
+        },
+        {
+            "doctor_name": "Dr. T. Sumana",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DA",
+                    " DGO",
+                    " Dip.in Lap. Surg(Germany)"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sumana.JPG"
+        },
+        {
+            "doctor_name": "Dr. Pavitra Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Pavitra Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Mrudula Karri",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mrudula.JPG"
+        },
+        {
+            "doctor_name": "Dr. R. Ragini Goud",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO",
+                    " Fellow in Reproductive Medicine"
+                ]
+            ],
+            "specialty": [
+                "FERTILITY (IVF)"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ragini.jpg"
+        },
+        {
+            "doctor_name": "Dr. V. Narasimha Rao",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " M.Ch (NIMS)"
+                ]
+            ],
+            "specialty": [
+                "PLASTIC SURGERY & COSMETOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr V Narasimha Rao.jpg"
+        },
+        {
+            "doctor_name": "Dr. Aswin Kumar Pal ",
+            "qualifications": [
+                [
+                    "BDS",
+                    " MDS (Ped  Dentistry)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC DENTISTRY "
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Aswin Kumar Pal .jpg"
+        },
+        {
+            "doctor_name": "Dr. Manyam Sandeep Kumar",
+            "qualifications": [
+                [
+                    "MBBS"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Manyam Sandeep Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. Prashanth Utage",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Neuro)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF NEUROLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Prashanth Utage.jpg"
+        },
+        {
+            "doctor_name": "Dr. Sushma Tatipally",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (Ophthal)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF OPHTHALMOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sushma Tatipally.jpg"
+        },
+        {
+            "doctor_name": "Dr. Kishore Kumar",
+            "qualifications": [
+                [
+                    "MBBS .DLO",
+                    " FAGE"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ENT SURGERY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Kishore Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. Madan Mohan",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (Ortho)",
+                    " M.Ch (Ortho)"
+                ],
+                [
+                    "MD (Gen.Med) MRCP",
+                    "FRCP",
+                    " Hematology"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF   ORTHOPEDICS",
+                "DEPT. OF . PEDIATRIC HEMATOLOGY"
+            ],
+            "location": [
+                "Kukatpally",
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRIC INTENSIVE CARE"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Madan Mohan.jpg"
         },
         {
-            "doctor_name": "Dr. GANESH SANKU",
-            "qualifications": "MBBS, MD (PED) Neonatal Perinatal medicine",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Nagaraju",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Derm)"
+                ]
             ],
             "specialty": [
-                "NEONATOLOGY",
-                "PEDIATRIC INTENSIVE CARE"
-            ]
+                "DEPT. OF DERMATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Nagaraju.jpg"
         },
         {
-            "doctor_name": "Dr.P. A.V. LAKSHMANA SAI",
-            "qualifications": "MBBS, MD, FELLOW IN PED.EMERGENCY",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. S. Kiran",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DDVL",
+                    " DNB"
+                ]
             ],
             "specialty": [
-                "PEDIATRICS "
-            ]
+                "DEPT. OF DERMATOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr S Kiran.jpg"
         },
         {
-            "doctor_name": "Dr. SHRIKANTH. R",
-            "qualifications": "MBBS, DNB (PED)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Nageswar Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Nephro)"
+                ]
             ],
             "specialty": [
-                "PEDIATRICS "
-            ]
+                "DEPT. OF NEPHROLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr  Nageswar Reddy.jpg"
         },
         {
-            "doctor_name": "Dr. VATSAVAI RAVI VARMA",
-            "qualifications": "MBBS, DCH,",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Rajesh Khanna",
+            "qualifications": [
+                [
+                    "MBBS. MD (Anesth)"
+                ]
             ],
             "specialty": [
-                "PEDIATRICS "
-            ]
+                "DEPT. OF ANESTHESIOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Rajesh Khanna.jpg"
         },
         {
-            "doctor_name": "Dr. V. ANANTH",
-            "qualifications": "MBBS, MD (PED) ,",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Vinod Kumar",
+            "qualifications": [
+                [
+                    "MBBS. MD (Anesth)"
+                ]
             ],
             "specialty": [
-                "PEDIATRICS "
-            ]
+                "DEPT. OF ANESTHESIOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Vinod Kumar.jpg"
         },
         {
-            "doctor_name": "Dr. PURNIMA KOLLI",
-            "qualifications": "MBBS, DCH, DNB (PED)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Damodar",
+            "qualifications": [
+                [
+                    "MBBS. MD (Anesth)"
+                ]
             ],
             "specialty": [
-                "PEDIATRICS "
-            ]
+                "DEPT. OF ANESTHESIOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Damodar.jpg"
         },
         {
-            "doctor_name": "Dr. I. VANI",
-            "qualifications": "MBBS, MD (OBG)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Sudeep Kumar",
+            "qualifications": [
+                [
+                    "BPT (Physio)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "DEPT. OF PHYSIO & REHABILITATION."
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sudeep Kumar.jpg"
         },
         {
-            "doctor_name": "Dr. RADHIKA TELUGU",
-            "qualifications": "MBBS, DGO,",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Mr. Ajay",
+            "qualifications": [
+                [
+                    "Diploma In BERA /Otology"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "DEPT. OF PHYSIO & REHABILITATION."
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Mr Ajay.jpg"
         },
         {
-            "doctor_name": "Dr. AVANTHI GUDIPUDI",
-            "qualifications": "MBBS, DNB (OBG)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Prashant P Patil",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD  (Ped)",
+                    " Fellow(Ped. Cardiology & Critical Care)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "DEPT. OF CARDIOLOGY"
+            ],
+            "location": [
+                "Kukatpally"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Prashant P Patil.jpg"
         },
         {
-            "doctor_name": "Dr. SUGUNA DEEPTHI",
-            "qualifications": "MBBS, DGO",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. M. Sudha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MRCPCH (UK)",
+                    " DCH (UK)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Sudha.JPG"
         },
         {
-            "doctor_name": "Dr. N.V. VASUDHA",
-            "qualifications": "MBBS, MD, DIP.IN RPM",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Y. Pallavi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH ",
+                    " DNB (Ped)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Pallavi.JPG"
         },
         {
-            "doctor_name": "Dr. SRUJAN YELLA",
-            "qualifications": "MBBS, MS (OBG)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Thandava Prasad",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD  (Ped)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Thandava Prasad.jpg"
         },
         {
-            "doctor_name": "Dr. K SUBBA RAJU",
-            "qualifications": "MBBS, M.S (OBG)",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. Anusha Allam",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD  (Ped)"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Anusha Allam.jpg"
         },
         {
-            "doctor_name": "Dr. B SIRISHA RANI",
-            "qualifications": "MBBS, DGO",
-            "isdisplayed": true,
-            "location": [
-                "Visakhapatnam"
+            "doctor_name": "Dr. P. Sunitha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO",
+                    " DNB ObGyn"
+                ]
             ],
             "specialty": [
-                "DEPT. OF OBSTETRICS & GYNECOLOGY"
-            ]
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sunitha.JPG"
         },
         {
-            "doctor_name": "Dr. K. SWAMY",
-            "qualifications": "MBBS, MD (Radiology)",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Sushmitha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO",
+                    " DNB",
+                    " Fellowship in Fertility"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
             "location": [
-                "Visakhapatnam"
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sushmitha.jpg"
+        },
+        {
+            "doctor_name": "Dr. Rajesh   ",
+            "qualifications": [
+                [
+                    "MBBBS",
+                    " MS",
+                    " M.Ch  (Ped. Surg)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC SURGERY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Rajesh   .jpg"
+        },
+        {
+            "doctor_name": "Dr. M. Sai Krishna Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (ENT)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ENT SURGERY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Sai Krishna Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Harin Reddy  Mandadi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Derm)",
+                    " DRL"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF DERMATOLOGY"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Harin Reddy  Mandadi.jpg"
+        },
+        {
+            "doctor_name": "Dr. Swetha  ",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DMRD (Radiology)"
+                ]
             ],
             "specialty": [
                 "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
+            ],
+            "location": [
+                "LB Nagar"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Swetha  .jpg"
         },
         {
-            "doctor_name": "DR RAGHU TEJA",
-            "qualifications": "MBBS, MD (Radiology)",
+            "doctor_name": "Dr. Sridhar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " D.A (Osm)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ANESTHESIA"
+            ],
+            "location": [
+                "LB Nagar"
+            ],
             "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Sridhar.jpg"
+        },
+        {
+            "doctor_name": "Dr. Murali Santhosh .B",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB  (Ped) ",
+                    " I.A.P.Neo.Fellowship"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Murali Santhosh.jpg"
+        },
+        {
+            "doctor_name": "Dr. Ganesh Sanku",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Neonatal Perinatal Medicine)USA",
+                    " DCH(UHB)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ganesh Sanku.jpg"
+        },
+        {
+            "doctor_name": "Dr. Shrikanth R",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Shrikanth R.jpg"
+        },
+        {
+            "doctor_name": "Dr. Vatsavai Ravi Varma",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Vatsavai Ravi Varma.jpg"
+        },
+        {
+            "doctor_name": "Dr. Purnima Kolli",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Purnima Kolli.jpg"
+        },
+        {
+            "doctor_name": "Dr. I. Vani",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr I Vani.jpg"
+        },
+        {
+            "doctor_name": "Dr. Srujan Yella",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Srujan.jpg"
+        },
+        {
+            "doctor_name": "Dr. Karri Swamy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Radiology)"
+                ]
             ],
             "specialty": [
                 "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
-        },
-        {
-            "doctor_name": "DR S ARUNA",
-            "qualifications": "MBBS, MD (Radiology)",
-            "isdisplayed": true,
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "DEPT. OF RADIOLOGY & IMAGING SCIENCES"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Swamy.jpg"
         },
         {
-            "doctor_name": "Dr. KARRI ARUNA",
-            "qualifications": "MBBS, MD (Pathology)",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Karri Aruna",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Path)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PATHOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "PATHOLOGY"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Aruna.jpg"
         },
         {
-            "doctor_name": "DR SURYA NARAYANA",
-            "qualifications": "MBBS, MD",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Pothala Mamatha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    "MS ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "ANESTHESIA"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Pothala Mamatha.jpg"
         },
         {
-            "doctor_name": "DR.R TRIVENI REDDY",
-            "qualifications": "MBBS, MD",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Kapila Suguna Deepti",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn",
+                    " (MRCOG)"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "GENERAL PHYSICIAN"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Deepti.jpg"
         },
         {
-            "doctor_name": "DR S VIJAY GANESH",
-            "qualifications": "MS,MCH,FMAS,FIAG",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Radhika Telugu",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ",
+                    " F.Mas"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "PAEDIATRIC SURGEON"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Radhika.jpg"
         },
         {
-            "doctor_name": "DR G RAJENDRA PRASAD",
-            "qualifications": "MS,MCH",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Gudipudi Avanthi",
+            "qualifications": [
+                [
+                    "MBBS",
+                    "MS (ObGyn JIPMER)",
+                    " DNB ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "PAEDIATRIC SURGEON"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Avanthi.jpg"
         },
         {
-            "doctor_name": "DR V UMA MAHESWARA RAO",
-            "qualifications": "MBBS,MS",
-            "isdisplayed": true,
+            "doctor_name": "Dr. Emandi Yogesh Kumar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DCH",
+                    " DNB (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
-            "specialty": [
-                "OPHTHALMOLOGIST"
-            ]
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Yogesh.jpg"
         },
         {
-            "doctor_name": "DR P PAVAN KUMAR",
-            "qualifications": "MPT",
-            "isdisplayed": true,
+            "doctor_name": "Dr. K.S.L. Geethika",
+            "qualifications": [
+                [
+                    "MBBS ",
+                    " DCH"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
             "location": [
                 "Visakhapatnam"
             ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr KSL Geethika.jpg"
+        },
+        {
+            "doctor_name": "Dr. Mahathi Sudhakar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS ObGyn"
+                ]
+            ],
             "specialty": [
-                "PHYSIOTHERAPY"
-            ]
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mahathi.jpg"
+        },
+        {
+            "doctor_name": "Dr. K. Sravani",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DGO"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr K Sravani.jpg"
+        },
+        {
+            "doctor_name": "Dr. K. Subbaraju",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr K Subbaraju.jpg"
+        },
+        {
+            "doctor_name": "Dr. Nagapushyami",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD(Gen. Med)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF GENERAL MEDICINE"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Nagapushyami.jpg"
+        },
+        {
+            "doctor_name": "Dr. Triveni Reddy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD(Gen. Med)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF GENERAL MEDICINE"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Triveni Reddy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Bharath",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD(Pulm)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF PULMONOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Bharath.jpg"
+        },
+        {
+            "doctor_name": "Dr. Krishna Veni M",
+            "qualifications": [
+                [
+                    "MA (Psychology)"
+                ]
+            ],
+            "specialty": [
+                "Audiology & SPEECH THERAPY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Krishna Veni M.jpg"
+        },
+        {
+            "doctor_name": "Dr. Venkat Rao",
+            "qualifications": [
+                [
+                    "MA (Psychology)"
+                ]
+            ],
+            "specialty": [
+                "Audiology & SPEECH THERAPY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Venkat Rao.jpg"
+        },
+        {
+            "doctor_name": "Dr. Ramesh Kumar .T",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Anesth)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ANAESTHESIOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ramesh Kumar T.jpg"
+        },
+        {
+            "doctor_name": "Dr. Surya Narayana",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Anesth)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ANAESTHESIOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Surya Narayana.jpg"
+        },
+        {
+            "doctor_name": "Dr. M. Pavan Kumar",
+            "qualifications": [
+                [
+                    "M.P.T"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC NEUROREHABILITATION & PHYSIOTHERAPY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Pavan Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. B. Leela",
+            "qualifications": [
+                [
+                    "B.P.T"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC NEUROREHABILITATION & PHYSIOTHERAPY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr B Leela.jpg"
+        },
+        {
+            "doctor_name": "Dr. Anjali Dange . B",
+            "qualifications": [
+                [
+                    "M.Sc Nutrition"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF DIETETICS & NUTRITION"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Anjali Dange  B.jpg"
+        },
+        {
+            "doctor_name": "Dr. Bade Pujitha",
+            "qualifications": [
+                [
+                    "M.Sc (Food Sciences & Dietetics)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF DIETETICS & NUTRITION"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Bade Pujitha.jpg"
+        },
+        {
+            "doctor_name": "Dr. Anupama Maruvada",
+            "qualifications": [
+                [
+                    "M.Sc",
+                    " M.S (USA)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF CHILD PSYCHOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Anupama Maruvada.jpg"
+        },
+        {
+            "doctor_name": "DR. Swetha",
+            "qualifications": [
+                [
+                    "MD (Psychiatry)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF CHILD ADOLESCENT PSYCHIATRY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/DR Swetha.jpg"
+        },
+        {
+            "doctor_name": "Dr. P.A.V. Lakshamana Sai",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD",
+                    " FPEM",
+                    " FACEE-PEM"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Lakshaman Sai.jpg"
+        },
+        {
+            "doctor_name": "Dr. Vamsi Krishna",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD(Gen.Med)",
+                    " DM (Endocrinology)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC ENDOCRINOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Vamsi Krishna.jpg"
+        },
+        {
+            "doctor_name": "Dr. Ramya",
+            "qualifications": [
+                [
+                    "MD",
+                    " DM"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF NEPHROLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ramya.jpg"
+        },
+        {
+            "doctor_name": "Dr. Y. Radha Krishna",
+            "qualifications": [
+                [
+                    "MD",
+                    " DM"
+                ]
+            ],
+            "specialty": [
+                "MEDICAL GASTROENTEROLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Y Radha Krishna.jpg"
+        },
+        {
+            "doctor_name": "Dr. Reddy Srinivasa Rao",
+            "qualifications": [
+                [
+                    "MD",
+                    " DM"
+                ]
+            ],
+            "specialty": [
+                "MEDICAL GASTROENTEROLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Reddy Srinivasa Rao.jpg"
+        },
+        {
+            "doctor_name": "Dr. N. V. Vasudha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD ObGyn"
+                ]
+            ],
+            "specialty": [
+                "OBSTETRICS & GYNECOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr N V Vasudha.jpg"
+        },
+        {
+            "doctor_name": "Dr. B. Sireesha Rani",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB ObGyn"
+                ]
+            ],
+            "specialty": [
+                "FERTILITY (IVF)"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr B Sireesha Rani.jpg"
+        },
+        {
+            "doctor_name": "Dr. Farzahana",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD(Derm)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF DERMATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Farzahana.jpg"
+        },
+        {
+            "doctor_name": "Dr. Ganesh",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DEM",
+                    " Fellow in 2D ECHO",
+                    " MIAE"
+                ]
+            ],
+            "specialty": [
+                "ECHOCARDIOGRAPHY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Ganesh.JPG"
+        },
+        {
+            "doctor_name": "Dr. N. Anuradha",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Neuro)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF NEUROLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr N Anuradha.jpg"
+        },
+        {
+            "doctor_name": "Dr. M. Surya Prasad Rao",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MD (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Surya Prasad Rao.jpg"
+        },
+        {
+            "doctor_name": "Dr. P. Indira",
+            "qualifications": [
+                [
+                    "MBBS",
+                    "  MD (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr P Indira.jpg"
+        },
+        {
+            "doctor_name": "Dr. R. Bhavani Shankar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    "  MD (Ped)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRICS & NEONATOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr R Bhavani Shankar.jpg"
+        },
+        {
+            "doctor_name": "Dr. Uma Maheswarao",
+            "qualifications": [
+                [
+                    "MS (Ophth)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF OPHTHALMOLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Uma Maheswarao.jpg"
+        },
+        {
+            "doctor_name": "Dr. G. Raman Murthy",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (Gen.Surg)",
+                    " MCH(CTVS)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF THORACIC  SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr G Raman Murthy.jpg"
+        },
+        {
+            "doctor_name": "Dr. Anusha  ",
+            "qualifications": [
+                [
+                    "MDS"
+                ]
+            ],
+            "specialty": [
+                "DEPT.OF DENTAL SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Anusha  .jpg"
+        },
+        {
+            "doctor_name": "Dr. Mohan",
+            "qualifications": [
+                [
+                    "MDS"
+                ]
+            ],
+            "specialty": [
+                "DEPT.OF DENTAL SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr Mohan.jpg"
+        },
+        {
+            "doctor_name": "Dr. M. Naveen Kumar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH (Plastic Surgery)"
+                ]
+            ],
+            "specialty": [
+                "DEPT.OF PLASTIC SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr M Naveen Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. D. Naveen Kumar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (ENT)"
+                ]
+            ],
+            "specialty": [
+                "DEPT.OF ENT"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr D Naveen Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. T.V.V. Vinay Kumar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS (ENT)"
+                ]
+            ],
+            "specialty": [
+                "DEPT.OF ENT"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr TVV Vinay Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. P.A.V. Ram Sai",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS(Ortho)"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF ORTHOPEDICS"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr PAV Ram Sai.jpg"
+        },
+        {
+            "doctor_name": "Dr. B. Ramesh",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS(Gen. Surg)",
+                    " PDCC Surgical Gastro"
+                ]
+            ],
+            "specialty": [
+                "DEPT. OF SURGICAL GASTROENTEROLOGY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr T Ramesh.jpg"
+        },
+        {
+            "doctor_name": "Dr. G. Rajendra Prasad",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH (Ped. Surg)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr G Rajendra Prasad.jpg"
+        },
+        {
+            "doctor_name": "Dr. P.V. Ramana",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH (Ped. Surg)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr PV Ramana.jpg"
+        },
+        {
+            "doctor_name": "Dr. K.V. Janardhan",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH (Ped. Surg)"
+                ]
+            ],
+            "specialty": [
+                "PEDIATRIC SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr KV Janardhan.jpg"
+        },
+        {
+            "doctor_name": "Dr. P.A. Ramani",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " (Gen.Surg)",
+                    " DGO",
+                    " Fellow in SAIGES",
+                    " FIAS"
+                ]
+            ],
+            "specialty": [
+                "GENERAL SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr PA Ramani.jpg"
+        },
+        {
+            "doctor_name": "Dr. G. Kiran Kumar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH"
+                ]
+            ],
+            "specialty": [
+                "GENERAL SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr G Kiran Kumar.jpg"
+        },
+        {
+            "doctor_name": "Dr. M.V. Vijay Shekar",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " MS",
+                    " MCH (Neuro Surgery)"
+                ]
+            ],
+            "specialty": [
+                "NEURO SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr MV Vijay Shekar.jpg"
+        },
+        {
+            "doctor_name": "Dr. K. Satish",
+            "qualifications": [
+                [
+                    "MBBS",
+                    " DNB(Neuro Surgery)"
+                ]
+            ],
+            "specialty": [
+                "NEURO SURGERY"
+            ],
+            "location": [
+                "Visakhapatnam"
+            ],
+            "isdisplayed": true,
+            "imglink": "assets/doctorphotos/Dr K Satish.jpg"
         }
     ]
 }

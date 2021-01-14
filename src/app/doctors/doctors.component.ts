@@ -61,10 +61,22 @@ export class DoctorsComponent implements OnInit {
         for (const doctor of this.doctors) {
             doctor.isdisplayed = true;
 
+
             if (this.searchText && this.searchText.trim().length > 0) {
+                this.endslice = 500;
+
                 doctor.isdisplayed = doctor.doctor_name.toLowerCase().includes(this.searchText.toLowerCase()) ||
                     doctor.specialty.toString().toLowerCase().includes(this.searchText.toLowerCase()) ||
                     doctor.qualifications.toString().toLowerCase().includes(this.searchText.toLowerCase());
+
+                if (doctor.doctor_name.toLowerCase().includes(this.searchText.toLowerCase()) ||
+                    doctor.specialty.toString().toLowerCase().includes(this.searchText.toLowerCase()) ||
+                    doctor.qualifications.toString().toLowerCase().includes(this.searchText.toLowerCase())) {
+
+                    console.log(doctor.doctor_name.toLowerCase());
+                    console.log(this.searchText.toLowerCase());
+                }
+
             }
 
         }

@@ -15,7 +15,7 @@ export class AppComponent {
     constructor(private router: Router) {
         this.router.events.subscribe(event => {
             if (event instanceof NavigationEnd) {
-                gtag('config', 'G-NCNJRGY2WH');
+                gtag('config', 'G-JXNJYJP855');
             }
         });
     }
