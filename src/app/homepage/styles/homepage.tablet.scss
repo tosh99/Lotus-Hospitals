@@ -80,10 +80,10 @@
             bottom: 0;
             position: absolute;
             overflow-x: hidden;
-
             justify-content: center;
             z-index: 1;
             height: 65vh;
+            min-height: 530px;
 
             img {
                 width: 110%;

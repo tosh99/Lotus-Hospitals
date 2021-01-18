@@ -24,11 +24,8 @@
 
         <div class="doctors-list">
             <ng-container *ngFor="let doctor of doctors.slice(0, endslice)">
-                <div class="doctor" *ngIf="doctor.isdisplayed"
-                     [style.backgroundSize]="'contain'"
-                     [style.backgroundRepeat]="'no-repeat'"
-                     [style.backgroundImage]="'url(' + doctor.imglink + ')'">
-                    <img [src]="doctor.imglink">
+                <div class="doctor" *ngIf="doctor.isdisplayed">
+                    <img *ngIf="doctor.imglink" [alt]="doctor.doctor_name" [src]="doctor.imglink" (error)="getLink(doctor)">
                     <h4>{{doctor.doctor_name}}</h4>
                     <p class="caption quali">{{doctor.qualifications}}</p>
                     <p class="caption position">{{doctor.specialty}}</p>

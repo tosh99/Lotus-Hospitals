@@ -56,6 +56,10 @@ export class DoctorsComponent implements OnInit {
         });
     }
 
+    getLink(doctor): void{
+        doctor.imglink = 'https://cdn5.f-cdn.com/contestentries/1264569/24744043/5a92480414963_thumb900.jpg';
+    }
+
     search(): void {
         // Filter By String
         for (const doctor of this.doctors) {

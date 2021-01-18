@@ -1,0 +1,72 @@
+@import "src/styles";
+
+.page {
+    .contact-us {
+        background: $Blue-W;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        padding-top: 120px;
+
+        h1 {
+            color: $LH-Blue;
+            margin-bottom: 24px;
+        }
+
+        .emer {
+            color: $LH-Peach;
+            margin-bottom: 50px;
+            display: flex;
+
+            span {
+                color: black;
+                font-weight: 400;
+                margin-left: 15px;
+            }
+        }
+
+        .locations {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 60px;
+
+            .location {
+                display: flex;
+                flex-direction: column;
+                margin-right: 0;
+                margin-bottom: 45px;
+                position: relative;
+                padding-bottom: 75px;
+                width: 50%;
+
+                h3 {
+                    color: $LH-Blue;
+                    font-weight: 400;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    margin-top: 20px;
+                    max-width: 184px;
+                    background: $Blue-B;
+                    display: flex;
+                    justify-content: space-between;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+
+            .location:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
