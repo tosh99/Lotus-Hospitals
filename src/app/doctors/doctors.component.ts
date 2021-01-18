@@ -57,7 +57,7 @@ export class DoctorsComponent implements OnInit {
     }
 
     getLink(doctor): void{
-        doctor.imglink = 'https://cdn5.f-cdn.com/contestentries/1264569/24744043/5a92480414963_thumb900.jpg';
+        doctor.imglink = 'https://image.freepik.com/free-vector/doctor-character-background_1270-84.jpg';
     }
 
     search(): void {
