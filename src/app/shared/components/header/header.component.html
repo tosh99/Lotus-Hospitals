@@ -19,6 +19,9 @@
         </a>
     </div>
     <div class="abh-right">
+        <a href="/about">
+            <p [ngClass]="{'selected':router.url.includes('about')}">About</p>
+        </a>
         <div class="dropdown">
             <p>Services</p>
             <div class="dropdown-content">
@@ -42,6 +45,9 @@
         <a href="/branches">
             <p [ngClass]="{'selected':router.url.includes('branches')}">Branches</p>
         </a>
+        <a href="/doctors">
+            <p [ngClass]="{'selected':router.url.includes('doctors')}">Our Doctors</p>
+        </a>
         <div class="dropdown">
             <p [ngClass]="{'selected':router.url.includes('packages')}">Healthcare Packages</p>
             <div class="dropdown-content">
@@ -53,19 +59,12 @@
                 </a>
             </div>
         </div>
-        <a href="/doctors">
-            <p [ngClass]="{'selected':router.url.includes('doctors')}">Our Doctors</p>
-        </a>
-        <a href="/about">
-            <p [ngClass]="{'selected':router.url.includes('about')}">About</p>
-        </a>
-        <!--        <a href="/blog">-->
-        <!--            <p [ngClass]="{'selected':router.url.includes('blog')}">Blog</p>-->
-        <!--        </a>-->
         <a href="/contactus">
             <p [ngClass]="{'selected':router.url.includes('contactus')}">Contact</p>
         </a>
-
+        <a href="/blog">
+            <p [ngClass]="{'selected':router.url.includes('blog')}">Blog</p>
+        </a>
         <img alt="Lotus Hospitals Menu" src="assets/icons/homepage/menu.svg" (click)="toggleModal()">
     </div>
 </div>

@@ -8,6 +8,10 @@ const routes: Routes = [
         loadChildren: () => import('./homepage/homepage.module').then(m => m.HomepageModule)
     },
     {
+        path: 'blog',
+        loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)
+    },
+    {
         path: 'careers',
         loadChildren: () => import('./careers/careers.module').then(m => m.CareersModule)
     },
@@ -58,10 +62,6 @@ const routes: Routes = [
     {
         path: 'contactus',
         loadChildren: () => import('./contact-us/contact-us.module').then(m => m.ContactUsModule)
-    },
-    {
-        path: 'blog',
-        loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)
     }
 ];
 

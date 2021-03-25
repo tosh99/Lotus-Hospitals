@@ -42,12 +42,12 @@
 .contactuspop {
     position: fixed;
     z-index: 2;
-    bottom: 20px;
-    right: 20px;
+    bottom: 60px;
+    right: 60px;
 }
 
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1366px) {
     @import "header.component.desktop";
 }
 

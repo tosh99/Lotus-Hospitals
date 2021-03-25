@@ -36,6 +36,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    overflow-y: auto;
     position: absolute;
     top: 0;
     background: $LH-Blue;
